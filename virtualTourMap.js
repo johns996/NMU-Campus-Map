@@ -1,14 +1,13 @@
 
 function VirtualTour() {
-	google.maps.InfoWindow.prototype.opened = false; // to stop the annoying flickering
 	var map;
 	var defaultCenter = new google.maps.LatLng(46.5595, -87.4037);
 	var mouseoverOptions = {fillOpacity: 0.5, strokeOpacity: 1.0, strokeWidth: 5};
 	var mouseoutOptions = {fillOpacity: 0.16, strokeOpacity: 1.0, strokeWidth: 10};
-	var buildingCenterPointMap = {};
-	var buildingWindowPointMap = {};
+	var buildingCenterPointMap = {}; // building name => center of the polygon
+	var buildingWindowPointMap = {}; // building name => info window position point
 
-	/* findEdge will find point directly above the mouse over event that lies just above the polygon */
+	/* findEdge will find point directly above the given point that lies just above the polygon */
 	function findEdge(point, poly) {
 		var isLocationOnEdge = google.maps.geometry.poly.isLocationOnEdge;
 		var containsLocation = google.maps.geometry.poly.containsLocation;
@@ -24,10 +23,12 @@ function VirtualTour() {
 		return point;
 	}
 
+	// moves the center of the map to the building name
 	function moveCenterTo(name) {
-		map.setCenter(buildingCenterPointMap[name]);
+		moveCenter(buildingCenterPointMap[name]);
 	}
 
+	// moves the center of the map to the given point
 	function moveCenter(point) {
 		if(point === undefined) return;
 		map.setCenter(point);
@@ -55,16 +56,12 @@ function VirtualTour() {
 					this.setOptions(mouseoverOptions);
 					this.infoWindow.setOptions(this.infoWindowOptions);
 					this.infoWindow.setPosition(buildingWindowPointMap[this.title]);
-					if(!this.infoWindow.opened) {
-						this.infoWindow.open(map);
-						this.infoWindow.opened = true;
-					}
+					this.infoWindow.open(map);
 				});
 				google.maps.event.addListener(each.polygon, "mouseout", function(event) {
 					//console.log('mouseout');
 					this.setOptions(mouseoutOptions);
-					this.infoWindow.close();
-					this.infoWindow.opened = false;
+					//this.infoWindow.close();
 				});
 				google.maps.event.clearListeners(each.polygon, "click");
 				google.maps.event.addListener(each.polygon, "click", function(event) {
