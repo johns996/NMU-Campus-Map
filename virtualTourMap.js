@@ -1,5 +1,6 @@
 
 function VirtualTour() {
+	google.maps.InfoWindow.prototype.opened = false; // to stop the annoying flickering
 	var map;
 	var defaultCenter = new google.maps.LatLng(46.5595, -87.4037);
 	var mouseoverOptions = {fillOpacity: 0.5, strokeOpacity: 1.0, strokeWidth: 5};
@@ -54,12 +55,16 @@ function VirtualTour() {
 					this.setOptions(mouseoverOptions);
 					this.infoWindow.setOptions(this.infoWindowOptions);
 					this.infoWindow.setPosition(buildingWindowPointMap[this.title]);
-					this.infoWindow.open(map);
+					if(!this.infoWindow.opened) {
+						this.infoWindow.open(map);
+						this.infoWindow.opened = true;
+					}
 				});
 				google.maps.event.addListener(each.polygon, "mouseout", function(event) {
 					//console.log('mouseout');
 					this.setOptions(mouseoutOptions);
 					this.infoWindow.close();
+					this.infoWindow.opened = false;
 				});
 				google.maps.event.clearListeners(each.polygon, "click");
 				google.maps.event.addListener(each.polygon, "click", function(event) {
