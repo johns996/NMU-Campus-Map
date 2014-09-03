@@ -6,6 +6,7 @@ function VirtualTour() {
 	var mouseoutOptions = {fillOpacity: 0.16, strokeOpacity: 1.0, strokeWidth: 10};
 	var buildingCenterPointMap = {}; // building name => center of the polygon
 	var buildingWindowPointMap = {}; // building name => info window position point
+	var buildingPolygonMap = {};     // building name => polygon associated with it
 
 	/* findEdge will find point directly above the given point that lies just above the polygon */
 	function findEdge(point, poly) {
@@ -34,6 +35,11 @@ function VirtualTour() {
 		map.setCenter(point);
 	}
 
+	// fires mouseover event on the polygon for given building name
+	function mouseoverPolygon(name) {
+		google.maps.event.trigger(buildingPolygonMap[name], 'mouseover');
+	}
+
 	function initializeMap() {
 		var mapOptions = {
 			center: defaultCenter,
@@ -50,6 +56,7 @@ function VirtualTour() {
 			myLayer.placemarks.forEach(function(each) {
 				buildingCenterPointMap[each.name] = each.polygon.bounds.getCenter();
 				buildingWindowPointMap[each.polygon.title] = findEdge(each.polygon.bounds.getCenter(), each.polygon);
+				buildingPolygonMap[each.polygon.title] = each.polygon;
 				each.polygon.setOptions(mouseoutOptions);
 				google.maps.event.addListener(each.polygon, "mouseover", function(event) {
 					//console.log('mouseover');
@@ -75,6 +82,7 @@ function VirtualTour() {
 			if(arg !== undefined && arg != '') {
 				toggleInfo(arg.replace(/-+/g, ''));
 				moveCenterTo(arg.replace(/-+/g, ' '));
+				mouseoverPolygon(arg.replace(/-+/g, ' '));
 				console.log(arg);
 			}
 		}
