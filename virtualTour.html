@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+	    html { height: 100%; }
+      body { height: 100%; margin: 0; padding: 0; }
+		  #map-container{ height: 100%; width: 100%; margin-bottom: 20px; float: left; }
+      #map-canvas { min-height: 100% }
+		  #info { float: left; }
+		  #building-info { padding-left: 10px; height: 100%; }
+		  #close-info { text-align: right; }
+		  .cycle-slideshow { height: 200px; }
+    </style>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+	<link href="special.css" rel="stylesheet" type="text/css"></link>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false"></script>
+    <script type="text/javascript" src="geoxml3.js"></script>
+    <script type="text/javascript" src="ProjectedOverlay.js"></script>
+    <script type="text/javascript" src="virtualTourMap.js"></script>
+	<script type="text/javascript">
+	    function toggleInfo(name) {
+		    var open = $('#info').attr('opened');
+		    if(open === undefined || open != name) openInfo(name);
+		    else closeInfo();
+		  }
+		  function openInfo(name) {
+		    if(name === undefined || name == '') return;
+		    $('#info').width('30%').height('100%').load('Buildings/'+name+'.html', initSlideshow).attr('opened', name);
+		    $('#map-container').width('70%');
+		  }
+		  function closeInfo() {
+		    $('#info').width('0%').removeAttr('opened');
+		    $('#map-container').width('100%');
+		  }
+		  function initSlideshow() {
+		    $('.cycle-slideshow').cycle();
+		  }
+		</script>
+  </head>
+  <body>
+	<section id="map-container">
+      <div id="map-canvas"/>
+	  </section>
+	<aside id="info"></aside>
+  </body>
+</html>
