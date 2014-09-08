@@ -1,8 +1,8 @@
 
+var map;
 function VirtualTour() {
-	var map;
 	var defaultCenter = new google.maps.LatLng(46.5595, -87.4037);
-	var mouseoverOptions = {fillOpacity: 0.5, strokeOpacity: 1.0, strokeWidth: 5};
+	var mouseoverOptions = {fillOpacity: 0.75, strokeOpacity: 1.0, strokeWidth: 5};
 	var mouseoutOptions = {fillOpacity: 0.16, strokeOpacity: 1.0, strokeWidth: 10};
 	var buildingCenterPointMap = {}; // building name => center of the polygon
 	var buildingWindowPointMap = {}; // building name => info window position point

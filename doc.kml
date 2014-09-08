@@ -133,7 +133,7 @@
 		</Placemark>
 		<Placemark>
 			<styleUrl>#poly-93D7E8-4-76</styleUrl>
-			<name>Learning Resource Center</name>
+			<name>Learning Resource Center (LRC)</name>
 			<ExtendedData>
 				<Data name='Category'>
 					<value>Administration/Mixed Use</value>
@@ -331,7 +331,7 @@
 		</Placemark>
 		<Placemark>
 			<styleUrl>#poly-F4EB37-4-76</styleUrl>
-			<name>Physical Education Recreational Facility (PIEF)</name>
+			<name>Physical Education Instructional Facility (PEIF)</name>
 			<ExtendedData>
 				<Data name='Category'>
 					<value>Academics/Recreation</value>
