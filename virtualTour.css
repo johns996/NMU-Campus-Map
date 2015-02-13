@@ -10,6 +10,15 @@ body { height: 100%; margin: 0; padding: 0; }
 #info.opened { width: 30%; display: block; }
 #map-container.shared { width: 70%; }
 
+#buildings-button, #parking-button {
+	background-color: green;
+	font-size: 2em;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	width: 50%;
+}
+
 @media(max-width: 500px) {
 	#info.opened { width: 100%; height: 30%; }
 	#map-container.shared { width: 100%; height: 70%; }
