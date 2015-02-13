@@ -15,7 +15,7 @@ var Layer = function (layer, map) {
 		each.polygon.setOptions(self.mouseoutOptions);
 		google.maps.event.addListener(each.polygon, 'mouseover', function(event) {
 			this.setOptions(self.mouseoverOptions);
-			this.infoWindow.setOptions(self.infoWindowOptions);
+			this.infoWindow.setOptions(this.infoWindowOptions);
 			this.infoWindow.setPosition(self.windowPointMap[this.title]);
 			this.infoWindow.open(self.map);
 		});
