@@ -47,13 +47,22 @@ function VirtualTour() {
 			mapTypeId: google.maps.MapTypeId.HYBRID
 		};
 		map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-		
 		var myParser = new geoXML3.parser({ map: map, afterParse: myAfterParse, singleInfoWindow: true, zoom: false });
-		myParser.parse('doc.kml');
+		document.getElementById("buildings-button").onclick= function parseBuildings() {
+			for( var key in buildingPolygonMap ) {
+				var obj = buildingPolygonMap[key];
+				obj.setMap(map);
+			}
+		}
+		document.getElementById("parking-button").onclick= function parseParking() {
+			
+		}
+		myParser.parse(["Buildings.kml"]);
 		function myAfterParse(doc) {
 			console.log("Parsing Completed Successfully");
 			var myLayer = doc.shift();
 			myLayer.placemarks.forEach(function(each) {
+				each.polygon.setMap(null);
 				buildingCenterPointMap[each.name] = each.polygon.bounds.getCenter();
 				buildingWindowPointMap[each.polygon.title] = findEdge(each.polygon.bounds.getCenter(), each.polygon);
 				buildingPolygonMap[each.polygon.title] = each.polygon;

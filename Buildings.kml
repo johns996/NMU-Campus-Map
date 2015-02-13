@@ -1,0 +1,971 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Buildings</name>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Gant Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+				<Data name='gx_media_links'>
+					<value>http://www.nmu.edu/sites/DrupalHousing/files/UserFiles/Pictures/Pre-Drupal/Images/ResidenceHalls/gant_hall.jpg</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Luther Gant Resident Hall<br><br>Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.41149,46.5614152,0.0 -87.411305,46.56141420000001,0.0 -87.411308,46.5617742,0.0 -87.410626,46.5617682,0.0 -87.410626,46.5616852,0.0 -87.410447,46.56168420000001,0.0 -87.410447,46.561870199999994,0.0 -87.410518,46.561870199999994,0.0 -87.410516,46.5618972,0.0 -87.411415,46.561899200000006,0.0 -87.411415,46.5618742,0.0 -87.411491,46.5618732,0.0 -87.41149,46.5614152,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Spalding Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4114998,46.5612124,0.0 -87.4115018,46.5610244,0.0 -87.4114228,46.5610254,0.0 -87.4114238,46.560998399999995,0.0 -87.4105258,46.5609964,0.0 -87.4105258,46.5610224,0.0 -87.4104538,46.5610204,0.0 -87.41045080000002,46.5614804,0.0 -87.4106388,46.5614804,0.0 -87.4106368,46.5611254,0.0 -87.4113128,46.5611274,0.0 -87.4113118,46.561212399999995,0.0 -87.4114998,46.5612124,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Halverson Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4093117,46.5622016,0.0 -87.40931470000001,46.5617436,0.0 -87.4091297,46.5617446,0.0 -87.4091297,46.56209960000001,0.0 -87.4084497,46.5621006,0.0 -87.40844870000001,46.562012599999996,0.0 -87.4082687,46.56201359999999,0.0 -87.40826470000002,46.5621976,0.0 -87.4083397,46.56219860000001,0.0 -87.4083397,46.562225600000005,0.0 -87.4092357,46.5622266,0.0 -87.4092357,46.5622016,0.0 -87.4093117,46.5622016,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Payne Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4093177,46.5615398,0.0 -87.40931470000001,46.561354800000004,0.0 -87.4092387,46.5613538,0.0 -87.4092387,46.5613298,0.0 -87.4083447,46.5613278,0.0 -87.4083437,46.5613528,0.0 -87.4082687,46.561352799999995,0.0 -87.40827270000001,46.56180880000001,0.0 -87.4084507,46.561807800000004,0.0 -87.4084507,46.5614488,0.0 -87.4091347,46.56145279999999,0.0 -87.4091347,46.5615378,0.0 -87.4093177,46.5615398,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>New Science Facility</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.408708,46.55968860000001,0.0 -87.408591,46.5595716,0.0 -87.4086,46.5595676,0.0 -87.408521,46.5594886,0.0 -87.408511,46.5594916,0.0 -87.408444,46.5594286,0.0 -87.408578,46.5593656,0.0 -87.408466,46.5592656,0.0 -87.40764100000001,46.5596576,0.0 -87.407629,46.559644600000006,0.0 -87.40765,46.5596336,0.0 -87.407605,46.5595946,0.0 -87.407453,46.5596686,0.0 -87.407495,46.5597106,0.0 -87.40751200000001,46.5597026,0.0 -87.407522,46.5597116,0.0 -87.40745,46.5597456,0.0 -87.407481,46.5597876,0.0 -87.407531,46.5598226,0.0 -87.407601,46.5597906,0.0 -87.40771,46.5598946,0.0 -87.407699,46.5598716,0.0 -87.407713,46.5598706,0.0 -87.407795,46.55994660000001,0.0 -87.40776800000002,46.5599506,0.0 -87.407893,46.5600736,0.0 -87.408043,46.5600006,0.0 -87.408,46.5599546,0.0 -87.40850900000001,46.5597146,0.0 -87.40855400000001,46.5597606,0.0 -87.408708,46.55968860000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>West Science Facility</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4082457,46.55925469999999,0.0 -87.4088387,46.5589767,0.0 -87.4082247,46.5583697,0.0 -87.4082107,46.5583747,0.0 -87.4081707,46.5583357,0.0 -87.4081047,46.55836670000001,0.0 -87.4080747,46.5583527,0.0 -87.4080357,46.5583357,0.0 -87.4079907,46.55833569999999,0.0 -87.4079457,46.5583497,0.0 -87.4079127,46.5583727,0.0 -87.4078977,46.5584017,0.0 -87.4079047,46.5584307,0.0 -87.4079177,46.558458699999996,0.0 -87.4078357,46.5584967,0.0 -87.4078787,46.558539700000004,0.0 -87.4078907,46.5585337,0.0 -87.40796970000001,46.5586117,0.0 -87.4077027,46.5587347,0.0 -87.4077367,46.5587647,0.0 -87.4076307,46.5588127,0.0 -87.40766270000002,46.55884270000001,0.0 -87.4076927,46.5588307,0.0 -87.4077157,46.5588547,0.0 -87.4076967,46.5588597,0.0 -87.4080647,46.5592227,0.0 -87.4081577,46.5591787,0.0 -87.4082457,46.55925469999999,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>John X. Jamrich Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4066072,46.55922150000001,0.0 -87.4065117,46.5591285,0.0 -87.4066056,46.559065499999996,0.0 -87.4065247,46.55901639999999,0.0 -87.4065851,46.5589714,0.0 -87.4062485,46.55875569999999,0.0 -87.4061976,46.5587929,0.0 -87.4060018,46.5586606,0.0 -87.4060489,46.5586261,0.0 -87.4056328,46.55835,0.0 -87.4055648,46.5583481,0.0 -87.40541,46.5582505,0.0 -87.4053339,46.55823590000001,0.0 -87.4052543,46.55823960000001,0.0 -87.4051907,46.558271,0.0 -87.40508960000001,46.55834260000001,0.0 -87.4051431,46.5583755,0.0 -87.4049718,46.5584958,0.0 -87.405209,46.5586487,0.0 -87.4052997,46.55858250000001,0.0 -87.4056114,46.5587823,0.0 -87.4055557,46.5588261,0.0 -87.40579850000002,46.5589879,0.0 -87.4058259,46.55896810000001,0.0 -87.4059457,46.5590397,0.0 -87.4060173,46.5589947,0.0 -87.4063014,46.5591723,0.0 -87.4064066,46.5590959,0.0 -87.4065578,46.5592408,0.0 -87.4066072,46.55922150000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-93D7E8-1-76</styleUrl>
+			<name>Learning Resource Center</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Administration/Mixed Use</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Administration/Mixed Use<br><br>Category: Administration/Mixed Use]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4066471,46.5600001,0.0 -87.4070171,46.55982310000001,0.0 -87.4070711,46.5598601,0.0 -87.4071761,46.5598161,0.0 -87.40714310000001,46.5597621,0.0 -87.40718610000002,46.5597361,0.0 -87.4071141,46.55966610000001,0.0 -87.4071971,46.5596221,0.0 -87.40710610000001,46.5595261,0.0 -87.4070441,46.5595481,0.0 -87.4070231,46.5595321,0.0 -87.4071381,46.5594781,0.0 -87.4070311,46.5593781,0.0 -87.4069741,46.5593971,0.0 -87.4068481,46.559279100000005,0.0 -87.40675410000001,46.5593181,0.0 -87.4066951,46.5592551,0.0 -87.4066421,46.5592791,0.0 -87.4065911,46.5592381,0.0 -87.4064811,46.5592901,0.0 -87.4065211,46.5593311,0.0 -87.40614610000002,46.5595091,0.0 -87.4060951,46.55947809999999,0.0 -87.4059951,46.5595261,0.0 -87.4060331,46.559574100000006,0.0 -87.4059661,46.5595981,0.0 -87.4060521,46.55966610000001,0.0 -87.4059261,46.5597161,0.0 -87.40605410000002,46.5598581,0.0 -87.40601910000001,46.5598651,0.0 -87.4061291,46.5599561,0.0 -87.4061621,46.5599481,0.0 -87.4062691,46.560059100000004,0.0 -87.4063761,46.5600181,0.0 -87.4064541,46.5600791,0.0 -87.4065341,46.5600521,0.0 -87.4065721,46.5600891,0.0 -87.4066791,46.5600441,0.0 -87.4066471,46.5600001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>McClintock</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4062534,46.5569446,0.0 -87.4053494,46.5567276,0.0 -87.4051474,46.5570996,0.0 -87.4060514,46.5573246,0.0 -87.4062534,46.5569446,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Thomas Fine Arts</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4051381,46.556607500000005,0.0 -87.4048271,46.5565335,0.0 -87.4044091,46.557323499999995,0.0 -87.4047411,46.5573935,0.0 -87.4051381,46.556607500000005,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Forest Roberts Theater</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4042944,46.5567582,0.0 -87.4040724,46.5566932,0.0 -87.4039894,46.5567502,0.0 -87.4039594,46.5567262,0.0 -87.4038094,46.5568702,0.0 -87.4039304,46.5569232,0.0 -87.4039004,46.5569582,0.0 -87.4040134,46.5570062,0.0 -87.4041504,46.5570182,0.0 -87.4041634,46.55698520000001,0.0 -87.4042764,46.5569882,0.0 -87.4042974,46.5569712,0.0 -87.4043914,46.556979199999994,0.0 -87.4043944,46.5568262,0.0 -87.4043034,46.5568042,0.0 -87.4042944,46.5567582,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-93D7E8-1-76</styleUrl>
+			<name>Hedgcock</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Administration/Mixed Use</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Administration/Mixed Use<br><br>Category: Administration/Mixed Use]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4047037,46.55826020000001,0.0 -87.4040937,46.55775020000001,0.0 -87.4037557,46.5579512,0.0 -87.4036737,46.5578782,0.0 -87.4036467,46.5579232,0.0 -87.4036267,46.5579712,0.0 -87.4036227,46.5580112,0.0 -87.4036217,46.558054199999994,0.0 -87.4036377,46.5580782,0.0 -87.4033857,46.5582272,0.0 -87.4034777,46.5583072,0.0 -87.4034027,46.5583522,0.0 -87.4034337,46.5583782,0.0 -87.4033417,46.5584352,0.0 -87.4036097,46.5586572,0.0 -87.4036217,46.5586532,0.0 -87.4036917,46.5587012,0.0 -87.4037477,46.55867119999999,0.0 -87.4037677,46.5586852,0.0 -87.4038367,46.5586462,0.0 -87.4037737,46.55859519999999,0.0 -87.4038107,46.5585732,0.0 -87.4038657,46.55854720000001,0.0 -87.4041357,46.55839220000001,0.0 -87.4041647,46.5584162,0.0 -87.4042047,46.5583952,0.0 -87.4043147,46.5584852,0.0 -87.4047037,46.55826020000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Gries Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.402763,46.5573346,0.0 -87.402852,46.5573156,0.0 -87.402888,46.5572626,0.0 -87.4028,46.5571916,0.0 -87.40270300000002,46.5572116,0.0 -87.402694,46.5572256,0.0 -87.40262100000001,46.5571736,0.0 -87.402623,46.55715560000001,0.0 -87.402632,46.55714259999999,0.0 -87.402657,46.5571476,0.0 -87.402994,46.556656600000004,0.0 -87.402833,46.5566026,0.0 -87.402503,46.557095600000004,0.0 -87.402474,46.5570986,0.0 -87.402458,46.5571226,0.0 -87.401812,46.55727460000001,0.0 -87.40187,46.55739160000001,0.0 -87.402522,46.5572296,0.0 -87.402517,46.5572156,0.0 -87.40262,46.55728460000001,0.0 -87.402591,46.5572936,0.0 -87.402557,46.5573446,0.0 -87.402641,46.5574116,0.0 -87.402728,46.55739260000001,0.0 -87.402763,46.5573346,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-93D7E8-1-76</styleUrl>
+			<name>University Center</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Administration/Mixed Use</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Administration/Mixed Use<br><br>Category: Administration/Mixed Use]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4019644,46.5566363,0.0 -87.4018644,46.556561300000006,0.0 -87.4019014,46.5565383,0.0 -87.4018144,46.5564753,0.0 -87.4017754,46.5565013,0.0 -87.4017264,46.5564603,0.0 -87.4017414,46.5564493,0.0 -87.4016824,46.556408299999994,0.0 -87.40166740000001,46.5564203,0.0 -87.4015914,46.5563683,0.0 -87.4015254,46.556408299999994,0.0 -87.4013634,46.5562943,0.0 -87.4011174,46.55628730000001,0.0 -87.4011194,46.5561613,0.0 -87.4011624,46.5561603,0.0 -87.4011624,46.5560883,0.0 -87.4011404,46.5560883,0.0 -87.4011444,46.55575830000001,0.0 -87.4008204,46.5557543,0.0 -87.4008164,46.556121299999994,0.0 -87.4007464,46.5561213,0.0 -87.4007434,46.5562173,0.0 -87.4006764,46.5562173,0.0 -87.4006784,46.5562083,0.0 -87.4006264,46.5562093,0.0 -87.4005814,46.5562233,0.0 -87.40053940000001,46.5562513,0.0 -87.4005184,46.5562933,0.0 -87.4005264,46.5563173,0.0 -87.4003954,46.5563163,0.0 -87.4003934,46.5563723,0.0 -87.4002444,46.5563723,0.0 -87.4002394,46.5565533,0.0 -87.4003854,46.55655530000001,0.0 -87.4003844,46.5566143,0.0 -87.4009904,46.5566243,0.0 -87.4011084,46.5567093,0.0 -87.4010684,46.5567373,0.0 -87.4014304,46.556992300000005,0.0 -87.4019644,46.5566363,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>West Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.402833,46.5565002,0.0 -87.402967,46.5564152,0.0 -87.402483,46.5560692,0.0 -87.402455,46.5560742,0.0 -87.40244,46.5560562,0.0 -87.402487,46.5559832,0.0 -87.402507,46.5559952,0.0 -87.402578,46.55599420000001,0.0 -87.40262100000001,46.5558942,0.0 -87.402593,46.555869200000004,0.0 -87.402596,46.5558462,0.0 -87.402533,46.5558012,0.0 -87.40244700000001,46.55580119999999,0.0 -87.402428,46.5558252,0.0 -87.402335,46.5558232,0.0 -87.402356,46.555950200000005,0.0 -87.402378,46.5559562,0.0 -87.402329,46.5560382,0.0 -87.40231800000001,46.5560372,0.0 -87.40231800000001,46.5560202,0.0 -87.40153,46.5560072,0.0 -87.401528,46.5561312,0.0 -87.402317,46.5561432,0.0 -87.402329,46.55616419999999,0.0 -87.40235300000002,46.5561562,0.0 -87.402833,46.5565002,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-93D7E8-1-76</styleUrl>
+			<name>Cohodas</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Administration/Mixed Use</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Administration/Mixed Use<br><br>Category: Administration/Mixed Use]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3978827,46.5568444,0.0 -87.3979017,46.5563414,0.0 -87.3977707,46.5563394,0.0 -87.3977707,46.5563244,0.0 -87.3977157,46.5563234,0.0 -87.3977157,46.5563384,0.0 -87.3975707,46.5563354,0.0 -87.3975617,46.5568384,0.0 -87.3976997,46.5568404,0.0 -87.3977007,46.5568514,0.0 -87.3977547,46.5568534,0.0 -87.3977567,46.5568424,0.0 -87.3978827,46.5568444,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Spooner Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4016464,46.5580321,0.0 -87.4016474,46.557917100000004,0.0 -87.4009694,46.5579121,0.0 -87.4009694,46.5578961,0.0 -87.4009224,46.5578971,0.0 -87.4009234,46.557911100000005,0.0 -87.40040440000001,46.5579061,0.0 -87.4004014,46.5580171,0.0 -87.4004364,46.5580171,0.0 -87.4004384,46.5580041,0.0 -87.4016034,46.55801809999999,0.0 -87.4016044,46.5580321,0.0 -87.4016464,46.5580321,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Berry Events Center</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3931824,46.55800990000001,0.0 -87.3931984,46.5573809,0.0 -87.3927634,46.5573769,0.0 -87.3926344,46.55728390000001,0.0 -87.3925074,46.5573759,0.0 -87.3920694,46.5573609,0.0 -87.3920504,46.5579939,0.0 -87.3931824,46.55800990000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Physical Education Recreational Facility (PIEF)</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3948107,46.5590796,0.0 -87.394827,46.5584773,0.0 -87.3946147,46.5584776,0.0 -87.3946204,46.5584106,0.0 -87.3945237,46.558408400000005,0.0 -87.3945223,46.55838640000001,0.0 -87.3943084,46.558383,0.0 -87.3942607,46.5583906,0.0 -87.394263,46.5583632,0.0 -87.39386700000001,46.5583573,0.0 -87.39386700000001,46.5583983,0.0 -87.3931537,46.558389600000005,0.0 -87.3931497,46.5583793,0.0 -87.3925017,46.558370399999994,0.0 -87.392499,46.5586489,0.0 -87.3924695,46.5586479,0.0 -87.3924639,46.5588182,0.0 -87.39254410000001,46.55881990000001,0.0 -87.3925493,46.5588503,0.0 -87.3925894,46.5588544,0.0 -87.3925867,46.5590246,0.0 -87.3930817,46.5590296,0.0 -87.3930797,46.5590626,0.0 -87.3941624,46.5590711,0.0 -87.394155,46.5591113,0.0 -87.3942762,46.559111,0.0 -87.39427730000001,46.5591435,0.0 -87.3946728,46.5591429,0.0 -87.3946747,46.559078,0.0 -87.3948107,46.5590796,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Van Antwerp Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4093097,46.5624273,0.0 -87.4092437,46.5624263,0.0 -87.4092427,46.5623883,0.0 -87.4091537,46.5623893,0.0 -87.4091537,46.5624283,0.0 -87.4091137,46.5624283,0.0 -87.4091147,46.5627503,0.0 -87.4086517,46.5627473,0.0 -87.4086417,46.5624253,0.0 -87.4086027,46.5624263,0.0 -87.4086027,46.562387300000005,0.0 -87.4085097,46.5623883,0.0 -87.4085087,46.56242430000001,0.0 -87.40844870000001,46.5624253,0.0 -87.4084497,46.56288030000001,0.0 -87.40931470000001,46.5628843,0.0 -87.4093097,46.5624273,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Hunt Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.409262,46.5636549,0.0 -87.409261,46.5636179,0.0 -87.409325,46.5636179,0.0 -87.409321,46.56315690000001,0.0 -87.408459,46.5631579,0.0 -87.40846200000001,46.5636189,0.0 -87.408525,46.5636199,0.0 -87.408525,46.5636559,0.0 -87.408617,46.56365490000001,0.0 -87.408619,46.5636189,0.0 -87.40866,46.5636189,0.0 -87.408663,46.5632929,0.0 -87.409126,46.5632929,0.0 -87.409127,46.5636189,0.0 -87.409168,46.5636189,0.0 -87.409168,46.5636559,0.0 -87.409262,46.5636549,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Meyland Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.406457,46.563155200000004,0.0 -87.406457,46.5636152,0.0 -87.406525,46.5636162,0.0 -87.406524,46.5636522,0.0 -87.406612,46.5636522,0.0 -87.406614,46.5636152,0.0 -87.406658,46.5636162,0.0 -87.406654,46.5632902,0.0 -87.407122,46.5632902,0.0 -87.407122,46.56361520000001,0.0 -87.407162,46.5636152,0.0 -87.407165,46.5636532,0.0 -87.407256,46.5636532,0.0 -87.407256,46.563614199999996,0.0 -87.407322,46.5636152,0.0 -87.407314,46.56315620000001,0.0 -87.406457,46.563155200000004,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-EE9C96-1-76</styleUrl>
+			<name>Magers Hall</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Residence Halls</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Residence Halls<br><br>Category: Residence Halls]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4073027,46.562409,0.0 -87.4072347,46.562408000000005,0.0 -87.4072357,46.562379,0.0 -87.4071567,46.562379,0.0 -87.4071567,46.562409,0.0 -87.4071087,46.56241,0.0 -87.4071097,46.562734,0.0 -87.4066427,46.562732999999994,0.0 -87.4066417,46.562407,0.0 -87.4065967,46.562407,0.0 -87.4065967,46.562379,0.0 -87.4065197,46.56238,0.0 -87.4065197,46.56241,0.0 -87.4064477,46.56240999999999,0.0 -87.4064497,46.562868,0.0 -87.4073047,46.562865,0.0 -87.4073027,46.562409,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Whitman</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.410605,46.5579901,0.0 -87.410595,46.55750210000001,0.0 -87.410752,46.5575011,0.0 -87.410752,46.5573761,0.0 -87.410716,46.5573741,0.0 -87.410716,46.5572061,0.0 -87.410193,46.5572021,0.0 -87.41019400000002,46.5572561,0.0 -87.410146,46.55725509999999,0.0 -87.410151,46.5573391,0.0 -87.409761,46.55733709999999,0.0 -87.409767,46.55755409999999,0.0 -87.41020400000001,46.5575561,0.0 -87.410205,46.55758410000001,0.0 -87.41027800000002,46.5575831,0.0 -87.410279,46.5576071,0.0 -87.410314,46.5576071,0.0 -87.410326,46.5579891,0.0 -87.410605,46.5579901,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Art and Design</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4027187,46.5581108,0.0 -87.4024687,46.5581108,0.0 -87.4024687,46.5582088,0.0 -87.4024817,46.55820880000001,0.0 -87.4024787,46.5582328,0.0 -87.4022287,46.5582308,0.0 -87.4022307,46.55827879999999,0.0 -87.4021917,46.55827980000001,0.0 -87.4021907,46.5583248,0.0 -87.4016757,46.558320800000004,0.0 -87.4016747,46.5583048,0.0 -87.4015587,46.55831379999999,0.0 -87.4010597,46.558308800000006,0.0 -87.4009607,46.5582948,0.0 -87.4009357,46.55830580000001,0.0 -87.4008027,46.5583048,0.0 -87.4007977,46.5584948,0.0 -87.4010927,46.55849880000001,0.0 -87.4010827,46.5585168,0.0 -87.4012267,46.558519800000006,0.0 -87.4012247,46.5585868,0.0 -87.4017117,46.5585948,0.0 -87.4017057,46.5586678,0.0 -87.4019577,46.5586708,0.0 -87.4019497,46.558766799999994,0.0 -87.4019847,46.5587568,0.0 -87.4021867,46.5587558,0.0 -87.4021857,46.55880979999999,0.0 -87.4022577,46.5588138,0.0 -87.4022577,46.5588288,0.0 -87.4023507,46.5588308,0.0 -87.4023547,46.5583468,0.0 -87.4023307,46.5583468,0.0 -87.4023307,46.5583308,0.0 -87.4027137,46.5583338,0.0 -87.4027187,46.5581108,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Superior Dome</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3933314,46.559613399999996,0.0 -87.3932801,46.5595423,0.0 -87.3930494,46.5596292,0.0 -87.392863,46.559745500000005,0.0 -87.3929425,46.559803,0.0 -87.3929495,46.5598217,0.0 -87.3928562,46.5599079,0.0 -87.3927765,46.5600093,0.0 -87.3927172,46.5601205,0.0 -87.3926808,46.5602388,0.0 -87.392596,46.560293099999996,0.0 -87.3926798,46.5603611,0.0 -87.392704,46.5604744,0.0 -87.3927523,46.5605823,0.0 -87.3928275,46.5606882,0.0 -87.3929242,46.5607831,0.0 -87.392921,46.560858800000005,0.0 -87.3930124,46.5608692,0.0 -87.393033,46.5608833,0.0 -87.393056,46.5609463,0.0 -87.3931474,46.560940900000006,0.0 -87.3931744,46.5609494,0.0 -87.393208,46.5610114,0.0 -87.3933127,46.5609903,0.0 -87.3934797,46.5610276,0.0 -87.3936427,46.561048199999995,0.0 -87.393724,46.5611048,0.0 -87.393807,46.5610548,0.0 -87.394137,46.56100380000001,0.0 -87.3942587,46.561030200000005,0.0 -87.3942841,46.5609675,0.0 -87.3943104,46.5609582,0.0 -87.394413,46.560966,0.0 -87.3944274,46.56090059999999,0.0 -87.3944543,46.5608872,0.0 -87.39455,46.560887,0.0 -87.3945466,46.5608048,0.0 -87.394666,46.5606948,0.0 -87.3947355,46.5605972,0.0 -87.3947862,46.560490300000005,0.0 -87.3948128,46.560377,0.0 -87.3948153,46.5602619,0.0 -87.3947875,46.560143,0.0 -87.394733,46.5600279,0.0 -87.394661,46.559931199999994,0.0 -87.3945783,46.5598437,0.0 -87.394587,46.5597568,0.0 -87.39445,46.55967679999999,0.0 -87.394281,46.559596799999994,0.0 -87.394221,46.5596008,0.0 -87.39418,46.5596373,0.0 -87.3940239,46.5596007,0.0 -87.3938545,46.5595789,0.0 -87.3937784,46.5595122,0.0 -87.3936917,46.559568,0.0 -87.3936881,46.55957949999999,0.0 -87.3935241,46.55959210000001,0.0 -87.3933575,46.559625,0.0 -87.3933314,46.559613399999996,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-93D7E8-1-76</styleUrl>
+			<name>Public Safety</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Administration/Mixed Use</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Administration/Mixed Use<br><br>Category: Administration/Mixed Use]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4073053,46.5659526,0.0 -87.4069083,46.5659596,0.0 -87.4069243,46.5663506,0.0 -87.4068453,46.56635760000001,0.0 -87.4067713,46.5663746,0.0 -87.4067023,46.5664016,0.0 -87.4066423,46.5664356,0.0 -87.4066003,46.56647460000001,0.0 -87.4065703,46.5665156,0.0 -87.4065463,46.5665596,0.0 -87.40653630000001,46.5666026,0.0 -87.4062003,46.566612600000006,0.0 -87.4062163,46.566905600000005,0.0 -87.40649930000001,46.56689860000001,0.0 -87.40653430000002,46.5673506,0.0 -87.4068653,46.5673406,0.0 -87.4068573,46.5671746,0.0 -87.4074213,46.5671656,0.0 -87.4074103,46.5669446,0.0 -87.4076463,46.5669406,0.0 -87.4076383,46.5667616,0.0 -87.4075073,46.5667676,0.0 -87.4075013,46.5666026,0.0 -87.4073323,46.56660660000001,0.0 -87.4073053,46.5659526,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4EB37-1-76</styleUrl>
+			<name>Jacobetti Center</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Academics/Recreation</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Academics/Recreation<br><br>Category: Academics/Recreation]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.404107,46.56934760000001,0.0 -87.402412,46.5693556,0.0 -87.402404,46.5700486,0.0 -87.402712,46.5700466,0.0 -87.40271,46.5702736,0.0 -87.402214,46.5702716,0.0 -87.402208,46.5706236,0.0 -87.403606,46.5706236,0.0 -87.403606,46.5707626,0.0 -87.40441,46.5707606,0.0 -87.404408,46.5704856,0.0 -87.404512,46.5704856,0.0 -87.404509,46.5702056,0.0 -87.403517,46.5702076,0.0 -87.403514,46.5700446,0.0 -87.404008,46.5700466,0.0 -87.404013,46.5696336,0.0 -87.404107,46.5696336,0.0 -87.404107,46.56934760000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Woodland Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.403081,46.5624952,0.0 -87.403091,46.562634200000005,0.0 -87.403125,46.56263320000001,0.0 -87.403123,46.562896200000004,0.0 -87.403083,46.5628982,0.0 -87.403085,46.5630022,0.0 -87.403199,46.5630082,0.0 -87.403201,46.5629682,0.0 -87.403572,46.5629752,0.0 -87.40357100000001,46.5630212,0.0 -87.403408,46.5630182,0.0 -87.403408,46.5632332,0.0 -87.403572,46.5632342,0.0 -87.40356300000002,46.563294199999994,0.0 -87.403249,46.563294199999994,0.0 -87.403216,46.5632552,0.0 -87.403099,46.5632542,0.0 -87.403101,46.5637702,0.0 -87.403211,46.5637732,0.0 -87.40330500000002,46.5637402,0.0 -87.403317,46.5634422,0.0 -87.403669,46.5634472,0.0 -87.403668,46.5634772,0.0 -87.403826,46.5634782,0.0 -87.40383,46.563274199999995,0.0 -87.403677,46.5632742,0.0 -87.403803,46.56315420000001,0.0 -87.403681,46.5630022,0.0 -87.403838,46.5630082,0.0 -87.403846,46.5628042,0.0 -87.403686,46.5628012,0.0 -87.403685,46.5628302,0.0 -87.403336,46.562824199999994,0.0 -87.403339,46.5626362,0.0 -87.403376,46.5626392,0.0 -87.4034,46.5625652,0.0 -87.403379,46.56249820000001,0.0 -87.403081,46.5624952,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4009354,46.5590648,0.0 -87.4015414,46.55907880000001,0.0 -87.40153640000001,46.558995800000005,0.0 -87.4009324,46.55898380000001,0.0 -87.4009354,46.5590648,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4009137,46.5594265,0.0 -87.4015417,46.5594355,0.0 -87.4015427,46.559349499999996,0.0 -87.4009177,46.5593405,0.0 -87.4009137,46.5594265,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4024187,46.5595078,0.0 -87.4024527,46.5594228,0.0 -87.4018517,46.5593098,0.0 -87.4018237,46.5593938,0.0 -87.4024187,46.5595078,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4025364,46.55904189999999,0.0 -87.40252340000002,46.5589569,0.0 -87.4018954,46.5589949,0.0 -87.4019134,46.5590799,0.0 -87.4025364,46.55904189999999,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4033204,46.5590907,0.0 -87.40330940000001,46.5590037,0.0 -87.4027094,46.5590377,0.0 -87.4027234,46.5591257,0.0 -87.4033204,46.5590907,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.403217,46.559485900000006,0.0 -87.402629,46.5593759,0.0 -87.402597,46.5594569,0.0 -87.403188,46.5595699,0.0 -87.403217,46.559485900000006,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4040457,46.5593409,0.0 -87.4040987,46.5592669,0.0 -87.4035547,46.5590699,0.0 -87.40350670000001,46.5591469,0.0 -87.4040457,46.5593409,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Summit Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4032674,46.5599682,0.0 -87.4033504,46.5599082,0.0 -87.4028964,46.5596212,0.0 -87.4028104,46.5596882,0.0 -87.4032674,46.5599682,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4124077,46.5620074,0.0 -87.4124127,46.5621114,0.0 -87.4125217,46.5621104,0.0 -87.4125227,46.5620104,0.0 -87.4124077,46.5620074,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4125777,46.5621711,0.0 -87.4127307,46.5621711,0.0 -87.41272970000001,46.5621591,0.0 -87.4128717,46.5621601,0.0 -87.4128717,46.5621711,0.0 -87.4130157,46.5621721,0.0 -87.4130197,46.56216010000001,0.0 -87.4131597,46.5621601,0.0 -87.4131567,46.5621721,0.0 -87.4133057,46.5621721,0.0 -87.4133107,46.5620981,0.0 -87.4131687,46.5620961,0.0 -87.4131667,46.5620861,0.0 -87.4130147,46.5620881,0.0 -87.4130127,46.5620971,0.0 -87.4128797,46.5620981,0.0 -87.4128767,46.562089099999994,0.0 -87.4127327,46.5620851,0.0 -87.41272770000002,46.5620941,0.0 -87.4125807,46.5620951,0.0 -87.4125777,46.5621711,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.41326,46.56233220000001,0.0 -87.41340400000001,46.5623302,0.0 -87.41340400000001,46.562344200000005,0.0 -87.413553,46.562343199999994,0.0 -87.413551,46.56233220000001,0.0 -87.4137,46.5623342,0.0 -87.413696,46.56226120000001,0.0 -87.413262,46.5622582,0.0 -87.41326,46.56233220000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4137687,46.562292400000004,0.0 -87.4138827,46.56228840000001,0.0 -87.4138807,46.5619894,0.0 -87.4137737,46.5619874,0.0 -87.4137747,46.5620224,0.0 -87.4137387,46.5620214,0.0 -87.4137367,46.56226040000001,0.0 -87.4137707,46.5622604,0.0 -87.4137687,46.562292400000004,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.413948,46.5621634,0.0 -87.4141,46.562159400000006,0.0 -87.414101,46.5621734,0.0 -87.414249,46.5621724,0.0 -87.414249,46.5621604,0.0 -87.414385,46.56215840000001,0.0 -87.414385,46.5621724,0.0 -87.414533,46.562173400000006,0.0 -87.414534,46.5621614,0.0 -87.414673,46.5621634,0.0 -87.414674,46.562173400000006,0.0 -87.414812,46.56217839999999,0.0 -87.414827,46.5621034,0.0 -87.414682,46.5621034,0.0 -87.414676,46.5620914,0.0 -87.414534,46.5620884,0.0 -87.41453000000001,46.5621004,0.0 -87.414394,46.562100400000006,0.0 -87.414392,46.5620884,0.0 -87.414244,46.5620884,0.0 -87.414246,46.562100400000006,0.0 -87.414114,46.5621024,0.0 -87.414102,46.5620864,0.0 -87.413948,46.5620864,0.0 -87.413948,46.5621634,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4147223,46.5623187,0.0 -87.4148673,46.56232070000001,0.0 -87.4148693,46.5623307,0.0 -87.4150203,46.5623307,0.0 -87.4150343,46.5622627,0.0 -87.4148743,46.5622607,0.0 -87.4148713,46.56224970000001,0.0 -87.4147223,46.5622457,0.0 -87.4147223,46.5623187,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.415418,46.562269900000004,0.0 -87.415551,46.56227090000001,0.0 -87.415553,46.5620679,0.0 -87.41543,46.5620699,0.0 -87.415418,46.562269900000004,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4153507,46.5620378,0.0 -87.4154847,46.5620388,0.0 -87.4154997,46.5618348,0.0 -87.4153657,46.5618358,0.0 -87.4153507,46.5620378,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Norwood Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4147077,46.5616398,0.0 -87.4147077,46.5615138,0.0 -87.4143987,46.5615118,0.0 -87.4143977,46.561490799999994,0.0 -87.4140657,46.5614898,0.0 -87.4140637,46.56150780000001,0.0 -87.4137467,46.5615028,0.0 -87.4137527,46.5616398,0.0 -87.4140817,46.5616358,0.0 -87.4140847,46.5616208,0.0 -87.4143757,46.56162179999999,0.0 -87.4143767,46.5616358,0.0 -87.4147077,46.5616398,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Norwood Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4135217,46.5616379,0.0 -87.4135187,46.561504899999996,0.0 -87.4132117,46.5615089,0.0 -87.4132107,46.56148590000001,0.0 -87.4128767,46.561486900000006,0.0 -87.4128787,46.56150590000001,0.0 -87.4125507,46.561504899999996,0.0 -87.4125557,46.5616299,0.0 -87.4129027,46.5616299,0.0 -87.4129027,46.56161490000001,0.0 -87.4131927,46.56161590000001,0.0 -87.4131927,46.5616299,0.0 -87.4135217,46.5616379,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Center Street Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4147484,46.5607832,0.0 -87.4147584,46.5606532,0.0 -87.4144094,46.56065520000001,0.0 -87.4144104,46.5606682,0.0 -87.4141204,46.5606682,0.0 -87.4141214,46.56065319999999,0.0 -87.4137754,46.5606522,0.0 -87.4137824,46.56078020000001,0.0 -87.4141074,46.5607772,0.0 -87.4141074,46.560796200000006,0.0 -87.4144414,46.560796200000006,0.0 -87.41444240000001,46.5607812,0.0 -87.4147484,46.5607832,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4135633,46.56134589999999,0.0 -87.4135723,46.5612179,0.0 -87.4133313,46.56120790000001,0.0 -87.4133243,46.5610849,0.0 -87.4130963,46.5610849,0.0 -87.4130923,46.5609709,0.0 -87.4128553,46.5609719,0.0 -87.4128553,46.561106900000006,0.0 -87.41308330000001,46.561106900000006,0.0 -87.4130873,46.561227900000006,0.0 -87.4133263,46.5612269,0.0 -87.4133273,46.5613449,0.0 -87.4135633,46.56134589999999,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Apartments</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.41306200000001,46.560739399999996,0.0 -87.413059,46.5606054,0.0 -87.412826,46.5605984,0.0 -87.412827,46.56072540000001,0.0 -87.412591,46.5607214,0.0 -87.41259,46.560839400000006,0.0 -87.412351,46.5608384,0.0 -87.41235,46.5609754,0.0 -87.412595,46.560977400000006,0.0 -87.412596,46.5608564,0.0 -87.412827,46.5608574,0.0 -87.412834,46.5607404,0.0 -87.41306200000001,46.560739399999996,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Lincoln Townhouses</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br>Category: Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.415356,46.56234280000001,0.0 -87.415358,46.562269799999996,0.0 -87.415224,46.5622698,0.0 -87.415206,46.5622558,0.0 -87.415059,46.562255799999996,0.0 -87.415059,46.56232880000001,0.0 -87.415205,46.56232980000001,0.0 -87.415207,46.56234280000001,0.0 -87.415356,46.56234280000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-4186F0-1-76'>
+			<LineStyle>
+				<color>ffF08641</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4CF08641</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-93D7E8-1-76'>
+			<LineStyle>
+				<color>ffE8D793</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4CE8D793</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-EE9C96-1-76'>
+			<LineStyle>
+				<color>ff969CEE</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C969CEE</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-F4EB37-1-76'>
+			<LineStyle>
+				<color>ff37EBF4</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C37EBF4</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

@@ -1,0 +1,1195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Parking</name>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<name>Lot 17</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Commuter, Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Commuter, Faculty & Staff<br><br>Category: Parking - Commuter, Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4108264,46.5582852,0.0 -87.4108204,46.55819219999999,0.0 -87.4105414,46.5581832,0.0 -87.4103854,46.5581642,0.0 -87.41002440000001,46.5580102,0.0 -87.4101154,46.55795220000001,0.0 -87.4100904,46.5579302,0.0 -87.4100934,46.55788220000001,0.0 -87.4100934,46.55782320000001,0.0 -87.4100524,46.5577512,0.0 -87.4099794,46.5577072,0.0 -87.4097594,46.5576802,0.0 -87.4093984,46.5574042,0.0 -87.4093184,46.5574152,0.0 -87.4092924,46.55739820000001,0.0 -87.40928540000002,46.5573772,0.0 -87.4093064,46.5573572,0.0 -87.4093414,46.55734319999999,0.0 -87.40923840000002,46.5572932,0.0 -87.4091854,46.557257199999995,0.0 -87.4086704,46.557481200000005,0.0 -87.4086994,46.55752220000001,0.0 -87.4086934,46.5575422,0.0 -87.4086664,46.5575582,0.0 -87.4086314,46.5575592,0.0 -87.4085974,46.5575422,0.0 -87.40859340000002,46.5575202,0.0 -87.4085994,46.5574742,0.0 -87.4083424,46.55731419999999,0.0 -87.4080924,46.5571442,0.0 -87.4080214,46.5570762,0.0 -87.4079674,46.5569812,0.0 -87.4079134,46.5569912,0.0 -87.4078324,46.5569202,0.0 -87.4077494,46.556901200000006,0.0 -87.4076574,46.556915200000006,0.0 -87.4076054,46.5569392,0.0 -87.4075704,46.5569742,0.0 -87.4075574,46.55706620000001,0.0 -87.4075094,46.557097199999994,0.0 -87.4075654,46.5572222,0.0 -87.4076644,46.5573292,0.0 -87.4077874,46.55743120000001,0.0 -87.4081794,46.5576802,0.0 -87.4082554,46.55766220000001,0.0 -87.4082814,46.5576912,0.0 -87.4082584,46.5577232,0.0 -87.4081914,46.55775919999999,0.0 -87.4083064,46.557850200000004,0.0 -87.4084924,46.557991200000004,0.0 -87.4087044,46.5581742,0.0 -87.4088974,46.5583472,0.0 -87.4089674,46.55841920000001,0.0 -87.4090014,46.55838920000001,0.0 -87.4090604,46.5583812,0.0 -87.4091034,46.5583932,0.0 -87.40915440000002,46.558410200000004,0.0 -87.4093714,46.55834320000001,0.0 -87.4095714,46.55825720000001,0.0 -87.4097714,46.5581442,0.0 -87.4099554,46.5580172,0.0 -87.4099974,46.5580522,0.0 -87.4099624,46.55808520000001,0.0 -87.4100764,46.5581412,0.0 -87.4101994,46.55819120000001,0.0 -87.41036440000002,46.5582442,0.0 -87.4105214,46.5582692,0.0 -87.4106534,46.5582822,0.0 -87.4108264,46.5582852,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 28</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.405735,46.55946,0.0 -87.405865,46.559441,0.0 -87.406025,46.559303,0.0 -87.405291,46.558883,0.0 -87.405362,46.558815,0.0 -87.405259,46.558755,0.0 -87.405181,46.55882100000001,0.0 -87.404761,46.558587,0.0 -87.404845,46.558516,0.0 -87.404758,46.558473,0.0 -87.404689,46.558538999999996,0.0 -87.40451,46.558687000000006,0.0 -87.404497,46.558731,0.0 -87.404516,46.558771,0.0 -87.40494,46.559009,0.0 -87.404939,46.55903699999999,0.0 -87.404773,46.55916700000001,0.0 -87.404729,46.559179,0.0 -87.40483,46.559266,0.0 -87.404853,46.559241,0.0 -87.405029,46.55909,0.0 -87.405068,46.559086,0.0 -87.405735,46.55946,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 62</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4051694,46.5580264,0.0 -87.4052454,46.5580244,0.0 -87.4053024,46.5579964,0.0 -87.4053244,46.5579434,0.0 -87.4052984,46.5578914,0.0 -87.40495940000001,46.55774639999999,0.0 -87.40456440000001,46.5576284,0.0 -87.4042054,46.5575574,0.0 -87.4041934,46.5575964,0.0 -87.4039724,46.5575714,0.0 -87.4039134,46.5574834,0.0 -87.40356540000002,46.5574664,0.0 -87.4032164,46.5574804,0.0 -87.4029594,46.557741400000005,0.0 -87.4030254,46.5577744,0.0 -87.40309440000001,46.55779640000001,0.0 -87.4036244,46.5577624,0.0 -87.4037924,46.5577724,0.0 -87.4038494,46.5577624,0.0 -87.4039014,46.5577404,0.0 -87.4039724,46.55764940000001,0.0 -87.4040894,46.5576604,0.0 -87.4040754,46.5577024,0.0 -87.4044934,46.55778240000001,0.0 -87.4048474,46.557888399999996,0.0 -87.4051694,46.5580264,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<name>Lot 29</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Commuter, Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Commuter, Faculty & Staff<br><br>Category: Parking - Commuter, Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4076876,46.5578862,0.0 -87.4077141,46.5578493,0.0 -87.4070672,46.5571872,0.0 -87.4069342,46.55735709999999,0.0 -87.4074856,46.5579021,0.0 -87.4076876,46.5578862,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<name>Lot 36</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Commuter, Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Commuter, Faculty & Staff<br><br>Category: Parking - Commuter, Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.411561,46.560855,0.0 -87.411657,46.560847,0.0 -87.41174,46.56080000000001,0.0 -87.411775,46.56073000000001,0.0 -87.411747,46.560655,0.0 -87.411663,46.560603,0.0 -87.41156,46.560593,0.0 -87.411554,46.560542,0.0 -87.411092,46.560543,0.0 -87.410632,46.560517,0.0 -87.410387,46.560471,0.0 -87.410164,46.560387000000006,0.0 -87.410118,46.56043,0.0 -87.409897,46.56029300000001,0.0 -87.409946,46.560253,0.0 -87.409791,46.560095,0.0 -87.409692,46.559917,0.0 -87.409527,46.559556,0.0 -87.409454,46.559568,0.0 -87.409433,46.559525,0.0 -87.40944,46.559492000000006,0.0 -87.40948,46.559473000000004,0.0 -87.409543,46.559470000000005,0.0 -87.409618,46.55950399999999,0.0 -87.40941800000002,46.559186,0.0 -87.409194,46.558893,0.0 -87.409186,46.558942,0.0 -87.409144,46.558978,0.0 -87.409076,46.558989,0.0 -87.408604,46.559202,0.0 -87.408456,46.559272,0.0 -87.408518,46.559332,0.0 -87.408567,46.559303,0.0 -87.40863,46.559287999999995,0.0 -87.408706,46.5593,0.0 -87.408814,46.559396,0.0 -87.408764,46.559423,0.0 -87.409049,46.559711,0.0 -87.409266,46.560187,0.0 -87.40945700000002,46.560415,0.0 -87.409698,46.56059700000001,0.0 -87.409876,46.560686000000004,0.0 -87.410064,46.560764,0.0 -87.410264,46.560824000000004,0.0 -87.410469,46.560864,0.0 -87.410485,46.56081300000001,0.0 -87.410738,46.560834,0.0 -87.411014,46.560849,0.0 -87.411561,46.560855,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<name>Lot 11</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Commuter, Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Commuter, Faculty & Staff<br><br>Category: Parking - Commuter, Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.405991,46.5622463,0.0 -87.407054,46.5622493,0.0 -87.407055,46.5621483,0.0 -87.40708,46.5621223,0.0 -87.407131,46.5621243,0.0 -87.407105,46.56185330000001,0.0 -87.407005,46.5615883,0.0 -87.406837,46.5613283,0.0 -87.40660500000001,46.5610893,0.0 -87.40638400000002,46.56087730000001,0.0 -87.406307,46.5607563,0.0 -87.406273,46.5607013,0.0 -87.406195,46.5606463,0.0 -87.405601,46.56050030000001,0.0 -87.40542600000002,46.5604993,0.0 -87.405488,46.5605083,0.0 -87.405499,46.56053030000001,0.0 -87.40543,46.5605623,0.0 -87.405468,46.560769300000004,0.0 -87.405552,46.5609733,0.0 -87.40569,46.5611743,0.0 -87.405871,46.5613583,0.0 -87.405874,46.5614563,0.0 -87.405847,46.56152730000001,0.0 -87.405826,46.5616503,0.0 -87.405926,46.5618113,0.0 -87.405983,46.5619673,0.0 -87.40599,46.5621193,0.0 -87.406045,46.5621193,0.0 -87.406071,46.5621423,0.0 -87.406054,46.56217730000001,0.0 -87.405991,46.562179300000004,0.0 -87.405991,46.5622463,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 20</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.412795,46.563852999999995,0.0 -87.412818,46.562511,0.0 -87.412299,46.562512,0.0 -87.412295,46.562703,0.0 -87.412209,46.562705,0.0 -87.412209,46.56277399999999,0.0 -87.412293,46.562776,0.0 -87.412284,46.56351399999999,0.0 -87.412204,46.563511999999996,0.0 -87.412202,46.563579000000004,0.0 -87.412284,46.563581000000006,0.0 -87.412281,46.563855,0.0 -87.412795,46.563852999999995,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 16</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4119294,46.5623576,0.0 -87.4119364,46.5620206,0.0 -87.4100174,46.5620136,0.0 -87.4098184,46.562186600000004,0.0 -87.4098192,46.5622636,0.0 -87.4094504,46.5622656,0.0 -87.4094584,46.56377959999999,0.0 -87.4098614,46.563781600000006,0.0 -87.4098784,46.56379660000001,0.0 -87.4098784,46.56394259999999,0.0 -87.4098374,46.5639606,0.0 -87.4100054,46.5639616,0.0 -87.4099814,46.5639426,0.0 -87.4099664,46.56236059999999,0.0 -87.4119294,46.5623576,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 24</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4059,46.5623832,0.0 -87.40582300000001,46.5623822,0.0 -87.405831,46.562298199999994,0.0 -87.40573,46.5623042,0.0 -87.405755,46.5623362,0.0 -87.405751,46.5623792,0.0 -87.405607,46.562375200000005,0.0 -87.405608,46.5623412,0.0 -87.405622,46.5623132,0.0 -87.405534,46.56235219999999,0.0 -87.405527,46.562375200000005,0.0 -87.405462,46.56237420000001,0.0 -87.405439,46.5631232,0.0 -87.405513,46.5631262,0.0 -87.405536,46.5631752,0.0 -87.405585,46.5632092,0.0 -87.405655,46.5632242,0.0 -87.405724,46.5632102,0.0 -87.405772,46.56318019999999,0.0 -87.405799,46.5631322,0.0 -87.405875,46.5631312,0.0 -87.4059,46.5623832,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 14</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4050907,46.5621326,0.0 -87.4050947,46.5620766,0.0 -87.4051267,46.5620756,0.0 -87.4051527,46.5620846,0.0 -87.4051567,46.56199759999999,0.0 -87.4051327,46.5620146,0.0 -87.4050947,46.5620136,0.0 -87.4050987,46.5618896,0.0 -87.4051337,46.5618936,0.0 -87.4051577,46.561902599999996,0.0 -87.4051637,46.5618196,0.0 -87.4051367,46.5618346,0.0 -87.4050967,46.56183060000001,0.0 -87.4050967,46.5617776,0.0 -87.4041727,46.5617676,0.0 -87.4041737,46.56182259999999,0.0 -87.4041487,46.5618156,0.0 -87.4041297,46.5618006,0.0 -87.4041267,46.561898600000006,0.0 -87.4041467,46.5618786,0.0 -87.4041777,46.5618786,0.0 -87.4041707,46.5620026,0.0 -87.4041397,46.56199759999999,0.0 -87.4041227,46.56198059999999,0.0 -87.4041217,46.56207460000001,0.0 -87.4041397,46.5620576,0.0 -87.4041707,46.5620566,0.0 -87.4041747,46.5621186,0.0 -87.4050907,46.5621326,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 26</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.410665,46.5602367,0.0 -87.410727,46.5601187,0.0 -87.410708,46.55993970000001,0.0 -87.410606,46.5599037,0.0 -87.410518,46.5598437,0.0 -87.410478,46.5597847,0.0 -87.410449,46.5596987,0.0 -87.409929,46.55972969999999,0.0 -87.410011,46.5599187,0.0 -87.41006700000001,46.5599977,0.0 -87.410139,46.5600657,0.0 -87.4102,46.5600367,0.0 -87.410357,46.5601487,0.0 -87.410534,46.5602127,0.0 -87.410665,46.5602367,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 1</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4026431,46.55574120000001,0.0 -87.4026561,46.5553282,0.0 -87.4017581,46.5552952,0.0 -87.4017661,46.5557282,0.0 -87.4026431,46.55574120000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 2</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4025694,46.5579388,0.0 -87.4024854,46.5578948,0.0 -87.4021734,46.55812279999999,0.0 -87.4021294,46.5580608,0.0 -87.4018634,46.5581198,0.0 -87.4016644,46.5581238,0.0 -87.4016594,46.55817280000001,0.0 -87.4015774,46.558173800000006,0.0 -87.4015814,46.5581148,0.0 -87.4002274,46.5580978,0.0 -87.4002304,46.5582268,0.0 -87.40079740000002,46.55824379999999,0.0 -87.4016694,46.5582528,0.0 -87.4019714,46.5582268,0.0 -87.4022254,46.5581718,0.0 -87.4023674,46.5580958,0.0 -87.4025694,46.5579388,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 5</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.412225,46.5617401,0.0 -87.412221,46.561803100000006,0.0 -87.412627,46.5618061,0.0 -87.41262800000001,46.561829100000004,0.0 -87.412556,46.5618291,0.0 -87.412557,46.56198510000001,0.0 -87.412633,46.56198510000001,0.0 -87.412632,46.5620401,0.0 -87.413436,46.5620411,0.0 -87.413434,46.5619891,0.0 -87.413516,46.5619891,0.0 -87.413526,46.5618411,0.0 -87.413467,46.5618371,0.0 -87.413448,46.5618231,0.0 -87.413462,46.5618051,0.0 -87.414123,46.5618071,0.0 -87.414128,46.5618701,0.0 -87.414183,46.561882100000005,0.0 -87.414179,46.5619081,0.0 -87.414154,46.561922100000004,0.0 -87.413982,46.5619231,0.0 -87.413974,46.56204610000001,0.0 -87.415059,46.5620481,0.0 -87.415061,46.5619951,0.0 -87.415142,46.5619971,0.0 -87.415157,46.56174510000001,0.0 -87.415075,46.5617431,0.0 -87.415079,46.5616911,0.0 -87.413731,46.5616911,0.0 -87.413724,46.5617481,0.0 -87.413608,46.561747100000005,0.0 -87.413497,46.5617171,0.0 -87.41349,46.561691100000004,0.0 -87.412553,46.5616881,0.0 -87.412553,46.5617411,0.0 -87.412225,46.5617401,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 4</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4122494,46.56137269999999,0.0 -87.4130494,46.5613737,0.0 -87.4130494,46.5612507,0.0 -87.4127894,46.5611147,0.0 -87.4127754,46.5610797,0.0 -87.4127804,46.5610187,0.0 -87.4122544,46.5610177,0.0 -87.4122514,46.5610697,0.0 -87.41223540000001,46.5610777,0.0 -87.4121864,46.5610737,0.0 -87.4121594,46.5610667,0.0 -87.4121584,46.5611507,0.0 -87.4121834,46.5611327,0.0 -87.4122334,46.5611327,0.0 -87.4122514,46.5611407,0.0 -87.4122494,46.56137269999999,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 3</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4136587,46.5606212,0.0 -87.4135807,46.56062219999999,0.0 -87.4135817,46.5604552,0.0 -87.4134807,46.5604552,0.0 -87.4134817,46.5606232,0.0 -87.4133907,46.5606222,0.0 -87.4133957,46.560903200000006,0.0 -87.4136627,46.560903200000006,0.0 -87.4136587,46.5606212,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 3</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.415049,46.5609001,0.0 -87.415047,46.5606271,0.0 -87.41498,46.5606271,0.0 -87.414979,46.56047610000001,0.0 -87.415034,46.5604551,0.0 -87.414864,46.5604541,0.0 -87.414922,46.560479099999995,0.0 -87.414919,46.56062610000001,0.0 -87.414812,46.5606241,0.0 -87.414816,46.560903100000004,0.0 -87.415049,46.5609001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 47</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4034097,46.5638007,0.0 -87.4035467,46.56380169999999,0.0 -87.4035427,46.5638507,0.0 -87.4039657,46.5638617,0.0 -87.4039737,46.5638787,0.0 -87.4040597,46.5638817,0.0 -87.4040597,46.56387170000001,0.0 -87.4040787,46.5638597,0.0 -87.4045697,46.56386770000001,0.0 -87.4045877,46.5634007,0.0 -87.4041337,46.56339070000001,0.0 -87.40410470000002,46.563425699999996,0.0 -87.4040797,46.5634197,0.0 -87.4040817,46.5633417,0.0 -87.4040867,46.5632567,0.0 -87.4041067,46.5632447,0.0 -87.4041357,46.5632527,0.0 -87.4041647,46.5632957,0.0 -87.4045897,46.5633007,0.0 -87.4046007,46.5629877,0.0 -87.4041287,46.5629777,0.0 -87.4041257,46.5630267,0.0 -87.4040927,46.5630127,0.0 -87.4040987,46.5628677,0.0 -87.4041607,46.5629007,0.0 -87.4045607,46.5629077,0.0 -87.4045727,46.5624347,0.0 -87.4042017,46.56243270000001,0.0 -87.4041567,46.56247869999999,0.0 -87.4041267,46.5624687,0.0 -87.4041287,46.56241370000001,0.0 -87.4040037,46.56241370000001,0.0 -87.4040007,46.5624777,0.0 -87.4039637,46.5624667,0.0 -87.4039237,46.5624287,0.0 -87.4036257,46.5624257,0.0 -87.4036237,46.5624727,0.0 -87.4034907,46.5624717,0.0 -87.4034827,46.562684700000005,0.0 -87.4035197,46.562684700000005,0.0 -87.4035617,46.56273370000001,0.0 -87.4039457,46.5627397,0.0 -87.4039437,46.5626927,0.0 -87.4039977,46.56269770000001,0.0 -87.4039937,46.56275769999999,0.0 -87.4039237,46.5627877,0.0 -87.4039197,46.56297870000001,0.0 -87.4039907,46.5629857,0.0 -87.4039777,46.56328270000001,0.0 -87.4038987,46.5634957,0.0 -87.40397570000002,46.56349470000001,0.0 -87.40397570000002,46.5635867,0.0 -87.4039007,46.56360970000001,0.0 -87.4038977,46.5635487,0.0 -87.4034177,46.5635447,0.0 -87.4034097,46.5638007,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 10</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.40291600000002,46.56038160000001,0.0 -87.403006,46.5603826,0.0 -87.403016,46.560252600000005,0.0 -87.403097,46.56025660000001,0.0 -87.403115,46.5600876,0.0 -87.402873,46.5600606,0.0 -87.402849,46.5602276,0.0 -87.40293,46.56024059999999,0.0 -87.40291600000002,46.56038160000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 6</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.404367,46.56039859999999,0.0 -87.404449,46.5603996,0.0 -87.40443,46.559926600000004,0.0 -87.40386800000002,46.5599056,0.0 -87.40386800000002,46.560036600000004,0.0 -87.404284,46.560049600000006,0.0 -87.40434700000002,46.560058600000005,0.0 -87.404378,46.5600926,0.0 -87.404367,46.56039859999999,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-62AF44-1-76</styleUrl>
+			<name>Lot 7</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Apartments<br><br>Category: Parking - Apartments]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4039794,46.5594874,0.0 -87.4040074,46.5594344,0.0 -87.4039864,46.5593924,0.0 -87.4039164,46.5593574,0.0 -87.4037154,46.5593034,0.0 -87.4033934,46.55925340000001,0.0 -87.4027414,46.559190400000006,0.0 -87.4023834,46.55914940000001,0.0 -87.4021754,46.5591374,0.0 -87.4021374,46.5591384,0.0 -87.4021104,46.5591784,0.0 -87.4020514,46.5591894,0.0 -87.4015114,46.5591894,0.0 -87.4015024,46.5591304,0.0 -87.4009394,46.5591274,0.0 -87.4009324,46.5592914,0.0 -87.4014974,46.55929940000001,0.0 -87.4015374,46.559249400000006,0.0 -87.4020704,46.5592524,0.0 -87.4020774,46.5593014,0.0 -87.4025114,46.5593264,0.0 -87.4031654,46.5594074,0.0 -87.4032084,46.55936340000001,0.0 -87.4032884,46.5593694,0.0 -87.4034424,46.55939339999999,0.0 -87.4039794,46.5594874,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 15</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4017554,46.5557246,0.0 -87.40174740000002,46.5552916,0.0 -87.4010924,46.5552716,0.0 -87.4011084,46.5555536,0.0 -87.4011674,46.5555586,0.0 -87.4011674,46.5555946,0.0 -87.4011304,46.5555946,0.0 -87.4011304,46.5557236,0.0 -87.4017554,46.5557246,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 13</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3982321,46.5558643,0.0 -87.3982248,46.556035699999995,0.0 -87.3979678,46.5560343,0.0 -87.39795270000002,46.5563442,0.0 -87.39804910000001,46.55634659999999,0.0 -87.3980284,46.556914600000006,0.0 -87.3979939,46.5569529,0.0 -87.3979407,46.5569746,0.0 -87.39789000000002,46.5569745,0.0 -87.39784740000002,46.5569596,0.0 -87.3977767,46.5568976,0.0 -87.3977091,46.5568943,0.0 -87.3976927,46.5571386,0.0 -87.3979782,46.5571746,0.0 -87.39798640000001,46.5570402,0.0 -87.3982171,46.557044899999994,0.0 -87.398224,46.55687060000001,0.0 -87.3987337,46.55688060000001,0.0 -87.3992887,46.5568946,0.0 -87.3991747,46.5568046,0.0 -87.3990877,46.5567586,0.0 -87.3989847,46.5567586,0.0 -87.3989877,46.5567066,0.0 -87.3981417,46.5566906,0.0 -87.3981457,46.556571600000005,0.0 -87.3988697,46.5565796,0.0 -87.39887370000001,46.5565116,0.0 -87.3986434,46.55630889999999,0.0 -87.39856070000002,46.5562306,0.0 -87.3984824,46.5562288,0.0 -87.3984877,46.555869599999994,0.0 -87.3982321,46.5558643,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 13</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3993848,46.5569705,0.0 -87.3993008,46.5568965,0.0 -87.3987458,46.5568825,0.0 -87.3987388,46.55706850000001,0.0 -87.3993808,46.5570735,0.0 -87.3993848,46.5569705,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 33</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3996394,46.55715820000001,0.0 -87.3995674,46.55708820000001,0.0 -87.3994114,46.557186200000004,0.0 -87.3994064,46.55758420000001,0.0 -87.3994654,46.5576222,0.0 -87.3996964,46.5576262,0.0 -87.3999484,46.55750820000001,0.0 -87.3996394,46.5575082,0.0 -87.3995784,46.5574492,0.0 -87.3995854,46.5571752,0.0 -87.3996394,46.55715820000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-F4B400-1-76</styleUrl>
+			<name>Lot 33</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Resident Lot</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Resident Lot<br><br>Category: Parking - Resident Lot]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3999484,46.5575119,0.0 -87.3996964,46.55762990000001,0.0 -87.3999914,46.55762690000001,0.0 -87.4000934,46.5575789,0.0 -87.3999484,46.5575119,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 2</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4007624,46.5584885,0.0 -87.4007574,46.5582705,0.0 -87.40079740000002,46.55824379999999,0.0 -87.4002264,46.55823049999999,0.0 -87.4002234,46.5581645,0.0 -87.40009940000002,46.5581605,0.0 -87.40009740000002,46.55810650000001,0.0 -87.3998304,46.5581005,0.0 -87.3998234,46.5580215,0.0 -87.3995047,46.558019200000004,0.0 -87.3994991,46.55827149999999,0.0 -87.4006194,46.5582945,0.0 -87.4006134,46.5584885,0.0 -87.4007624,46.5584885,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 2</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3994967,46.5582179,0.0 -87.3995004,46.5581508,0.0 -87.3993821,46.5581469,0.0 -87.3993801,46.5580959,0.0 -87.3989881,46.5580919,0.0 -87.3989801,46.5583799,0.0 -87.3992211,46.5583839,0.0 -87.3992271,46.5583349,0.0 -87.3992801,46.5583299,0.0 -87.3993661,46.5582149,0.0 -87.3994967,46.5582179,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 12</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3967791,46.5557522,0.0 -87.3967201,46.55574320000001,0.0 -87.3966931,46.5557102,0.0 -87.3966201,46.555687199999994,0.0 -87.39661810000001,46.55576419999999,0.0 -87.3965761,46.555790200000004,0.0 -87.3965221,46.55578820000001,0.0 -87.3965141,46.556240200000005,0.0 -87.3965841,46.5562422,0.0 -87.3965621,46.5562772,0.0 -87.3964921,46.5562842,0.0 -87.3964901,46.5563382,0.0 -87.3965481,46.55634320000001,0.0 -87.3965761,46.5563642,0.0 -87.3965631,46.55680319999999,0.0 -87.3965611,46.5569312,0.0 -87.3964941,46.556932200000006,0.0 -87.3964711,46.5574442,0.0 -87.3967381,46.5574462,0.0 -87.3967411,46.5572932,0.0 -87.3966851,46.5572912,0.0 -87.3966881,46.55723720000001,0.0 -87.3967461,46.5572382,0.0 -87.3967521,46.5567982,0.0 -87.3966671,46.5567922,0.0 -87.3966761,46.5564112,0.0 -87.3967631,46.5564092,0.0 -87.3967791,46.5557522,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 12</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3967354,46.5574462,0.0 -87.3964684,46.55744419999999,0.0 -87.39646340000002,46.5577902,0.0 -87.3965064,46.5577952,0.0 -87.3965384,46.55782020000001,0.0 -87.3965314,46.5579362,0.0 -87.3966344,46.55793719999999,0.0 -87.3966354,46.5577932,0.0 -87.3966664,46.5577652,0.0 -87.39672340000001,46.5577662,0.0 -87.3967354,46.5574462,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 17</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4108177,46.5582032,0.0 -87.4108167,46.5581182,0.0 -87.4106197,46.5581202,0.0 -87.4103417,46.5580652,0.0 -87.4101127,46.5579632,0.0 -87.4100217,46.5580212,0.0 -87.4103827,46.55817520000001,0.0 -87.4105387,46.55819420000001,0.0 -87.4108177,46.5582032,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 17</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4094081,46.55737760000001,0.0 -87.4095641,46.55730560000001,0.0 -87.40974110000002,46.5572476,0.0 -87.4099441,46.5572116,0.0 -87.4101491,46.5572056,0.0 -87.4101471,46.5571366,0.0 -87.4102181,46.5571366,0.0 -87.4102211,46.5570826,0.0 -87.4099061,46.5570906,0.0 -87.4097361,46.5571176,0.0 -87.4095761,46.557158599999994,0.0 -87.4092541,46.557300600000005,0.0 -87.4094081,46.55737760000001,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 18</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4094597,46.5589399,0.0 -87.4095477,46.5590269,0.0 -87.4095667,46.5590769,0.0 -87.4096067,46.55909489999999,0.0 -87.4101787,46.5591039,0.0 -87.4102047,46.5587509,0.0 -87.4094167,46.5587499,0.0 -87.4094067,46.5587919,0.0 -87.4094237,46.5588729,0.0 -87.4094497,46.5588909,0.0 -87.4094597,46.5589399,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 27</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4100134,46.562010900000004,0.0 -87.4100439,46.5620111,0.0 -87.4100446,46.56198500000001,0.0 -87.4101203,46.561984800000005,0.0 -87.410127,46.561833,0.0 -87.4100528,46.561833,0.0 -87.4100519,46.5618551,0.0 -87.4099729,46.56185440000001,0.0 -87.409973,46.5618472,0.0 -87.4098632,46.561847,0.0 -87.4098629,46.5618993,0.0 -87.4098492,46.5620124,0.0 -87.4097879,46.5620097,0.0 -87.4097887,46.5618591,0.0 -87.4096798,46.5618561,0.0 -87.4096514,46.561832900000006,0.0 -87.4096234,46.5618439,0.0 -87.4096184,46.5618779,0.0 -87.4095874,46.5618789,0.0 -87.4095854,46.5619796,0.0 -87.4096894,46.5619789,0.0 -87.4096884,46.5620109,0.0 -87.4095468,46.562010900000004,0.0 -87.40954340000002,46.5621829,0.0 -87.4098184,46.562186600000004,0.0 -87.4100134,46.562010900000004,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 9</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4082045,46.5632251,0.0 -87.4077304,46.5632216,0.0 -87.4077277,46.5636055,0.0 -87.4077438,46.563646299999995,0.0 -87.4077988,46.56369540000001,0.0 -87.4078699,46.5637226,0.0 -87.4080107,46.5637262,0.0 -87.4080656,46.563741,0.0 -87.4081018,46.563768599999996,0.0 -87.4081026,46.5639165,0.0 -87.4080965,46.5639359,0.0 -87.4080448,46.5639645,0.0 -87.4082982,46.5639645,0.0 -87.4082418,46.5639553,0.0 -87.4082176,46.5639341,0.0 -87.4082068,46.5639148,0.0 -87.4082045,46.5632251,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 22</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4078691,46.5673406,0.0 -87.4078861,46.5673856,0.0 -87.4079471,46.5673866,0.0 -87.4082991,46.5673756,0.0 -87.4082981,46.5668486,0.0 -87.4083561,46.5667986,0.0 -87.4083541,46.5666486,0.0 -87.4087361,46.5666396,0.0 -87.4087221,46.5663736,0.0 -87.4083411,46.56637959999999,0.0 -87.4083221,46.5663076,0.0 -87.4076411,46.566342600000006,0.0 -87.4075791,46.5663306,0.0 -87.4075311,46.5662996,0.0 -87.4075281,46.5660516,0.0 -87.4075151,46.5659106,0.0 -87.4074611,46.565814599999996,0.0 -87.4070931,46.5653926,0.0 -87.4070021,46.56532060000001,0.0 -87.4068671,46.5652946,0.0 -87.4059171,46.5653036,0.0 -87.4059221,46.5653806,0.0 -87.4061721,46.565375599999996,0.0 -87.4061961,46.5653816,0.0 -87.4062081,46.5654066,0.0 -87.4061941,46.5654316,0.0 -87.4061341,46.56541260000001,0.0 -87.4061851,46.5664326,0.0 -87.4062501,46.5664496,0.0 -87.4062601,46.5664666,0.0 -87.40623010000002,46.56649660000001,0.0 -87.4059221,46.5665056,0.0 -87.4059241,46.5665696,0.0 -87.4062441,46.5665616,0.0 -87.4063531,46.5665286,0.0 -87.4064521,46.5664686,0.0 -87.4067781,46.566230600000004,0.0 -87.4068041,46.5661666,0.0 -87.4067961,46.5659216,0.0 -87.4067721,46.5653666,0.0 -87.40688310000002,46.5653686,0.0 -87.4069261,46.5653906,0.0 -87.4069551,46.5654176,0.0 -87.4069921,46.5659586,0.0 -87.4074121,46.5659426,0.0 -87.40744410000002,46.5666046,0.0 -87.4075081,46.5666026,0.0 -87.4075141,46.5667676,0.0 -87.4076451,46.5667616,0.0 -87.4076531,46.566940599999995,0.0 -87.4074641,46.5669456,0.0 -87.4074771,46.56718260000001,0.0 -87.4073881,46.5671866,0.0 -87.4073961,46.5672976,0.0 -87.4069621,46.5673306,0.0 -87.4068721,46.5673406,0.0 -87.4065091,46.5673486,0.0 -87.4065001,46.5671896,0.0 -87.4063921,46.5671926,0.0 -87.4063821,46.566980599999994,0.0 -87.4063501,46.5669806,0.0 -87.4063471,46.5669396,0.0 -87.4062491,46.5669416,0.0 -87.4062581,46.5672596,0.0 -87.4062311,46.5673006,0.0 -87.4061871,46.5673196,0.0 -87.40589010000001,46.5673216,0.0 -87.4059001,46.5673916,0.0 -87.4064181,46.5673936,0.0 -87.4064551,46.567400600000006,0.0 -87.4072151,46.5674066,0.0 -87.4073201,46.5673936,0.0 -87.4073871,46.56735460000001,0.0 -87.4078691,46.5673406,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 19</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4063275,46.5650337,0.0 -87.406317,46.5645988,0.0 -87.405911,46.5645908,0.0 -87.405914,46.5646688,0.0 -87.406009,46.5646698,0.0 -87.40608100000001,46.5647048,0.0 -87.406088,46.5648968,0.0 -87.406037,46.5649478,0.0 -87.405918,46.564951799999996,0.0 -87.40592,46.56503480000001,0.0 -87.4063275,46.5650337,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 37</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4033591,46.5706423,0.0 -87.40330860000002,46.5706431,0.0 -87.4033088,46.570673,0.0 -87.4032366,46.5706882,0.0 -87.4029908,46.5706898,0.0 -87.4029622,46.5706739,0.0 -87.4029604,46.57062669999999,0.0 -87.4029171,46.5706246,0.0 -87.4029088,46.5706605,0.0 -87.4028819,46.570686699999996,0.0 -87.4028524,46.5706869,0.0 -87.4028389,46.5706742,0.0 -87.4028345,46.570627,0.0 -87.4025055,46.570624,0.0 -87.4025101,46.5706851,0.0 -87.4022539,46.5706854,0.0 -87.4019722,46.5706806,0.0 -87.4017594,46.5707203,0.0 -87.4018765,46.5708208,0.0 -87.4018782,46.570781200000006,0.0 -87.4019229,46.5707545,0.0 -87.402078,46.5707493,0.0 -87.4022667,46.5707607,0.0 -87.4022809,46.570808,0.0 -87.4029928,46.570807,0.0 -87.4030003,46.5707521,0.0 -87.4033364,46.57075029999999,0.0 -87.4033591,46.5706423,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 37</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4027127,46.570268,0.0 -87.4027167,46.570127,0.0 -87.4024487,46.570126,0.0 -87.4022007,46.570128,0.0 -87.4019927,46.570113,0.0 -87.4016797,46.570035,0.0 -87.4016747,46.570003,0.0 -87.4016127,46.5701,0.0 -87.4016847,46.570093,0.0 -87.4020427,46.570175,0.0 -87.4024497,46.570192,0.0 -87.4024527,46.570267,0.0 -87.4027127,46.570268,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 37</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.404361,46.5689911,0.0 -87.404362,46.5689151,0.0 -87.403577,46.5689101,0.0 -87.403579,46.5689851,0.0 -87.404361,46.5689911,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 37</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4045073,46.56912959999999,0.0 -87.4044723,46.5690906,0.0 -87.4044653,46.5690496,0.0 -87.4044773,46.5689776,0.0 -87.40481030000001,46.5689806,0.0 -87.4048033,46.568475600000006,0.0 -87.4032753,46.5684756,0.0 -87.4032673,46.5689816,0.0 -87.4033363,46.56898960000001,0.0 -87.4033493,46.5690136,0.0 -87.4033413,46.569096599999995,0.0 -87.4032943,46.5691246,0.0 -87.4035013,46.5691296,0.0 -87.40345530000002,46.56908760000001,0.0 -87.4034463,46.5690406,0.0 -87.4034463,46.5690076,0.0 -87.4034663,46.5689836,0.0 -87.4035763,46.568979600000006,0.0 -87.4035743,46.5689046,0.0 -87.4043593,46.568909600000005,0.0 -87.4043583,46.5689856,0.0 -87.4043783,46.5690076,0.0 -87.4043703,46.569092600000005,0.0 -87.4043203,46.5691286,0.0 -87.4045073,46.56912959999999,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 37</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4043376,46.571203700000005,0.0 -87.40434260000002,46.5710887,0.0 -87.4031626,46.5710877,0.0 -87.4031626,46.5710337,0.0 -87.4027996,46.5710307,0.0 -87.4026256,46.5710267,0.0 -87.4024466,46.5710107,0.0 -87.4022706,46.5709677,0.0 -87.4021036,46.570899700000005,0.0 -87.4019626,46.5708237,0.0 -87.4019146,46.5708537,0.0 -87.4017716,46.5707417,0.0 -87.4016636,46.570608699999994,0.0 -87.4016016,46.5704657,0.0 -87.4015706,46.57032070000001,0.0 -87.4015966,46.5701137,0.0 -87.4017136,46.569925700000006,0.0 -87.4018516,46.5697457,0.0 -87.4020656,46.5694767,0.0 -87.4021906,46.5693487,0.0 -87.4023446,46.5692447,0.0 -87.4025426,46.5691937,0.0 -87.4029286,46.5691877,0.0 -87.4029306,46.5691247,0.0 -87.4025316,46.5691277,0.0 -87.4023016,46.5691777,0.0 -87.4020876,46.56932770000001,0.0 -87.4017456,46.5697307,0.0 -87.4015426,46.5700097,0.0 -87.4014976,46.570162700000004,0.0 -87.4014706,46.5703177,0.0 -87.4015136,46.5704837,0.0 -87.4015826,46.57064170000001,0.0 -87.4016946,46.5707797,0.0 -87.4018496,46.5709027,0.0 -87.4017986,46.5709417,0.0 -87.4019566,46.571032699999996,0.0 -87.4021306,46.5711097,0.0 -87.40231160000002,46.5711577,0.0 -87.4025036,46.5711857,0.0 -87.4027866,46.5712007,0.0 -87.4030676,46.5712007,0.0 -87.4043376,46.571203700000005,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 46</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4104294,46.5652526,0.0 -87.4104264,46.5642636,0.0 -87.4100804,46.5642626,0.0 -87.4100164,46.5642496,0.0 -87.4099824,46.5642096,0.0 -87.4099834,46.5641336,0.0 -87.4099984,46.5641056,0.0 -87.4100334,46.56409059999999,0.0 -87.4100754,46.5640876,0.0 -87.4100974,46.5640766,0.0 -87.4097544,46.5640746,0.0 -87.4097934,46.56409059999999,0.0 -87.4098284,46.5640916,0.0 -87.40985640000001,46.5641046,0.0 -87.4098724,46.5641296,0.0 -87.4098784,46.5642056,0.0 -87.4098534,46.5642456,0.0 -87.4097944,46.564261599999995,0.0 -87.4094744,46.5642616,0.0 -87.4094744,46.5652446,0.0 -87.4104294,46.5652526,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 27</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.402792,46.5603206,0.0 -87.402801,46.5599786,0.0 -87.402427,46.5599746,0.0 -87.40242,46.5597956,0.0 -87.400744,46.559777600000004,0.0 -87.400744,46.5602916,0.0 -87.400821,46.560294600000006,0.0 -87.400811,46.5603296,0.0 -87.400773,46.56036160000001,0.0 -87.400709,46.5603836,0.0 -87.401022,46.5603886,0.0 -87.400944,46.5603626,0.0 -87.400919,46.5603326,0.0 -87.400923,46.5602956,0.0 -87.40262,46.5603196,0.0 -87.402618,46.5603566,0.0 -87.402593,46.560382600000004,0.0 -87.402552,46.5604036,0.0 -87.402794,46.56040959999999,0.0 -87.402753,46.5603866,0.0 -87.402723,46.5603606,0.0 -87.402723,46.560320600000004,0.0 -87.402792,46.5603206,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 54</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4018317,46.557527,0.0 -87.4017117,46.55743300000001,0.0 -87.4012517,46.557424,0.0 -87.4012507,46.557528,0.0 -87.4017077,46.55753599999999,0.0 -87.4018247,46.557547,0.0 -87.4018317,46.557527,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 44</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4011223,46.5555927,0.0 -87.39943430000001,46.55554970000001,0.0 -87.3994373,46.5556917,0.0 -87.4011223,46.5557217,0.0 -87.4011223,46.5555927,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 8</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3997274,46.556250399999996,0.0 -87.4004594,46.5562674,0.0 -87.4005724,46.5562354,0.0 -87.4006574,46.5561754,0.0 -87.4007004,46.5560974,0.0 -87.4007164,46.5558114,0.0 -87.3989574,46.5557764,0.0 -87.3989574,46.55625440000001,0.0 -87.3992654,46.556252400000005,0.0 -87.3992644,46.5562824,0.0 -87.3991804,46.5562834,0.0 -87.3991694,46.5565294,0.0 -87.3992404,46.5565874,0.0 -87.3997884,46.556597399999994,0.0 -87.3998004,46.5562824,0.0 -87.3997314,46.5562854,0.0 -87.3997274,46.556250399999996,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Log 60</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3951504,46.5579452,0.0 -87.3951644,46.557349200000004,0.0 -87.3951324,46.5572912,0.0 -87.3950684,46.5572382,0.0 -87.3949794,46.557206199999996,0.0 -87.3948834,46.5572202,0.0 -87.3947054,46.5572872,0.0 -87.3946074,46.5572752,0.0 -87.39446940000002,46.557219200000006,0.0 -87.3943994,46.5572242,0.0 -87.3942434,46.5572742,0.0 -87.3941584,46.5572662,0.0 -87.3940124,46.5572082,0.0 -87.3939424,46.5572122,0.0 -87.3937854,46.5572682,0.0 -87.39369740000001,46.5572922,0.0 -87.3935514,46.5572322,0.0 -87.3934344,46.5572722,0.0 -87.3934214,46.5577802,0.0 -87.3935454,46.5577832,0.0 -87.3936844,46.5578452,0.0 -87.3937574,46.557847200000005,0.0 -87.3939034,46.5577982,0.0 -87.3940014,46.5577942,0.0 -87.3941374,46.5578482,0.0 -87.3942174,46.5578632,0.0 -87.3943704,46.5578002,0.0 -87.3943694,46.5579082,0.0 -87.3944634,46.5579372,0.0 -87.3945814,46.5579462,0.0 -87.3946794,46.5579282,0.0 -87.3948164,46.5578662,0.0 -87.3949284,46.5578662,0.0 -87.3950594,46.557915200000004,0.0 -87.3951504,46.5579452,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 57</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.392252,46.5582312,0.0 -87.392258,46.558048199999995,0.0 -87.39108,46.5580262,0.0 -87.391074,46.5582072,0.0 -87.392252,46.5582312,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 58</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.39081170000001,46.55816889999999,0.0 -87.3908157,46.5580109,0.0 -87.39089570000002,46.5579789,0.0 -87.39089570000002,46.5579209,0.0 -87.3909487,46.55789990000001,0.0 -87.3910597,46.5578149,0.0 -87.3911697,46.5578589,0.0 -87.3912837,46.5578609,0.0 -87.3913597,46.5578319,0.0 -87.3913817,46.5571719,0.0 -87.3913187,46.55715190000001,0.0 -87.3912137,46.5571489,0.0 -87.3910887,46.55709490000001,0.0 -87.3909967,46.5570909,0.0 -87.3908577,46.5571429,0.0 -87.3907477,46.5571409,0.0 -87.3906217,46.5570869,0.0 -87.3905327,46.5570829,0.0 -87.3903897,46.5571309,0.0 -87.3902867,46.5571299,0.0 -87.39015670000002,46.5570739,0.0 -87.3900697,46.5570709,0.0 -87.3899897,46.5571009,0.0 -87.3899587,46.5581359,0.0 -87.3900407,46.5581729,0.0 -87.3901187,46.5581759,0.0 -87.3901177,46.5581089,0.0 -87.3902667,46.5581689,0.0 -87.3903487,46.5581689,0.0 -87.3904867,46.5581179,0.0 -87.3905877,46.55811690000001,0.0 -87.3907147,46.5581669,0.0 -87.39081170000001,46.55816889999999,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 56</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.391375,46.560218,0.0 -87.39142,46.56013599999999,0.0 -87.390736,46.55934,0.0 -87.389792,46.559281000000006,0.0 -87.389741,46.55934,0.0 -87.389712,46.560151,0.0 -87.389728,46.560203,0.0 -87.391375,46.560218,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 51</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3954514,46.5598719,0.0 -87.39598440000002,46.5598779,0.0 -87.3959984,46.55938689999999,0.0 -87.3954654,46.5593799,0.0 -87.3954514,46.5598719,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 59</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3916564,46.5571873,0.0 -87.3921954,46.55719630000001,0.0 -87.3924284,46.5572273,0.0 -87.3928324,46.5572343,0.0 -87.3930144,46.5572103,0.0 -87.3932064,46.5572143,0.0 -87.3932064,46.557083299999995,0.0 -87.3920514,46.557068300000005,0.0 -87.3920514,46.55711829999999,0.0 -87.3917414,46.5571113,0.0 -87.3916314,46.5570943,0.0 -87.3916274,46.55719930000001,0.0 -87.3916564,46.5571873,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 52</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3953364,46.5599702,0.0 -87.3953604,46.5596782,0.0 -87.3953434,46.5595732,0.0 -87.3953444,46.55950320000001,0.0 -87.3953864,46.559409200000005,0.0 -87.3954004,46.5592292,0.0 -87.3951664,46.5592192,0.0 -87.3951074,46.5598312,0.0 -87.3951784,46.5598372,0.0 -87.3952184,46.55986120000001,0.0 -87.3952034,46.55997219999999,0.0 -87.3952654,46.5599742,0.0 -87.3953364,46.5599702,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 50</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.3954141,46.5590263,0.0 -87.3954341,46.5581163,0.0 -87.3952081,46.558109300000005,0.0 -87.3951851,46.55902230000001,0.0 -87.3954141,46.5590263,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 53</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.393818,46.5621957,0.0 -87.394803,46.5622067,0.0 -87.394882,46.5621917,0.0 -87.394895,46.56133270000001,0.0 -87.394518,46.5613297,0.0 -87.394017,46.561443700000005,0.0 -87.393844,46.56145469999999,0.0 -87.393768,46.5614877,0.0 -87.393754,46.5615397,0.0 -87.393675,46.5615347,0.0 -87.39366,46.5621677,0.0 -87.39373200000001,46.5621947,0.0 -87.393818,46.5621957,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 54</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.393566,46.5621707,0.0 -87.393622,46.5615917,0.0 -87.393545,46.5615847,0.0 -87.39355600000002,46.5615357,0.0 -87.39354,46.56148970000001,0.0 -87.39348,46.561446700000005,0.0 -87.393394,46.5614277,0.0 -87.393313,46.5614237,0.0 -87.393243,46.5614477,0.0 -87.393199,46.56148970000001,0.0 -87.39317700000001,46.5615427,0.0 -87.393093,46.5615607,0.0 -87.392906,46.5620857,0.0 -87.392972,46.5621027,0.0 -87.393126,46.5621277,0.0 -87.393309,46.5615987,0.0 -87.393253,46.5615467,0.0 -87.393263,46.5615187,0.0 -87.393304,46.5614957,0.0 -87.393368,46.561501699999994,0.0 -87.393432,46.5615097,0.0 -87.393468,46.5615327,0.0 -87.393479,46.5615617,0.0 -87.393469,46.5615857,0.0 -87.393405,46.5615867,0.0 -87.393338,46.5621557,0.0 -87.393409,46.5621837,0.0 -87.393483,46.5621927,0.0 -87.393566,46.5621707,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 56</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br><br>Category: Parking - General]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.392213,46.561108,0.0 -87.392208,46.56105,0.0 -87.39226400000001,46.561023,0.0 -87.392303,46.560993,0.0 -87.392327,46.560928999999994,0.0 -87.392191,46.560709,0.0 -87.392111,46.560473,0.0 -87.392083,46.56044299999999,0.0 -87.392036,46.560423,0.0 -87.39195700000002,46.560414,0.0 -87.391848,46.560427,0.0 -87.391826,46.56042200000001,0.0 -87.391818,46.560377,0.0 -87.391073,46.56044800000001,0.0 -87.391055,46.560501,0.0 -87.391053,46.560554,0.0 -87.39112,46.560806,0.0 -87.391196,46.56097,0.0 -87.39129,46.56113400000001,0.0 -87.391536,46.56145,0.0 -87.392213,46.561108,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Log 25</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.40529940000002,46.5572515,0.0 -87.4062044,46.55746950000001,0.0 -87.4063734,46.5571355,0.0 -87.4064514,46.5570165,0.0 -87.4062834,46.5569695,0.0 -87.40608540000001,46.5573465,0.0 -87.4053541,46.5571599,0.0 -87.40529940000002,46.5572515,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 19</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4054688,46.5565202,0.0 -87.4052898,46.5564512,0.0 -87.4048378,46.5563422,0.0 -87.4046318,46.5563142,0.0 -87.4047258,46.5563662,0.0 -87.4048108,46.5563882,0.0 -87.4053268,46.5565182,0.0 -87.4054688,46.5565202,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4068622,46.5640793,0.0 -87.4068695,46.5641383,0.0 -87.4068366,46.564188099999996,0.0 -87.4067796,46.564207499999995,0.0 -87.4067037,46.564212100000006,0.0 -87.406635,46.564186600000006,0.0 -87.4066113,46.5641315,0.0 -87.4066118,46.56408,0.0 -87.4065199,46.5640807,0.0 -87.406556,46.5641358,0.0 -87.4065446,46.56419009999999,0.0 -87.4064956,46.5642185,0.0 -87.4064946,46.5643281,0.0 -87.4068726,46.5643261,0.0 -87.4069849,46.5642722,0.0 -87.4069566,46.5642121,0.0 -87.4069578,46.5641409,0.0 -87.4069733,46.5640792,0.0 -87.4068622,46.5640793,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4075929,46.5640773,0.0 -87.4074542,46.5640773,0.0 -87.4074823,46.56410420000001,0.0 -87.4075044,46.56419240000001,0.0 -87.4075131,46.5642842,0.0 -87.4075093,46.5643413,0.0 -87.4074786,46.564369000000006,0.0 -87.4073928,46.56438910000001,0.0 -87.4072776,46.5643889,0.0 -87.40723190000001,46.5643612,0.0 -87.4071996,46.5642836,0.0 -87.4071422,46.564161,0.0 -87.40712500000001,46.564079,0.0 -87.40703340000002,46.5640816,0.0 -87.4070642,46.5641163,0.0 -87.4071258,46.5642526,0.0 -87.4071741,46.564390700000004,0.0 -87.4072837,46.56448000000001,0.0 -87.4074054,46.5644772,0.0 -87.4074835,46.564469900000006,0.0 -87.4075831,46.5643833,0.0 -87.4075628,46.5642519,0.0 -87.4075505,46.5641077,0.0 -87.4075929,46.5640773,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#poly-DB4436-1-76</styleUrl>
+			<name>Lot 29</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - Faculty &amp;amp; Staff</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - Faculty & Staff<br><br>Category: Parking - Faculty &amp; Staff]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.407729,46.5579553,0.0 -87.4076788,46.557905000000005,0.0 -87.4076876,46.5578862,0.0 -87.4075732,46.5578972,0.0 -87.4075885,46.5579092,0.0 -87.4074307,46.5579894,0.0 -87.4074075,46.5579787,0.0 -87.4074514,46.55792009999999,0.0 -87.4069047,46.5573737,0.0 -87.4068076,46.5573797,0.0 -87.4068059,46.5573596,0.0 -87.4069553,46.5572868,0.0 -87.4069786,46.5572989,0.0 -87.4070672,46.5571872,0.0 -87.4070024,46.55712539999999,0.0 -87.406643,46.557298100000004,0.0 -87.406702,46.5573637,0.0 -87.4066618,46.557416399999994,0.0 -87.4073509,46.558106900000006,0.0 -87.4076126,46.5579814,0.0 -87.4076445,46.5579954,0.0 -87.407729,46.5579553,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-3F5BA9-1-76'>
+			<LineStyle>
+				<color>ffA95B3F</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4CA95B3F</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-62AF44-1-76'>
+			<LineStyle>
+				<color>ff44AF62</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C44AF62</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-DB4436-1-76'>
+			<LineStyle>
+				<color>ff3644DB</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C3644DB</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-F4B400-1-76'>
+			<LineStyle>
+				<color>ff00B4F4</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C00B4F4</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>
