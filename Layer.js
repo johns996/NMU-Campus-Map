@@ -85,6 +85,14 @@ Layer.prototype.getPolygonNamed = function(name) {
 	return this.polygonMap[name];
 };
 
+Layer.prototype.argument = function(arg) {
+	if(arg === undefined || arg == '') return;
+	this.showPolygons();
+	toggleInfo(arg.replace(/-+/g, ''));
+	this.moveCenterTo(arg.replace(/-+/g, ' '));
+	this.mouseoverPolygon(arg.replace(/-+/g, ' '));
+};
+
 var PolygonCollection = function () {
 	this.array = [];
 };
