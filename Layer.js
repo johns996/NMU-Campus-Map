@@ -1,33 +1,58 @@
-var Layer = function (layer, map) {
+var Layer = function (layer, map, name) {
 	this.mouseoverOptions = { fillOpacity: 0.75, strokeOpacity: 1.0, stokeWidth: 5 };
 	this.mouseoutOptions =  { fillOpacity: 0.16, strokeOpactiy: 1.0, strokeWidth: 10 };
 	this.file = layer.baseUrl;
 	this.centerPointMap = {}; // name => center of polygon
 	this.windowPointMap = {}; // name => info window position point
-	this.polygonMap 	= {}; // name => polygon associated with it
+	this.placemarkMap 	= {}; // name => placemark associated with it
 	this.map = map;
+	this.mapKey = {}; // category => color
+	this.mapKeyHtml;
+	this.name = name;
+	this.showing = false;
 	var self = this;
 	layer.placemarks.forEach(function(each) {
-		//each.polygon.setMap(null);
-		self.centerPointMap[each.name] = each.polygon.bounds.getCenter();
-		self.windowPointMap[each.polygon.title] = self.findEdge(each.polygon.bounds.getCenter(), each.polygon);
-		self.getPolygonNamed(each.polygon.title).add(each.polygon);
-		each.polygon.setOptions(self.mouseoutOptions);
-		google.maps.event.addListener(each.polygon, 'mouseover', function(event) {
-			this.setOptions(self.mouseoverOptions);
-			this.infoWindow.setOptions(this.infoWindowOptions);
-			this.infoWindow.setPosition(self.windowPointMap[this.title]);
-			this.infoWindow.open(self.map);
-		});
-		google.maps.event.addListener(each.polygon, 'mouseout', function(event) {
-			this.setOptions(self.mouseoutOptions);
-		});
-		google.maps.event.clearListeners(each.polygon, 'click');
-		google.maps.event.addListener(each.polygon, 'click', function(event) {
-			toggleInfo( this.title.replace(/\s+/g, '') );
-			self.moveCenterTo( this.title );
-		});
+		self.addPlacemark(each);
 	});
+	this.renderMapKey();
+};
+
+Layer.prototype.addPlacemark = function(placemark) {
+	if( placemark.polygon )
+		return this.addPolygonPlacemark(placemark);
+	console.log(placemark);
+	this.mapKey[placemark.name] = '#' + placemark.style.color.substr(2);
+	this.getPlacemarkNamed(placemark.name).add(placemark.marker);
+};
+
+Layer.prototype.addPolygonPlacemark = function(placemark) {
+	this.mapKey[this.categoryFor(placemark)] = placemark.polygon.fillColor;
+	//this.centerPointMap[placemark.name] = placemark.polygon.bounds.getCenter();
+	//this.windowPointMap[placemark.polygon.title] = this.findEdge(placemark.polygon.bounds.getCenter(), placemark.polygon);
+	this.getPlacemarkNamed(placemark.polygon.title).add(placemark.polygon);
+	placemark.polygon.setOptions(this.mouseoutOptions);
+	google.maps.event.addListener(placemark.polygon, 'mouseover', function(event) {
+		this.setOptions(this.mouseoverOptions);
+	});
+	google.maps.event.addListener(placemark.polygon, 'mouseout', function(event) {
+		this.setOptions(this.mouseoutOptions);
+	});
+};
+
+Layer.prototype.renderMapKey = function() {
+	this.mapKeyHtml = '';
+	for( var key in this.mapKey ) {
+		var value = this.mapKey[key];
+		this.mapKeyHtml += '<div><span style="background-color: '+ value +'"></span> = '+ key +'</div>';
+	}
+};
+
+Layer.prototype.categoryFor = function(placemark) {
+	var desc = placemark.description;
+	var catStr = "Category: ";
+	var start = desc.indexOf(catStr);
+	var end = desc.indexOf("<br>", start);
+	return desc.substring(start+catStr.length, end);
 };
 
 Layer.prototype.moveCenterTo = function(name) {
@@ -40,8 +65,8 @@ Layer.prototype.moveCenter = function(point) {
 	this.map.setCenter( point );
 };
 
-Layer.prototype.mouseoverPolygon = function(name) {
-	google.maps.event.trigger( this.getPolygonNamed(name).first(), 'mouseover' );
+Layer.prototype.clickPlacemark = function(name) {
+	google.maps.event.trigger( this.getPlacemarkNamed(name).first(), 'click' );
 };
 
 Layer.prototype.findEdge = function(point, poly) {
@@ -60,53 +85,90 @@ Layer.prototype.findEdge = function(point, poly) {
 	return point;
 };
 
-Layer.prototype.doPolygons = function(block) {
-	for( var key in this.polygonMap ) {
-		var obj = this.polygonMap[key];
+Layer.prototype.doPlacemarks = function(block) {
+	for( var key in this.placemarkMap ) {
+		var obj = this.placemarkMap[key];
 		block(obj);
 	}
 }
 
-Layer.prototype.hidePolygons = function () {
-	this.doPolygons(function(each) {
-		each.setMap(null);
+Layer.prototype.hidePlacemarks = function () {
+	this.showing = false;
+	var key = $(this.getButtonId()).next('.key');
+	if( key.hasClass('opened') ) {
+		key.removeClass('opened');
+		//key.slideUp();
+	}
+	var self = this;
+	this.doPlacemarks(function(each) {
+		self.hide(each);
 	});
 };
 
-Layer.prototype.showPolygons = function() {
-	this.doPolygons(function(each) {
-		each.setMap(this.map);
+Layer.prototype.showPlacemarks = function() {
+	this.showing = true;
+	var key = $(this.getButtonId()).next('.key');
+	if( !key.hasClass('opened') ) {
+		key.addClass('opened');
+		//key.slideDown();
+	}
+	var self = this;
+	this.doPlacemarks(function(each) {
+		self.show(each);
 	});
 };
 
-Layer.prototype.getPolygonNamed = function(name) {
-	if( this.polygonMap[name] === undefined )
-		this.polygonMap[name] = new PolygonCollection();
-	return this.polygonMap[name];
+Layer.prototype.hide = function(placemark) {
+	placemark.setMap(null);
+}
+
+Layer.prototype.show = function(placemark) {
+	placemark.setMap(this.map);
+}
+
+Layer.prototype.togglePlacemarks = function() {
+	if( this.showing )
+		this.hidePlacemarks();
+	else
+		this.showPlacemarks();
+};
+
+Layer.prototype.getPlacemarkNamed = function(name) {
+	if( this.placemarkMap[name] === undefined )
+		this.placemarkMap[name] = new Placemark();
+	return this.placemarkMap[name];
 };
 
 Layer.prototype.argument = function(arg) {
 	if(arg === undefined || arg == '') return;
-	this.showPolygons();
+	this.showPlacemarks();
 	toggleInfo(arg.replace(/-+/g, ''));
 	this.moveCenterTo(arg.replace(/-+/g, ' '));
-	this.mouseoverPolygon(arg.replace(/-+/g, ' '));
+	this.clickPlacemark(arg.replace(/-+/g, ' '));
 };
 
-var PolygonCollection = function () {
+Layer.prototype.getButtonId = function() {
+	return '#' + this.name + '-button';
+};
+
+var newPlacemark = function() {
+	return new Placemark()
+};
+
+var Placemark = function () {
 	this.array = [];
 };
 
-PolygonCollection.prototype.add = function(polygon) {
-	this.array.push(polygon);
+Placemark.prototype.add = function(placemark) {
+	this.array.push(placemark);
 };
 
-PolygonCollection.prototype.setMap = function(map) {
+Placemark.prototype.setMap = function(map) {
 	this.array.forEach(function(each) {
 		each.setMap(map);
 	});
 };
 
-PolygonCollection.prototype.first = function(map) {
+Placemark.prototype.first = function(map) {
 	return this.array[1];
 };

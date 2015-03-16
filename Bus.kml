@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Bus</name>
+		<Placemark>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<name>Lincoln Ave. Bus Stop</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-87.412245,46.5616783,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<name>Jacobetti Bus Stop</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-87.4045135,46.5696623,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<name>LRC Bus Stop</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-87.4055596,46.5602205,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<name>West Science Bus Stop</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-87.4074934,46.5582286,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<name>UC Bus Stop</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-87.3992886,46.5566259,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<name>PEIF Bus Stop</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-87.3950949,46.5590503,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436'>
+			<IconStyle>
+				<color>ffDB4436</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|DB4436</href>
+					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>

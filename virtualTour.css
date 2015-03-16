@@ -1,25 +1,83 @@
 
 html { height: 100%; }
 body { height: 100%; margin: 0; padding: 0; }
-#map-container { height: 100%; width: 100%; margin-bottom: 20px; float: left; }
+#map-container { height: 100%; width: 70%; float: left; }
 #map-canvas { min-height: 100%; }
-#info { float: left; height: 100%; display: none; }
 #building-info { padding-left: 10px; height: 100%; }
 #close-info { text-align: right; }
 .cycle-slideshow { height: 200px; }
-#info.opened { width: 30%; display: block; }
-#map-container.shared { width: 70%; }
+#info {
+	width: 30%;
+	height: 100%;
+	float: right;
+	background-color: white;
+	overflow: hidden;
+}
 
-#buildings-button, #parking-button {
+.info-button {
+	display: none;
+	cursor: pointer;
+}
+
+.layer-option .key {
+	display: none;
+}
+
+.layer-option .key.opened {
+	display: block;
+}
+
+.layer-option .key span {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+.layer-button {
 	background-color: green;
 	font-size: 2em;
 	text-align: center;
 	cursor: pointer;
 	float: left;
-	width: 50%;
+	width: 100%;
+	margin: -1px;
+	border: solid 1px black;
 }
 
-@media(max-width: 500px) {
-	#info.opened { width: 100%; height: 30%; }
-	#map-container.shared { width: 100%; height: 70%; }
+@media(max-width: 750px) {
+	.info-button {
+		width: 100%;
+		height: 50px;
+		display: block;
+		background-color: grey;
+		font-size: 2em;
+	}
+	#info {
+		position: absolute;
+		float: right;
+		height: 50px;
+		width: 100%;
+		transition: height 0.3s ease-in;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		background: none;
+	}
+
+	#info .layer-option {
+		visibility: hidden;
+	}
+
+	#info.opened {
+		height: auto;
+		background-color: white;
+	}
+
+	#info.opened .layer-option {
+		visibility: visible;
+	}
+
+	#map-container {
+		width: 100%;
+	}
 }

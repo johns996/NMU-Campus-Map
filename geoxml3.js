@@ -234,6 +234,7 @@ function processStyle(thisNode, styles, styleID) {
       var styleNodes = thisNode.getElementsByTagName('IconStyle');
       if (!!styleNodes && !!styleNodes.length && (styleNodes.length > 0)) {
         styles[styleID].scale = parseFloat(nodeValue(styleNodes[0].getElementsByTagName('scale')[0]));
+        styles[styleID].color = nodeValue(styleNodes[0].getElementsByTagName('color')[0],defaultStyle.color);
       }
       if (isNaN(styles[styleID].scale)) styles[styleID].scale = 1.0;
       styleNodes = thisNode.getElementsByTagName('Icon');
