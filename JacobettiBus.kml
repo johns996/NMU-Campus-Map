@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
 	<Document>
-		<name>Directions from Jacobetti Bus Stop to Jacobetti Bus Stop</name>
+		<name>NMU Wildcat Shuttle Jacobetti Route</name>
 		<Placemark>
 			<styleUrl>#icon-ci-1</styleUrl>
 			<name>LRC Bus Stop</name>
@@ -41,7 +41,7 @@
 		</Placemark>
 		<Placemark>
 			<styleUrl>#line-1267FF-5</styleUrl>
-			<name>Directions from Jacobetti Bus Stop to UC Bus Stop</name>
+			<name>NMU Wildcat Shuttle Jacobetti Route</name>
 			<ExtendedData>
 			</ExtendedData>
 			<LineString>

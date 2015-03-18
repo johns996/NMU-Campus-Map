@@ -23,7 +23,7 @@ function VirtualTour () {
 				});
 			});
 		}
-		myParser.parse(["Buildings.kml", "Parking.kml", "Phones.kml", "Bus.kml", "PEIFBus.kml", "JacobettiBus.kml"]);
+		myParser.parse(["Buildings.kml", "Parking.kml", "Phones.kml", "Bus.kml", "PEIFBus.kml", "JacobettiBus.kml", "FridayBus.kml"]);
 		function myAfterParse(doc) {
 			console.log("Parsing Completed Successfully");
 			var layers = [ ];
@@ -33,6 +33,7 @@ function VirtualTour () {
 			layers.push(new Layer(doc.shift(), map, 'bus'));
 			layers.push(new Layer(doc.shift(), map, 'peif-bus'));
 			layers.push(new Layer(doc.shift(), map, 'jacobetti-bus'));
+			layers.push(new Layer(doc.shift(), map, 'friday-bus'));
 			setupClickHandlers(layers);
 			var args = window.location.search.substring(1);
 			if( args === undefined ) return;
