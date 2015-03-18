@@ -13,33 +13,6 @@ function VirtualTour () {
 			mapTypeId: google.maps.MapTypeId.ROADMAP // HYBRID, TERRAIN, SATELLITE
 		};
 		map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-		/*layers = [];
-		var path = 'http://euclid.nmu.edu/~jfridstr/VirtualTour/'
-		layerUrls = ["Buildings", "Parking", "Phones", "Bus"];
-		layerUrls.forEach(function(each) {
-			var layer = new google.maps.KmlLayer({
-				url: getFullPath(each),
-				suppressInfoWindows: false,
-				preserveViewport: true,
-				map: null
-			});
-			$(getButtonId(each)).click(function(event) {
-				if( layer.getMap() == null )
-					layer.setMap(map);
-				else
-					layer.setMap(null);
-			});
-			layers.push(layer);
-			google.maps.event.addListener(layer, 'click', function(mklEvent) {
-				var hello = 'hello';
-			});
-		});
-		function getFullPath(aName) {
-			return path + aName + '.kml';
-		}
-		function getButtonId(aName) {
-			return '#' + aName.toLowerCase() + '-button';
-		}*/
 		var myParser = new geoXML3.parser({ map: map, afterParse: myAfterParse, singleInfoWindow: true, zoom: false });
 		function setupClickHandlers(layers) {
 			layers.forEach(function(each) {
@@ -50,7 +23,7 @@ function VirtualTour () {
 				});
 			});
 		}
-		myParser.parse(["Buildings.kml", "Parking.kml", "Phones.kml", "Bus.kml"]);
+		myParser.parse(["Buildings.kml", "Parking.kml", "Phones.kml", "Bus.kml", "PEIFBus.kml", "JacobettiBus.kml"]);
 		function myAfterParse(doc) {
 			console.log("Parsing Completed Successfully");
 			var layers = [ ];
@@ -58,6 +31,8 @@ function VirtualTour () {
 			layers.push(new Layer(doc.shift(), map, 'parking'));
 			layers.push(new Layer(doc.shift(), map, 'phones'));
 			layers.push(new Layer(doc.shift(), map, 'bus'));
+			layers.push(new Layer(doc.shift(), map, 'peif-bus'));
+			layers.push(new Layer(doc.shift(), map, 'jacobetti-bus'));
 			setupClickHandlers(layers);
 			var args = window.location.search.substring(1);
 			if( args === undefined ) return;

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
-	<link href="virtualTour.css" rel="stylesheet"></link>
+	<link href="virtualTour.css" rel="stylesheet"/>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
-	<link href="special.css" rel="stylesheet" type="text/css"></link>
+	<link href="special.css" rel="stylesheet" type="text/css"/>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false"></script>
 	<script type="text/javascript" src="geoxml3.js"></script>
 	<script type="text/javascript" src="ProjectedOverlay.js"></script>
@@ -33,38 +33,46 @@
 		function initSlideshow() {
 			$('.cycle-slideshow').cycle();
 		}
-		</script>
-	</head>
-	<body>
-		<script>
-			$(document).ready(function() {
-				$('.info-button').click(function(event) {
-					$('#info').toggleClass('opened');
-				});
+	</script>
+  </head>
+  <body>
+	<script>
+		$(document).ready(function() {
+			$('.info-button').click(function(event) {
+				$('#info').toggleClass('opened');
 			});
-		</script>
-		<aside id="info">
-			<div class="info-button">☰</div>
-			<div class="layer-option">
-				<div class="layer-button" id="buildings-button">Buildings</div>
-				<div class="key"></div>
-			</div>
-			<div class="layer-option">
-				<div class="layer-button" id="parking-button">Parking Lots</div>
-				<div class="key"></div>
-			</div>
-			<div class="layer-option">
-				<div class="layer-button" id="phones-button">Blue Light Phones</div>
-				<div class="key"></div>
-			</div>
-			<div class="layer-option">
-				<div class="layer-button" id="bus-button">Bus Stops</div>
-				<div class="key"></div>
-			</div>
-			<div id="detail"></div>
-		</aside>
-		<section id="map-container">
-			<div id="map-canvas"/>
-		</section>
-	</body>
+		});
+	</script>
+	<aside id="info">
+	  <div class="info-button">☰</div>
+	  <div class="layer-option">
+		<div class="layer-button" id="buildings-button">Buildings</div>
+		<div class="key"></div>
+	  </div>
+	  <div class="layer-option">
+		<div class="layer-button" id="parking-button">Parking Lots</div>
+		<div class="key"></div>
+	  </div>
+	  <div class="layer-option">
+		<div class="layer-button" id="phones-button">Blue Light Phones</div>
+		<div class="key"></div>
+	  </div>
+	  <div class="layer-option">
+		<div class="layer-button" id="bus-button">Bus Stops</div>
+		<div class="key"></div>
+	  </div>
+	  <div class="layer-option">
+		<div class="layer-button" id="peif-bus-button">PEIF Shuttle</div>
+		<div class="key"></div>
+	  </div>
+	  <div class="layer-option">
+		<div class="layer-button" id="jacobetti-bus-button">Jacobetti Shuttle</div>
+		<div class="key"></div>
+	  </div>
+	  <div id="detail"></div>
+	</aside>
+	<section id="map-container">
+	  <div id="map-canvas"></div>
+	</section>
+  </body>
 </html>

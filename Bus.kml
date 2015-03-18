@@ -61,7 +61,7 @@
 				<color>ffDB4436</color>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|DB4436</href>
+					<href>http://chart.apis.google.com/chart?chst=d_map_pin_letter&amp;chld=%E2%80%A2|DB4436</href>
 					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
 				</Icon>
 				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>

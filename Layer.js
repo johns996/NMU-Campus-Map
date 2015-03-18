@@ -20,9 +20,13 @@ var Layer = function (layer, map, name) {
 Layer.prototype.addPlacemark = function(placemark) {
 	if( placemark.polygon )
 		return this.addPolygonPlacemark(placemark);
-	console.log(placemark);
-	this.mapKey[placemark.name] = '#' + placemark.style.color.substr(2);
-	this.getPlacemarkNamed(placemark.name).add(placemark.marker);
+	var placemarkCollection = this.getPlacemarkNamed(placemark.name);
+	if( placemark.marker ) {
+		this.mapKey[placemark.name] = '#' + placemark.style.color.substr(2);
+		return placemarkCollection.add(placemark.marker);
+	}
+	this.mapKey[placemark.name] = placemark.polyline.strokeColor;
+	placemarkCollection.add(placemark.polyline);
 };
 
 Layer.prototype.addPolygonPlacemark = function(placemark) {
