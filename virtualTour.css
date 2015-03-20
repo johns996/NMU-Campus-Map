@@ -11,7 +11,7 @@ body { height: 100%; margin: 0; padding: 0; }
 	height: 100%;
 	float: right;
 	background-color: white;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .info-button {

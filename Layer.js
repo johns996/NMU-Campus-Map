@@ -2,11 +2,9 @@ var Layer = function (layer, map, name) {
 	this.mouseoverOptions = { fillOpacity: 0.75, strokeOpacity: 1.0, stokeWidth: 5 };
 	this.mouseoutOptions =  { fillOpacity: 0.16, strokeOpactiy: 1.0, strokeWidth: 10 };
 	this.file = layer.baseUrl;
-	this.centerPointMap = {}; // name => center of polygon
-	this.windowPointMap = {}; // name => info window position point
 	this.placemarkMap 	= {}; // name => placemark associated with it
 	this.map = map;
-	this.mapKey = {}; // category => color
+	this.mapKey = {}; // value (category name) => key (either colored span or marker image)
 	this.mapKeyHtml;
 	this.name = name;
 	this.showing = false;
@@ -22,17 +20,15 @@ Layer.prototype.addPlacemark = function(placemark) {
 		return this.addPolygonPlacemark(placemark);
 	var placemarkCollection = this.getPlacemarkNamed(placemark.name);
 	if( placemark.marker ) {
-		this.mapKey[placemark.name] = '#' + placemark.style.color.substr(2);
+		this.mapKey[placemark.name] = '<img src="' + placemark.style.href + '"/>';
 		return placemarkCollection.add(placemark.marker);
 	}
-	this.mapKey[placemark.name] = placemark.polyline.strokeColor;
+	this.mapKey[placemark.name] = '<span style="background-color: '+ placemark.polyline.strokeColor +'"/>';
 	placemarkCollection.add(placemark.polyline);
 };
 
 Layer.prototype.addPolygonPlacemark = function(placemark) {
-	this.mapKey[this.categoryFor(placemark)] = placemark.polygon.fillColor;
-	//this.centerPointMap[placemark.name] = placemark.polygon.bounds.getCenter();
-	//this.windowPointMap[placemark.polygon.title] = this.findEdge(placemark.polygon.bounds.getCenter(), placemark.polygon);
+	this.mapKey[this.categoryFor(placemark)] = '<span style="background-color: ' + placemark.polygon.fillColor + '"/>';
 	this.getPlacemarkNamed(placemark.polygon.title).add(placemark.polygon);
 	placemark.polygon.setOptions(this.mouseoutOptions);
 	google.maps.event.addListener(placemark.polygon, 'mouseover', function(event) {
@@ -47,7 +43,7 @@ Layer.prototype.renderMapKey = function() {
 	this.mapKeyHtml = '';
 	for( var key in this.mapKey ) {
 		var value = this.mapKey[key];
-		this.mapKeyHtml += '<div><span style="background-color: '+ value +'"></span> = '+ key +'</div>';
+		this.mapKeyHtml += '<div>' + value + ' = ' + key + '</div>';
 	}
 };
 
@@ -56,21 +52,14 @@ Layer.prototype.categoryFor = function(placemark) {
 	var catStr = "Category: ";
 	var start = desc.indexOf(catStr);
 	var end = desc.indexOf("<br>", start);
-	return desc.substring(start+catStr.length, end);
-};
-
-Layer.prototype.moveCenterTo = function(name) {
-	this.moveCenter( this.centerPointMap[name] );
-};
-
-Layer.prototype.moveCenter = function(point) {
-	if( point === undefined ) return;
-	console.log(point);
-	this.map.setCenter( point );
+	if(end > 0)
+		return desc.substring(start+catStr.length, end);
+	return desc.substring(start+catStr.length);
 };
 
 Layer.prototype.clickPlacemark = function(name) {
-	google.maps.event.trigger( this.getPlacemarkNamed(name).first(), 'click' );
+	var placemark = this.getPlacemarkNamed(name).first();
+	google.maps.event.trigger( placemark, 'click' );
 };
 
 Layer.prototype.findEdge = function(point, poly) {
@@ -143,12 +132,22 @@ Layer.prototype.getPlacemarkNamed = function(name) {
 	return this.placemarkMap[name];
 };
 
-Layer.prototype.argument = function(arg) {
-	if(arg === undefined || arg == '') return;
+Layer.prototype.argument = function(type, name) {
+	if(type != this.name) return;
+	if(name === undefined || name == '') return;
+	var nameWithSpaces = name.replace(/-+/g, ' ');
+	for( var key in this.placemarkMap ) {
+		if( key == nameWithSpaces ) {
+			this.showPlacemarkNamed(nameWithSpaces);
+			return;
+		}
+	}
+};
+
+Layer.prototype.showPlacemarkNamed = function(aName) {
 	this.showPlacemarks();
-	toggleInfo(arg.replace(/-+/g, ''));
-	this.moveCenterTo(arg.replace(/-+/g, ' '));
-	this.clickPlacemark(arg.replace(/-+/g, ' '));
+	toggleInfo(aName.replace(/ +/g, ''));
+	this.clickPlacemark(aName);
 };
 
 Layer.prototype.getButtonId = function() {
@@ -174,5 +173,5 @@ Placemark.prototype.setMap = function(map) {
 };
 
 Placemark.prototype.first = function(map) {
-	return this.array[1];
+	return this.array[0];
 };

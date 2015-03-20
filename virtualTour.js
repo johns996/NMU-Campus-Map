@@ -38,8 +38,9 @@ function VirtualTour () {
 			var args = window.location.search.substring(1);
 			if( args === undefined ) return;
 			args = args.split('?');
-			if(args[0] == 'Building') buildingLayer.argument(args[1]);
-			else if(args[0] == 'Parking') parkingLayer.argument(args[1]);
+			layers.forEach(function(layer) {
+				layer.argument(args[0], args[1]);
+			});
 		}
 	}
 

@@ -11,7 +11,7 @@
                     <value>Parking - Commuter, Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot17')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -29,7 +29,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot28')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -47,7 +47,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot62')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -65,7 +65,7 @@
                     <value>Parking - Commuter, Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot29')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -83,7 +83,7 @@
                     <value>Parking - Commuter, Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot36')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -101,7 +101,7 @@
                     <value>Parking - Commuter, Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot11')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Commuter, Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -119,7 +119,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot20')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -137,7 +137,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot16')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -155,7 +155,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot24')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -173,7 +173,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot14')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -191,7 +191,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot26')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -209,7 +209,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot1')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -227,7 +227,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot2')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -245,7 +245,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot5')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -263,7 +263,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot4')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -281,7 +281,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot3')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -299,7 +299,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot3')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -317,7 +317,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot47')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -335,7 +335,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot10')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -353,7 +353,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot6')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -371,7 +371,7 @@
                     <value>Parking - Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Apartments<br><br><a href='#' onclick="toggleInfo('Lot7')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Apartments]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -389,7 +389,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot15')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -407,7 +407,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot13')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -425,7 +425,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot13')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -443,7 +443,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot33')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -461,7 +461,7 @@
                     <value>Parking - Resident Lot</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Resident Lot<br><br><a href='#' onclick="toggleInfo('Lot33')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Resident Lot]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -479,7 +479,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot2')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -497,7 +497,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot2')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -515,7 +515,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot12')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -533,7 +533,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot12')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -551,7 +551,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot17')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -569,7 +569,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot17')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -587,7 +587,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot18')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -605,7 +605,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot27')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -623,7 +623,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot9')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -641,7 +641,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot22')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -659,7 +659,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot19')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -677,7 +677,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot37')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -695,7 +695,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot37')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -713,7 +713,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot37')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -731,7 +731,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot37')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -749,7 +749,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot37')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -767,7 +767,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot46')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -785,7 +785,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot27')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -803,7 +803,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot54')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -821,7 +821,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot44')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -839,7 +839,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot8')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -857,7 +857,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Log60')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -875,7 +875,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot57')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -893,7 +893,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot58')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -911,7 +911,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot56')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -929,7 +929,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot51')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -947,7 +947,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot59')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -965,7 +965,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot52')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -983,7 +983,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot50')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1001,7 +1001,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot53')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1019,7 +1019,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot54')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1037,7 +1037,7 @@
                     <value>Parking - General</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - General<br><br><a href='#' onclick="toggleInfo('Lot56')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - General]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1055,7 +1055,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Log25')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1073,7 +1073,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot19')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1091,7 +1091,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1109,7 +1109,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -1127,7 +1127,7 @@
                     <value>Parking - Faculty &amp; Staff</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Parking - Faculty &amp; Staff<br><br><a href='#' onclick="toggleInfo('Lot29')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Parking - Faculty &amp; Staff]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
