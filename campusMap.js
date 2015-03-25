@@ -29,7 +29,7 @@ var additionalKeyText =
 };
 
 var map;
-function VirtualTour () {
+var CampusMap = function () {
 	var defaultCenter = new google.maps.LatLng(46.5595, -87.4037);
 	var buildingLayer;
 	var parkingLayer;
@@ -73,7 +73,7 @@ function VirtualTour () {
 	initializeMap();
 }
 
-google.maps.event.addDomListener(window, 'load', VirtualTour);
+google.maps.event.addDomListener(window, 'load', CampusMap);
 
 $(document).ready(function() {
 	$('#shuttles').slideUp();
