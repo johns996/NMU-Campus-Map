@@ -11,7 +11,8 @@ body { height: 100%; margin: 0; padding: 0; }
 	height: 100%;
 	float: right;
 	background-color: white;
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 .info-button {
@@ -19,8 +20,33 @@ body { height: 100%; margin: 0; padding: 0; }
 	cursor: pointer;
 }
 
+#search-results {
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 15em;
+	max-height: 90%;
+	overflow-y: auto;
+}
+
+#search-results > div{
+	padding: .5em;
+	border-bottom: 1px solid darkgrey;
+	overflow-x: auto;
+	cursor: pointer;
+}
+
+#search-results > div:hover {
+	background-color: lightgrey;
+}
+
 .layer-option .key {
 	display: none;
+	padding: .25em;
+}
+
+.layer-option .key p {
+	text-align: center;
 }
 
 .layer-option .key.opened {
@@ -36,14 +62,33 @@ body { height: 100%; margin: 0; padding: 0; }
 .layer-button {
 	background-color: green;
 	font-size: 2em;
-	text-align: center;
+	text-align: left;
 	cursor: pointer;
 	float: left;
 	width: 100%;
 	margin: -1px;
+	padding-left: 1em;
 	border: solid 1px black;
 }
 
+.detail {
+	clear: both;
+}
+
+.detail-button {
+	padding-top: 1em;
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.layer-option .layer-option .layer-button {
+	background-color: grey;
+	padding-left: 2em;
+}
+
+/* mobile */
 @media(max-width: 750px) {
 	.info-button {
 		width: 100%;
@@ -61,20 +106,18 @@ body { height: 100%; margin: 0; padding: 0; }
 		left: 0;
 		top: 0;
 		z-index: 1;
+		overflow-y: hidden;
 		background: none;
 	}
 
-	#info .layer-option {
-		visibility: hidden;
-	}
-
 	#info.opened {
-		height: auto;
-		background-color: white;
+		height: 100%;
+		background: none;
+		overflow-y: auto;
 	}
 
-	#info.opened .layer-option {
-		visibility: visible;
+	.search, .key {
+		background-color: white;
 	}
 
 	#map-container {

@@ -1,4 +1,4 @@
-var Layer = function (layer, map, name) {
+var Layer = function (layer, map, name, keyPrologue) {
 	this.mouseoverOptions = { fillOpacity: 0.75, strokeOpacity: 1.0, stokeWidth: 5 };
 	this.mouseoutOptions =  { fillOpacity: 0.16, strokeOpactiy: 1.0, strokeWidth: 10 };
 	this.file = layer.baseUrl;
@@ -12,7 +12,7 @@ var Layer = function (layer, map, name) {
 	layer.placemarks.forEach(function(each) {
 		self.addPlacemark(each);
 	});
-	this.renderMapKey();
+	this.renderMapKey(keyPrologue);
 };
 
 Layer.prototype.addPlacemark = function(placemark) {
@@ -31,16 +31,17 @@ Layer.prototype.addPolygonPlacemark = function(placemark) {
 	this.mapKey[this.categoryFor(placemark)] = '<span style="background-color: ' + placemark.polygon.fillColor + '"/>';
 	this.getPlacemarkNamed(placemark.polygon.title).add(placemark.polygon);
 	placemark.polygon.setOptions(this.mouseoutOptions);
+	var self = this;
 	google.maps.event.addListener(placemark.polygon, 'mouseover', function(event) {
-		this.setOptions(this.mouseoverOptions);
+		this.setOptions(self.mouseoverOptions);
 	});
 	google.maps.event.addListener(placemark.polygon, 'mouseout', function(event) {
-		this.setOptions(this.mouseoutOptions);
+		this.setOptions(self.mouseoutOptions);
 	});
 };
 
-Layer.prototype.renderMapKey = function() {
-	this.mapKeyHtml = '';
+Layer.prototype.renderMapKey = function(keyPrologue) {
+	this.mapKeyHtml = keyPrologue + "\n";
 	for( var key in this.mapKey ) {
 		var value = this.mapKey[key];
 		this.mapKeyHtml += '<div>' + value + ' = ' + key + '</div>';
@@ -134,6 +135,7 @@ Layer.prototype.getPlacemarkNamed = function(name) {
 
 Layer.prototype.argument = function(type, name) {
 	if(type != this.name) return;
+	this.showPlacemarks();
 	if(name === undefined || name == '') return;
 	var nameWithSpaces = name.replace(/-+/g, ' ');
 	for( var key in this.placemarkMap ) {
@@ -145,7 +147,6 @@ Layer.prototype.argument = function(type, name) {
 };
 
 Layer.prototype.showPlacemarkNamed = function(aName) {
-	this.showPlacemarks();
 	toggleInfo(aName.replace(/ +/g, ''));
 	this.clickPlacemark(aName);
 };

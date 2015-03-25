@@ -12,28 +12,6 @@
 	<script type="text/javascript" src="ProjectedOverlay.js"></script>
 	<script type="text/javascript" src="Layer.js"></script>
 	<script type="text/javascript" src="virtualTour.js"></script>
-	<script type="text/javascript">
-		function toggleInfo(name) {
-			var open = $('#info').attr('opened');
-			if(open === undefined || open != name) openInfo(name);
-			else closeInfo();
-		}
-		function openInfo(name) {
-			if(name === undefined || name == '') return;
-			$('#info').toggleClass('opened', true);
-			$('#detail').load('Buildings/'+name+'.html', initSlideshow).attr('opened', name);
-			$('#map-container').toggleClass('shared', true);
-			google.maps.event.trigger(map, 'resize');
-		}
-		function closeInfo() {
-			$('#info').toggleClass('opened', false).removeAttr('opened');
-			$('#map-container').toggleClass('shared', false);
-			google.maps.event.trigger(map, 'resize');
-		}
-		function initSlideshow() {
-			$('.cycle-slideshow').cycle();
-		}
-	</script>
   </head>
   <body>
 	<script>
@@ -45,6 +23,21 @@
 	</script>
 	<aside id="info">
 	  <div class="info-button">☰</div>
+	  <div class="search">
+		<input type="text" id="search-criteria"/>
+		<input type="button" id="search" value="search"/>
+		<div>
+		  <label>
+			<input id="search-buildings" class="search-radio" type="radio" value="buildings" name="search-option" checked="checked"/>
+			Buildings
+		  </label>
+		  <label>
+			<input id="search-buildings" class="search-radio" type="radio" value="parking" name="search-option"/>
+			Parking
+		  </label>
+		</div>
+		<div id="search-results"></div>
+	  </div>
 	  <div class="layer-option">
 		<div class="layer-button" id="buildings-button">Buildings</div>
 		<div class="key"></div>
@@ -61,19 +54,25 @@
 		<div class="layer-button" id="bus-button">Bus Stops</div>
 		<div class="key"></div>
 	  </div>
-	  <div class="layer-option">
-		<div class="layer-button" id="peif-bus-button">PEIF Shuttle</div>
-		<div class="key"></div>
+	  <div class="shuttle-button layer-button">Wildcat Shuttles</div>
+	  <div id="shuttles" class="layer-option">
+		<div class="layer-option">
+		  <div class="layer-button" id="peif-bus-button">PEIF Shuttle</div>
+		  <div class="key"></div>
+		</div>
+		<div class="layer-option">
+		  <div class="layer-button" id="jacobetti-bus-button">Jacobetti Shuttle</div>
+		  <div class="key"></div>
+		</div>
+		<div class="layer-option">
+		  <div class="layer-button" id="friday-bus-button">Friday Shuttle</div>
+		  <div class="key"></div>
+		</div>
 	  </div>
-	  <div class="layer-option">
-		<div class="layer-button" id="jacobetti-bus-button">Jacobetti Shuttle</div>
-		<div class="key"></div>
+	  <div class="detail">
+		<div class="detail-button">Close</div>
+		<div id="detail"></div>
 	  </div>
-	  <div class="layer-option">
-		<div class="layer-button" id="friday-bus-button">Friday Shuttle</div>
-		<div class="key"></div>
-	  </div>
-	  <div id="detail"></div>
 	</aside>
 	<section id="map-container">
 	  <div id="map-canvas"></div>
