@@ -332,13 +332,13 @@
         </Placemark>
         <Placemark>
             <styleUrl>#poly-F4EB37-1-76</styleUrl>
-            <name>Physical Education Recreational Facility (PIEF)</name>
+            <name>Physical Education Recreational Facility (PEIF)</name>
             <ExtendedData>
                 <Data name='Category' >
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a href='#' onclick="toggleInfo('PhysicalEducationRecreationalFacility(PIEF)')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a href='#' onclick="toggleInfo('PhysicalEducationRecreationalFacility(PEIF)')">Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -656,13 +656,13 @@
         </Placemark>
         <Placemark>
             <styleUrl>#poly-4186F0-1-76</styleUrl>
-            <name>Summit Apartments</name>
+            <name>Center Street Apartments (Summit)</name>
             <ExtendedData>
                 <Data name='Category' >
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a href='#' onclick="toggleInfo('SummitApartments')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a href='#' onclick="toggleInfo('CenterStreetApartments(Summit)')">Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -672,6 +672,24 @@
                 </outerBoundaryIs>
             </Polygon>
         </Placemark>
+		<Placemark>
+			<styleUrl>#poly-4186F0-1-76</styleUrl>
+			<name>Center Street Apartments (Summit)</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Apartments</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Apartments<br><br><a href='#' onclick="toggleInfo('CenterStreetApartments(Summit)')">Learn More</a>]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4042949,46.5601827,0.0 -87.4042949,46.5600812,0.0 -87.4035037,46.56007019999999,0.0 -87.40344200000001,46.5600683,0.0 -87.4034446,46.5601679,0.0 -87.4042949,46.5601827,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
         <Placemark>
             <styleUrl>#poly-4186F0-1-76</styleUrl>
             <name>Lincoln Townhouses</name>
@@ -854,13 +872,13 @@
         </Placemark>
         <Placemark>
             <styleUrl>#poly-4186F0-1-76</styleUrl>
-            <name>Center Street Apartments</name>
+            <name>Center Street Apartments (Norwood)</name>
             <ExtendedData>
                 <Data name='Category' >
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a href='#' onclick="toggleInfo('CenterStreetApartments')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a href='#' onclick="toggleInfo('CenterStreetApartments(Norwood)')">Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
