@@ -332,13 +332,13 @@
         </Placemark>
         <Placemark>
             <styleUrl>#poly-F4EB37-1-76</styleUrl>
-            <name>Physical Education Recreational Facility (PEIF)</name>
+            <name>Physical Education Instructional Facility (PEIF)</name>
             <ExtendedData>
                 <Data name='Category' >
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a href='#' onclick="toggleInfo('PhysicalEducationRecreationalFacility(PEIF)')">Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a href='#' onclick="toggleInfo('PhysicalEducationInstructionalFacility(PEIF)')">Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>

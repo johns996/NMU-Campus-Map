@@ -851,7 +851,7 @@
         </Placemark>
         <Placemark>
             <styleUrl>#poly-3F5BA9-1-76</styleUrl>
-            <name>Log 60</name>
+            <name>Lot 60</name>
             <ExtendedData>
                 <Data name='Category' >
                     <value>Parking - General</value>
@@ -1049,7 +1049,7 @@
         </Placemark>
         <Placemark>
             <styleUrl>#poly-DB4436-1-76</styleUrl>
-            <name>Log 25</name>
+            <name>Lot 25</name>
             <ExtendedData>
                 <Data name='Category' >
                     <value>Parking - Faculty &amp; Staff</value>

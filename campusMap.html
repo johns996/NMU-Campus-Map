@@ -14,19 +14,16 @@
 	<script type="text/javascript" src="campusMap.js"></script>
   </head>
   <body>
-	<script>
-		$(document).ready(function() {
-			$('.info-button').click(function(event) {
-				$('#info').toggleClass('opened');
-			});
-		});
-	</script>
-	<aside id="info">
-	  <div class="info-button">☰</div>
-	  <div class="search">
-		<input type="text" id="search-criteria"/>
-		<input type="button" id="search" value="search"/>
-		<div>
+	<aside class="side-bar">
+	  <div class="menu-bar">
+		<div class="menu-button button">☰</div>
+		<span class="map-title">NMU Campus Map</span>
+		<img class="search-button button" src="https://openclipart.org/image/25px/svg_to_png/213239/Search-icon.png" alt="Search icon" title="Search icon by  SimpleIcons ( https://openclipart.org/user-detail/SimpleIcons )" />
+	  </div>
+	  <div id="search" class="search">
+		<input type="text" id="search-criteria" placeholder="Search Buildings..."/>
+		<div class="search-options">
+		  <span>Search Options:</span>
 		  <label>
 			<input id="search-buildings" class="search-radio" type="radio" value="buildings" name="search-option" checked="checked"/>
 			Buildings
@@ -38,35 +35,38 @@
 		</div>
 		<div id="search-results"></div>
 	  </div>
-	  <div class="layer-option">
-		<div class="layer-button" id="buildings-button">Buildings</div>
-		<div class="key"></div>
-	  </div>
-	  <div class="layer-option">
-		<div class="layer-button" id="parking-button">Parking Lots</div>
-		<div class="key"></div>
-	  </div>
-	  <div class="layer-option">
-		<div class="layer-button" id="phones-button">Blue Light Phones</div>
-		<div class="key"></div>
-	  </div>
-	  <div class="layer-option">
-		<div class="layer-button" id="bus-button">Bus Stops</div>
-		<div class="key"></div>
-	  </div>
-	  <div class="shuttle-button layer-button">Wildcat Shuttles</div>
-	  <div id="shuttles" class="layer-option">
+	  <div id="menu" class="menu">
+		<h1>Select layers:</h1>
 		<div class="layer-option">
-		  <div class="layer-button" id="peif-bus-button">PEIF Shuttle</div>
+		  <div class="layer-button" id="buildings-button">Buildings</div>
 		  <div class="key"></div>
 		</div>
 		<div class="layer-option">
-		  <div class="layer-button" id="jacobetti-bus-button">Jacobetti Shuttle</div>
+		  <div class="layer-button" id="parking-button">Parking Lots</div>
 		  <div class="key"></div>
 		</div>
 		<div class="layer-option">
-		  <div class="layer-button" id="friday-bus-button">Friday Shuttle</div>
+		  <div class="layer-button" id="phones-button">Blue Light Phones</div>
 		  <div class="key"></div>
+		</div>
+		<div class="layer-option">
+		  <div class="layer-button" id="bus-button">Bus Stops</div>
+		  <div class="key"></div>
+		</div>
+		<div class="shuttle-button layer-button">Wildcat Shuttles</div>
+		<div id="shuttles" class="layer-option">
+		  <div class="layer-option">
+			<div class="layer-button" id="peif-bus-button">PEIF Shuttle</div>
+			<div class="key"></div>
+		  </div>
+		  <div class="layer-option">
+			<div class="layer-button" id="jacobetti-bus-button">Jacobetti Shuttle</div>
+			<div class="key"></div>
+		  </div>
+		  <div class="layer-option">
+			<div class="layer-button" id="friday-bus-button">Friday Shuttle</div>
+			<div class="key"></div>
+		  </div>
 		</div>
 	  </div>
 	  <div class="detail">

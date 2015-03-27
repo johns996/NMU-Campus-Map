@@ -1,4 +1,4 @@
-var Layer = function (layer, map, name, keyPrologue) {
+var Layer = function (layer, map, name) {
 	this.mouseoverOptions = { fillOpacity: 0.75, strokeOpacity: 1.0, stokeWidth: 5 };
 	this.mouseoutOptions =  { fillOpacity: 0.16, strokeOpactiy: 1.0, strokeWidth: 10 };
 	this.file = layer.baseUrl;
@@ -12,7 +12,7 @@ var Layer = function (layer, map, name, keyPrologue) {
 	layer.placemarks.forEach(function(each) {
 		self.addPlacemark(each);
 	});
-	this.renderMapKey(keyPrologue);
+	this.renderMapKey();
 };
 
 Layer.prototype.addPlacemark = function(placemark) {
@@ -40,8 +40,8 @@ Layer.prototype.addPolygonPlacemark = function(placemark) {
 	});
 };
 
-Layer.prototype.renderMapKey = function(keyPrologue) {
-	this.mapKeyHtml = keyPrologue + "\n";
+Layer.prototype.renderMapKey = function() {
+	this.mapKeyHtml = "Key:<br>\n";
 	for( var key in this.mapKey ) {
 		var value = this.mapKey[key];
 		this.mapKeyHtml += '<div>' + value + ' = ' + key + '</div>';
@@ -147,7 +147,8 @@ Layer.prototype.argument = function(type, name) {
 };
 
 Layer.prototype.showPlacemarkNamed = function(aName) {
-	toggleInfo(aName.replace(/ +/g, ''));
+	//toggleInfo(aName.replace(/ +/g, ''));
+	$('.menu, .search, .detail').removeClass('opened');
 	this.clickPlacemark(aName);
 };
 
