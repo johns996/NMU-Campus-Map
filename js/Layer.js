@@ -41,7 +41,7 @@ Layer.prototype.addPolygonPlacemark = function(placemark) {
 };
 
 Layer.prototype.renderMapKey = function() {
-	this.mapKeyHtml = "Key:<br>\n";
+	this.mapKeyHtml = "";
 	for( var key in this.mapKey ) {
 		var value = this.mapKey[key];
 		this.mapKeyHtml += '<div>' + value + ' = ' + key + '</div>';
@@ -88,11 +88,6 @@ Layer.prototype.doPlacemarks = function(block) {
 
 Layer.prototype.hidePlacemarks = function () {
 	this.showing = false;
-	var key = $(this.getButtonId()).next('.key');
-	if( key.hasClass('opened') ) {
-		key.removeClass('opened');
-		//key.slideUp();
-	}
 	var self = this;
 	this.doPlacemarks(function(each) {
 		self.hide(each);
@@ -101,11 +96,6 @@ Layer.prototype.hidePlacemarks = function () {
 
 Layer.prototype.showPlacemarks = function() {
 	this.showing = true;
-	var key = $(this.getButtonId()).next('.key');
-	if( !key.hasClass('opened') ) {
-		key.addClass('opened');
-		//key.slideDown();
-	}
 	var self = this;
 	this.doPlacemarks(function(each) {
 		self.show(each);

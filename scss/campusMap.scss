@@ -114,24 +114,44 @@ body { height: 100%; margin: 0; padding: 0; }
 
 .menu h1 {
 	background-color: lightgrey;
-	padding-left: 1em;
+	padding-left: 5%;
 	border-bottom: solid 3px black;
 	margin: 0;
-}
-
-.layer-button {
-	background-color: lightgrey;
-	font-size: 2em;
-	text-align: left;
-	cursor: pointer;
-	width: 100%;
-	padding-left: 1em;
-	border-top: solid 1px black;
 	font-family: sans-serif;
 }
 
-.menu .layer-option:first-of-type .layer-button {
-	border-top: none;
+.layer-option.selected .layer-button {
+	background-color: darkgreen;
+}
+
+.layer-button {
+	background-color: darkred;
+	font-size: 2em;
+	text-align: left;
+	cursor: pointer;
+	width: 95%;
+	padding-left: 5%;
+	border-bottom: solid 1px black;
+	font-family: sans-serif;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.layer-option .layer-option .layer-button {
+	padding-left: 2em;
+}
+
+.menu .layer-option .layer-option .layer-button .key-button {
+	margin-right: 2.5em;
+}
+
+.menu .layer-option .layer-button .key-button {
+	font-size: .5em;
+	line-height: 2.4em;
+	display: inline-block;
+	float: right;
+	background-color: darkred;
+	color: white;
+	padding: 0 1em;
 }
 
 .detail {
@@ -149,11 +169,6 @@ body { height: 100%; margin: 0; padding: 0; }
 	text-align: center;
 	text-decoration: underline;
 	cursor: pointer;
-}
-
-.layer-option .layer-option .layer-button {
-	background-color: grey;
-	padding-left: 2em;
 }
 
 /* mobile */

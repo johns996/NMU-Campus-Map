@@ -1,12 +1,12 @@
 var kmlNameMap = 
 {
-	'Buildings.kml'		: 'buildings',
-	'Parking.kml' 		: 'parking',
-	'Phones.kml'  		: 'phones',
-	'Bus.kml' 			: 'bus',
-	'PEIFBus.kml' 		: 'peif-bus',
-	'JacobettiBus.kml' 	: 'jacobetti-bus',
-	'FridayBus.kml' 	: 'friday-bus'
+	'kml/Buildings.kml'		: 'buildings',
+	'kml/Parking.kml' 		: 'parking',
+	'kml/Phones.kml'  		: 'phones',
+	'kml/Bus.kml' 			: 'bus',
+	'kml/PEIFBus.kml' 		: 'peif-bus',
+	'kml/JacobettiBus.kml' 	: 'jacobetti-bus',
+	'kml/FridayBus.kml' 	: 'friday-bus'
 };
 
 var map;
@@ -29,6 +29,19 @@ var CampusMap = function () {
 				$(each.getButtonId()).next('.key').html(each.mapKeyHtml);
 				$(each.getButtonId()).click(function(event) {
 					each.togglePlacemarks();
+					$(this).parent('.layer-option').toggleClass('selected');
+				});
+				$(each.getButtonId() + ' .key-button').click(function(event) {
+					event.stopPropagation();
+					var key = $(each.getButtonId()).next('.key');
+					key.toggleClass('opened');
+					/*if( key.hasClass('opened') ) {
+						$(this).text('Hide Key');
+						// key.slideDown()
+					} else {
+						$(this).text('Show Key');
+						// key.slideUp();
+					}*/
 				});
 			});
 		}

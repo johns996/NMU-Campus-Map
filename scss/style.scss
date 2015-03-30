@@ -1,0 +1,173 @@
+$dark-green: #065540;
+
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0; }
+#map-container { height: 100%; width: 100%; float: left; }
+#map-canvas { min-height: 100%; }
+.cycle-slideshow { height: 200px; }
+
+.side-bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	min-height: 50px;
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	background: none;
+	overflow: visible;
+
+	.search, .menu, .key, .detail {
+		background-color: white;
+	}
+
+	.menu-bar {
+		width: 100%;
+		display: block;
+		background-color: $dark-green;
+		color: white;
+		text-align: center;
+		overflow: hidden;
+		font-family: sans-serif;
+		.map-title {
+			font-size: 1.5em;
+			line-height: 45px;
+		}
+		.button {
+			font-size: 2em;
+			user-select: none;
+			cursor: pointer;
+		}
+		.menu-button {
+			display: block;
+			float: left;
+		}
+		.search-button {
+			float: right;
+			padding: 10px;
+		}
+	}
+	
+	.search {
+		width: 100%;
+		display: none;
+		&.opened {
+			display: block;
+		}
+		input[type=text] {
+			width: 100%;
+			height: 2em;
+			padding: 0 .5em;
+			margin: 1em 0 .5em 0;
+			display: block;
+			float: left;
+			border: 1px solid lightgrey;
+		}
+		.search-options {
+			clear: both;
+			padding: .5em;
+		}
+		.search-results {
+			display: none;
+			position: fixed;
+			background-color: white;
+			width: 15em;
+			max-height: 90%;
+			overflow-y: auto;
+			& > div {
+				padding: .5em;
+				border-bottom: 1px solid darkgrey;
+				overflow-x: auto;
+				cursor: pointer;
+				&:hover {
+					background-color: lightgrey;
+				}
+			}
+		}
+	}
+
+	.menu {
+		height: 0px;
+		overflow-y: hidden;
+		transition: height 0.3s ease-in;
+		overflow-y: auto;
+		overflow-x: hidden;
+		&.opened {
+			height: 100%;
+			background: none;
+			overflow-y: auto;
+		}
+		
+		h1 {
+			background-color: lightgrey;
+			padding-left: 5%;
+			border-bottom: solid 3px black;
+			margin: 0;
+			font-family: sans-serif;
+		}
+		.layer-option {
+			&.selected {
+				.layer-button {
+					background-color: darkgreen;
+				}
+			}
+			.layer-button {
+				background-color: darkred;
+				font-size: 2em;
+				text-align: left;
+				cursor: pointer;
+				width: 95%;
+				padding-left: 5%;
+				border-bottom: solid 1px black;
+				font-family: sans-serif;
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+				.key-button {
+					font-size: .5em;
+					line-height: 2.4em;
+					display: inline-block;
+					float: right;
+					background-color: darkred;
+					color: white;
+					padding: 0 1em;
+				}
+			}
+			.layer-option .layer-button {
+				padding-left: 2em;
+				.key-button {
+					margin-left: 2.5em;
+				}
+			}
+
+			.key {
+				display: none;
+				padding: .25em;
+				&.opened {
+					display: block;
+				}
+				p {
+					text-align: center;
+				}
+				span {
+					width: 10px;
+					height: 10px;
+					display: inline-block;
+				}
+			}
+		}
+	}
+
+	.detail {
+		clear: both;
+		display: none;
+		&.opened {
+			display: block;
+		}
+		.detail-button {
+			padding-top: 1em;
+			width: 100%;
+			text-align: center;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+}

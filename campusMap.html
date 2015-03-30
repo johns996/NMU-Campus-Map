@@ -3,15 +3,15 @@
   <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
-	<link href="campusMap.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet"/>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
 	<script src="http://malsup.github.com/jquery.cycle2.js"></script>
-	<link href="special.css" rel="stylesheet" type="text/css"/>
+	<link href="css/special.css" rel="stylesheet" type="text/css"/>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false"></script>
-	<script type="text/javascript" src="geoxml3.js"></script>
-	<script type="text/javascript" src="ProjectedOverlay.js"></script>
-	<script type="text/javascript" src="Layer.js"></script>
-	<script type="text/javascript" src="campusMap.js"></script>
+	<script type="text/javascript" src="js/geoxml3.js"></script>
+	<script type="text/javascript" src="js/ProjectedOverlay.js"></script>
+	<script type="text/javascript" src="js/Layer.js"></script>
+	<script type="text/javascript" src="js/campusMap.js"></script>
   </head>
   <body>
 	<aside class="side-bar">
@@ -33,38 +33,38 @@
 			Parking
 		  </label>
 		</div>
-		<div id="search-results"></div>
+		<div id="search-results" class="search-results"></div>
 	  </div>
 	  <div id="menu" class="menu">
-		<h1>Select layers:</h1>
+		<h1>Select Layers:</h1>
 		<div class="layer-option">
-		  <div class="layer-button" id="buildings-button">Buildings</div>
+		  <div class="layer-button menu-item" id="buildings-button">Buildings<div class="key-button">Key</div></div>
 		  <div class="key"></div>
 		</div>
 		<div class="layer-option">
-		  <div class="layer-button" id="parking-button">Parking Lots</div>
+		  <div class="layer-button menu-item" id="parking-button">Parking Lots<div class="key-button">Key</div></div>
 		  <div class="key"></div>
 		</div>
 		<div class="layer-option">
-		  <div class="layer-button" id="phones-button">Blue Light Phones</div>
+		  <div class="layer-button menu-item" id="phones-button">Blue Light Phones<div class="key-button">Key</div></div>
 		  <div class="key"></div>
 		</div>
 		<div class="layer-option">
-		  <div class="layer-button" id="bus-button">Bus Stops</div>
+		  <div class="layer-button menu-item" id="bus-button">Bus Stops<div class="key-button">Key</div></div>
 		  <div class="key"></div>
 		</div>
-		<div class="shuttle-button layer-button">Wildcat Shuttles</div>
+		<div class="shuttle-button menu-item">Wildcat Shuttles</div>
 		<div id="shuttles" class="layer-option">
 		  <div class="layer-option">
-			<div class="layer-button" id="peif-bus-button">PEIF Shuttle</div>
+			<div class="layer-button menu-item" id="peif-bus-button">PEIF Shuttle<div class="key-button">Key</div></div>
 			<div class="key"></div>
 		  </div>
 		  <div class="layer-option">
-			<div class="layer-button" id="jacobetti-bus-button">Jacobetti Shuttle</div>
+			<div class="layer-button menu-item" id="jacobetti-bus-button">Jacobetti Shuttle<div class="key-button">Key</div></div>
 			<div class="key"></div>
 		  </div>
 		  <div class="layer-option">
-			<div class="layer-button" id="friday-bus-button">Friday Shuttle</div>
+			<div class="layer-button menu-item" id="friday-bus-button">Friday Shuttle<div class="key-button">Key</div></div>
 			<div class="key"></div>
 		  </div>
 		</div>
