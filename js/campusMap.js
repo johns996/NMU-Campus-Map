@@ -29,19 +29,12 @@ var CampusMap = function () {
 				$(each.getButtonId()).next('.key').html(each.mapKeyHtml);
 				$(each.getButtonId()).click(function(event) {
 					each.togglePlacemarks();
-					$(this).parent('.layer-option').toggleClass('selected');
+					event.stopPropagation();
 				});
 				$(each.getButtonId() + ' .key-button').click(function(event) {
 					event.stopPropagation();
 					var key = $(each.getButtonId()).next('.key');
 					key.toggleClass('opened');
-					/*if( key.hasClass('opened') ) {
-						$(this).text('Hide Key');
-						// key.slideDown()
-					} else {
-						$(this).text('Show Key');
-						// key.slideUp();
-					}*/
 				});
 			});
 		}
@@ -70,24 +63,79 @@ var CampusMap = function () {
 google.maps.event.addDomListener(window, 'load', CampusMap);
 
 $(document).ready(function() {
-	$('#shuttles').slideUp();
-	$('.shuttle-button').click(function(event) {
-		$('#shuttles').toggleClass('opened');
-		if($('#shuttles').hasClass('opened')) 
-			$('#shuttles').slideDown();
-		else
-			$('#shuttles').slideUp();
-	});
+	function isMenuOpened() {
+		return $('#menu').hasClass('opened');
+	}
+	function isSearchOpened() {
+		return $('#search').hasClass('opened');
+	}
+	function toggleSidebar(aBool) {
+		var sidebar = $('#side-bar');
+		var open = (aBool === undefined) ?
+			(isMenuOpened() || isSearchOpened()) : (aBool)
+		if(open) {
+			sidebar.toggleClass('opened', open);
+		} else {
+			sidebar.css('background-color', 'transparent');
+			setTimeout( function() {
+				sidebar.toggleClass('opened', open);
+				sidebar.css('background-color', '');
+			}, 300);
+		}
+	}
+	function toggleMenu(aBool) {
+		$('#menu').toggleClass('opened', aBool);
+		adjustMenuHeight();
+	}
+	function toggleSearch(aBool) {
+		var search = $('#search');
+		var open = (aBool === undefined) ?
+			(!search.hasClass('opened')) : (aBool);
+		if(open) {
+			toggleSidebar(true);
+			search.height(100);
+			setTimeout( function() {
+				search.toggleClass('opened', open);
+				search.height('');
+				adjustMenuHeight();
+			}, 300);
+		} else {
+			search.height(100);
+			search.toggleClass('opened', open);
+			search.height(0);
+			toggleSidebar();
+			adjustMenuHeight();
+		}
+	}
+	function adjustMenuHeight() {
+		if( !isMenuOpened() ) {
+			$('#menu').height(0);
+			toggleSidebar();
+		} else {
+			toggleSidebar(true);
+			var height = $(document).height() - 60;
+			if( isSearchOpened() ) height -= 100;
+			$('#menu').height(height);
+		}
+	}
 	$('.detail-button').click(function(even) {
 		$('.detail').toggleClass('opened');
 	});
-	$('.menu-button').click(function(event) {
-		$('#menu').toggleClass('opened');
+	$('#menu-button').click(function(event) {
+		toggleMenu();
+		event.stopPropagation();
 	});
-	$('.search-button').click(function(event) {
-		var addClass = !$('#search').hasClass('opened');
-		$('#search').toggleClass('opened');
-		var hasClass = $('#search').hasClass('opened');
+	$('#search-button').click(function(event) {
+		toggleSearch();
+		event.stopPropagation();
+	});
+	$('#menu, #side-bar').click(function(event) {
+		toggleSearch(false);
+		toggleMenu(false);
+		adjustMenuHeight();
+	});
+	$('#search, #menu>*').click(function(event) {
+		event.stopPropagation();
 	});
 	function setSearchPlaceholder(aString) {
 		var placeholder = 'Search ' + aString.charAt(0).toUpperCase() + aString.slice(1) + '...';

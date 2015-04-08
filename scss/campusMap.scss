@@ -1,231 +1,261 @@
+/* colors */
+$nmu-green: #065540;
+$nmu-green-hover: #006848;
+$nmu-green-border: #0B503C;
+$nmu-dark-green: #034030;
 
-html { height: 100%; }
+/* sizes */
+$menu-bar-height: 60px;
+$search-height: 100px;
+
+html { height: 100% }
 body { height: 100%; margin: 0; padding: 0; }
-#map-container { height: 100%; width: 70%; float: left; }
+#map-container { height: 100%; width: 100%; padding-top: $menu-bar-height; }
 #map-canvas { min-height: 100%; }
-#building-info { padding-left: 10px; height: 100%; }
-#close-info { text-align: right; }
 .cycle-slideshow { height: 200px; }
 
 .side-bar {
-	width: 30%;
-	height: 100%;
-	float: right;
-	background-color: white;
-	overflow-y: auto;
-	overflow-x: hidden;
-}
-
-.menu-bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	max-height: 100%;
+	height: $menu-bar-height;
 	width: 100%;
-	display: block;
-	background-color: #065540; /* dark green */
-	color: white;
-	text-align: center;
+	z-index: 1;
+	background-color: transparent;
+	transition: background-color 0.3s ease-in;
 	overflow: hidden;
-	font-family: sans-serif;
-}
-
-.menu-bar .map-title {
-	font-size: 1.5em;
-	line-height: 45px;
-}
-
-.menu-bar .button {
-	font-size: 2em;
-	user-select: none;
-	cursor: pointer;
-}
-
-.menu-bar .menu-button {
-	display: none;
-}
-
-.search-button {
-	float: right;
-	padding: 10px;
-}
-
-.search {
-	display: none;
-}
-	
-.search.opened {
-	width: 100%;
-	display: block;
-}
-
-.search input[type=text] {
-	width: 100%;
-	height: 2em;
-	padding: 0 .5em;
-	margin: 0;
-	display: block;
-	float: left;
-	border: 1px solid lightgrey;
-}
-
-.search .search-options {
-	clear: both;
-}
-
-#search-results {
-	display: none;
-	position: fixed;
-	background-color: white;
-	width: 15em;
-	max-height: 90%;
-	overflow-y: auto;
-}
-
-#search-results > div{
-	padding: .5em;
-	border-bottom: 1px solid darkgrey;
-	overflow-x: auto;
-	cursor: pointer;
-}
-
-#search-results > div:hover {
-	background-color: lightgrey;
-}
-
-.menu {
-	background-color: white;
-}
-
-.layer-option .key {
-	display: none;
-	padding: .25em;
-}
-
-.layer-option .key p {
-	text-align: center;
-}
-
-.layer-option .key.opened {
-	display: block;
-}
-
-.layer-option .key span {
-	width: 10px;
-	height: 10px;
-	display: inline-block;
-}
-
-.menu h1 {
-	background-color: lightgrey;
-	padding-left: 5%;
-	border-bottom: solid 3px black;
-	margin: 0;
-	font-family: sans-serif;
-}
-
-.layer-option.selected .layer-button {
-	background-color: darkgreen;
-}
-
-.layer-button {
-	background-color: darkred;
-	font-size: 2em;
-	text-align: left;
-	cursor: pointer;
-	width: 95%;
-	padding-left: 5%;
-	border-bottom: solid 1px black;
-	font-family: sans-serif;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-.layer-option .layer-option .layer-button {
-	padding-left: 2em;
-}
-
-.menu .layer-option .layer-option .layer-button .key-button {
-	margin-right: 2.5em;
-}
-
-.menu .layer-option .layer-button .key-button {
-	font-size: .5em;
-	line-height: 2.4em;
-	display: inline-block;
-	float: right;
-	background-color: darkred;
-	color: white;
-	padding: 0 1em;
-}
-
-.detail {
-	clear: both;
-	display: none;
-}
-
-.detail.opened {
-	display: block;
-}
-
-.detail-button {
-	padding-top: 1em;
-	width: 100%;
-	text-align: center;
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-/* mobile */
-@media(max-width: 750px) {
-
-	.side-bar {
-		position: absolute;
-		float: right;
-		min-height: 50px;
-		height: auto;
-		width: 100%;
-		left: 0;
-		top: 0;
-		z-index: 1;
-		background: none;
-		overflow: visible;
+	z-index: 2;
+	&.opened {
+		height: 100%;
+		background-color: rgba(0,0,0,.5);
 	}
-
-	.menu-bar .menu-button {
-		display: block;
-		float: left;
-	}
-
-	.search, .key, .detail {
+	.search, .menu, .key, .detail {
 		background-color: white;
 	}
 
-	.search input[type=text] {
-		margin: 1em 0 .5em 0;
+	.menu-bar {
+		width: 100%;
+		display: block;
+		background-color: $nmu-green;
+		color: white;
+		text-align: center;
+		overflow: hidden;
+		font-family: sans-serif;
+		.map-title {
+			font-size: 1.5em;
+			line-height: $menu-bar-height;
+			font-weight: bold;
+		}
+		.navbar-toggle {
+			font-size: 1.5em;
+			user-select: none;
+			cursor: pointer;
+			margin: 0;
+			padding: 0 20px;
+			height: $menu-bar-height;
+			&:hover {
+				background-color: $nmu-green-hover;
+			}
+		}
+		.navbar-menu {
+			display: block;
+			float: left;
+			border-right: 1px solid $nmu-green-border;
+			.icon-bar {
+				width: 25px;
+				height: 3px;
+				background-color: white;
+			}
+		}
+		.navbar-search {
+			border-left: 1px solid $nmu-green-border;
+			.glyphicon {
+				top: 4px;
+			}
+		}
 	}
-	.search .search-options {
-		padding: .5em;
+	
+	.search {
+		width: 100%;
+		height: 0;
+		transition: height 0.3s ease-in;
+		overflow: hidden;
+		background: none;
+		&.opened {
+			height: auto;
+			min-height: $search-height;
+			overflow: visible;
+		}
+		.search-input {
+			background-color: white;
+			.search-options {
+				clear: both;
+				margin-left: 1.5em;
+				padding: .5em;
+			}
+			.layer-search {
+				width: 75%;
+				margin-left: 1.5em;
+				padding-bottom: 1.5em;
+				input[type=text] {
+					width: 100%;
+					height: 2em;
+					padding: 0 .5em;
+				}
+			}
+		}
+		.search-results {
+			display: none;
+			position: absolute;
+			background-color: white;
+			width: 75%;
+			max-height: 300px;
+			margin-top: -1.5em;
+			margin-left: 1.5em;
+			overflow-y: auto;
+			& > div {
+				padding: .5em;
+				border: 1px solid darkgrey;
+				border-top: none;
+				overflow-x: auto;
+				cursor: pointer;
+				&:hover {
+					background-color: lightgrey;
+				}
+			}
+		}
 	}
 
 	.menu {
 		height: 0px;
 		overflow-y: hidden;
 		transition: height 0.3s ease-in;
-		overflow-y: auto;
-		overflow-x: hidden;
-	}
-	
-	.menu.opened {
-		height: 100%;
 		background: none;
 		overflow-y: auto;
+		overflow-x: hidden;
+		&.opened {
+			height: 100%;
+		}
+		
+		h1, h2 {
+			background-color: white;
+			color: $nmu-green;
+			margin: 0;
+			padding-left: 1.5em;
+			font-family: sans-serif;
+			font-weight: normal;
+			font-size: 1em;
+			line-height: 3.5em;
+		}
+		.layer-option {
+			font-size: 1.5em;
+			text-align: left;
+			cursor: pointer;
+			font-family: sans-serif;
+			border-top: 1px solid darkgrey;
+			&.selected {
+				border-top: 1px solid lightgrey;
+				.layer-button {
+					background-color: white;
+					color: black;
+				}
+			}
+			.layer-button {
+				background-color: grey;
+				color: darkgrey;
+				width: 100%;
+				padding: .5em;
+				padding-left: 1.5em;
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+				.key-button {
+					font-size: .75em;
+					line-height: 1.4em;
+					display: inline-block;
+					float: right;
+					text-decoration: underline;
+					padding: 0 1em;
+				}
+			}
+			.layer-option .layer-button {
+				padding-left: 2em;
+				.key-button {
+					margin-left: 2.5em;
+				}
+			}
+
+			&.selected .key {
+				background-color: white;
+			}
+			.key {
+				background-color: darkgrey;
+				font-size: .75em;
+				display: none;
+				padding: .25em;
+				padding-left: 5%;
+				cursor: auto;
+				&.opened {
+					display: block;
+				}
+				p {
+					text-align: center;
+				}
+				span {
+					width: 10px;
+					height: 10px;
+					display: inline-block;
+				}
+			}
+		}
 	}
 
 	.detail {
+		clear: both;
 		display: none;
+		&.opened {
+			display: block;
+		}
+		.detail-button {
+			padding-top: 1em;
+			width: 100%;
+			text-align: center;
+			text-decoration: underline;
+			cursor: pointer;
+		}
 	}
+}
 
-	.detail.opened {
-		display: block;
-	}
-	
-	#map-container {
-		width: 100%;
+@media (min-width: 768px) {
+	$sidebar-width: 400px;
+	#map-container { width: 100%; padding-top: 0; margin-right: $sidebar-width; }
+	.side-bar {
+		width: $sidebar-width;
+		height: 100%;
+		float: right;
+		position: static;
+		background-color: white;
+		overflow: visible;
+		&.opened {
+			background-color: white;
+		}
+		.menu-bar {
+			.navbar-menu {
+				float: right;
+			}
+			.navbar-search {
+				display: block;
+			}
+		}
+		.search {
+			margin: 0;
+			.search-input {
+				.layer-search {
+					width: $sidebar-width - 50px;
+				}
+			}
+			.search-results > div {
+				width: $sidebar-width - 50px;
+			}
+		}
 	}
 }

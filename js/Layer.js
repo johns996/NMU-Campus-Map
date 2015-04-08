@@ -89,6 +89,7 @@ Layer.prototype.doPlacemarks = function(block) {
 Layer.prototype.hidePlacemarks = function () {
 	this.showing = false;
 	var self = this;
+	$(this.getButtonId()).parent('.layer-option').toggleClass('selected', false);
 	this.doPlacemarks(function(each) {
 		self.hide(each);
 	});
@@ -97,6 +98,7 @@ Layer.prototype.hidePlacemarks = function () {
 Layer.prototype.showPlacemarks = function() {
 	this.showing = true;
 	var self = this;
+	$(this.getButtonId()).parent('.layer-option').toggleClass('selected', true);
 	this.doPlacemarks(function(each) {
 		self.show(each);
 	});
