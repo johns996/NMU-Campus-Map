@@ -1031,7 +1031,7 @@
         </Placemark>
         <Placemark>
             <styleUrl>#poly-3F5BA9-1-76</styleUrl>
-            <name>Lot 56</name>
+            <name>Lot 55</name>
             <ExtendedData>
                 <Data name='Category' >
                     <value>Parking - General</value>
@@ -1137,6 +1137,26 @@
                 </outerBoundaryIs>
             </Polygon>
         </Placemark>
+		<Placemark>
+			<styleUrl>#poly-3F5BA9-1-76</styleUrl>
+			<name>Lot 40
+</name>
+			<ExtendedData>
+				<Data name='Category'>
+					<value>Parking - General
+</value>
+				</Data>
+			</ExtendedData>
+			<description><![CDATA[Category: Parking - General<br>]]></description>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-87.4162281,46.5638748,0.0 -87.4162227,46.5636774,0.0 -87.4161691,46.563625800000004,0.0 -87.4160725,46.5636055,0.0 -87.414946,46.5635944,0.0 -87.4149433,46.5638286,0.0 -87.415005,46.563825,0.0 -87.415005,46.5638729,0.0 -87.4153081,46.56387290000001,0.0 -87.41528390000002,46.5639522,0.0 -87.4154288,46.56395220000001,0.0 -87.4153939,46.5638729,0.0 -87.415587,46.5638729,0.0 -87.4155843,46.5637014,0.0 -87.4156141,46.5636747,0.0 -87.4156574,46.5636627,0.0 -87.41602850000001,46.5636687,0.0 -87.4160591,46.56367830000001,0.0 -87.4160698,46.5637069,0.0 -87.4160618,46.563872,0.0 -87.4162281,46.5638748,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
         <Style id='poly-000000-1-76' >
             <LineStyle>
                 <color>ff000000</color>
