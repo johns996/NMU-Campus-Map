@@ -38,6 +38,10 @@ Layer.prototype.addPolygonPlacemark = function(placemark) {
 	google.maps.event.addListener(placemark.polygon, 'mouseout', function(event) {
 		this.setOptions(self.mouseoutOptions);
 	});
+	google.maps.event.addListener(placemark.polygon, 'click', function(event) {
+		// public api from mediaQuery
+		closeSidebar(false);
+	});
 };
 
 Layer.prototype.renderMapKey = function() {
@@ -60,7 +64,9 @@ Layer.prototype.categoryFor = function(placemark) {
 
 Layer.prototype.clickPlacemark = function(name) {
 	var placemark = this.getPlacemarkNamed(name).first();
-	google.maps.event.trigger( placemark, 'click' );
+	// the extra argument at the end is given to suppress an undefined error
+	// by the api
+	google.maps.event.trigger( placemark, 'click', {} );
 };
 
 Layer.prototype.findEdge = function(point, poly) {
@@ -139,8 +145,6 @@ Layer.prototype.argument = function(type, name) {
 };
 
 Layer.prototype.showPlacemarkNamed = function(aName) {
-	//toggleInfo(aName.replace(/ +/g, ''));
-	$('.menu, .search, .detail').removeClass('opened');
 	this.clickPlacemark(aName);
 };
 
