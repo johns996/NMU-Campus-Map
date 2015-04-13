@@ -14,7 +14,7 @@ body { height: 100%; margin: 0; padding: 0; }
 #map-canvas { min-height: 100%; }
 .cycle-slideshow { height: 200px; }
 
-.side-bar {
+.sidebar {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -235,7 +235,7 @@ body { height: 100%; margin: 0; padding: 0; }
 	$sidebar-width: 400px;
 	
 	#map-container { padding-top: 0; }
-	.side-bar {
+	.sidebar {
 		width: $sidebar-width;
 		right: -333px;
 		box-shadow: rgba(0,0,0,.5) 0px 0px 30px;
@@ -277,7 +277,7 @@ body { height: 100%; margin: 0; padding: 0; }
 		width: 100%;
 		padding-right: $sidebar-width;
 	}
-	.side-bar {
+	.sidebar {
 		right: 0;
 		transition: none;
 		&.opened {

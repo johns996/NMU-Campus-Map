@@ -25,7 +25,7 @@ function closeSidebar() {
 	toggleSearch(false);
 }
 var toggleSidebar = function(aBool) {
-	var sidebar = $('#side-bar');
+	var sidebar = $('#sidebar');
 	var open = (aBool === undefined) ?
 		(isMenuOpened() || isSearchOpened()) : (aBool)
 	if(open) {
@@ -76,6 +76,7 @@ $(document).ready(function() {
 		match : function() {
 			$('#search').toggleClass('opened', false);
 			$('#menu').toggleClass('opened', false);
+			$('#sidebar').toggleClass('opened', false);
 			adjustMenuHeight();
 			toggleSidebar = defaultSidebarToggle;
 			toggleMenu = defaultMenuToggle;
@@ -86,11 +87,12 @@ $(document).ready(function() {
 		match : function() {
 			$('#search').toggleClass('opened', true);
 			$('#menu').toggleClass('opened', true);
+			$('#sidebar').toggleClass('opened', false);
 			adjustMenuHeight();
 			toggleSidebar = function(aBool) {
 				var open = (aBool === undefined) ? 
-					(!$('#side-bar').hasClass('opened')) : (aBool);
-				$('#side-bar').toggleClass('opened', open);
+					(!$('#sidebar').hasClass('opened')) : (aBool);
+				$('#sidebar').toggleClass('opened', open);
 			};
 			toggleMenu = function(aBool) {
 				toggleSidebar(aBool);
@@ -102,7 +104,7 @@ $(document).ready(function() {
 		match : function() {
 			$('#search').toggleClass('opened', true);
 			$('#menu').toggleClass('opened', true);
-			$('#side-bar').toggleClass('opened', true);
+			$('#sidebar').toggleClass('opened', true);
 			adjustMenuHeight();
 			toggleSidebar = function(aBool) { };
 			toggleMenu = function(aBool) { };
@@ -122,7 +124,7 @@ $(document).ready(function() {
 		toggleSearch();
 		event.stopPropagation();
 	});
-	$('#menu, #side-bar').click(function(event) {
+	$('#menu, #sidebar').click(function(event) {
 		toggleSearch(false);
 		toggleMenu(false);
 		toggleSidebar(false);
