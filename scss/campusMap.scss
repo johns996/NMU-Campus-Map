@@ -8,6 +8,10 @@ $nmu-dark-green: #034030;
 $menu-bar-height: 60px;
 $search-height: 100px;
 
+iframe, iframe+br+small {
+	display: none;
+}
+
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0; }
 #map-container { height: 100%; width: 100%; padding-top: $menu-bar-height; }
@@ -215,9 +219,14 @@ body { height: 100%; margin: 0; padding: 0; }
 		position: absolute;
 		top: $menu-bar-height;
 		right: 0;
+		width: 100%;
 		height: 100%;
 		overflow: auto;
 		padding: .5em;
+		#detail {
+			padding-bottom: $menu-bar-height;
+			overflow: hidden;
+		}
 		&.opened {
 			display: block;
 		}
@@ -227,6 +236,11 @@ body { height: 100%; margin: 0; padding: 0; }
 			text-align: center;
 			text-decoration: underline;
 			cursor: pointer;
+		}
+		img {
+			max-width: 100%;
+			width: 100%;
+			height: auto;
 		}
 	}
 }
@@ -247,31 +261,24 @@ body { height: 100%; margin: 0; padding: 0; }
 			width: 100%;
 			height: 100%;
 		}
-		.menu-bar {
+		.menu-bar, .search, .menu, .detail {
 			width: $sidebar-width;
 			float: right;
-		}
-		.search {
 			clear: both;
-			width: $sidebar-width;
-			float: right;
 		}
 		.menu {
-			clear: both;
-			width: $sidebar-width;
-			float: right;
 			background-color: white;
 		}
 		.detail {
-			width: $sidebar-width;
-			&.opened {
+			img {
+				width: auto;
 			}
 		}
 	}
 }
 
 @media (min-width: 1200px) {
-	$sidebar-width: 400px;
+	$sidebar-width: 500px;
 	
 	#map-container { 
 		width: 100%;
@@ -285,8 +292,11 @@ body { height: 100%; margin: 0; padding: 0; }
 			padding: 0;
 			box-shadow: none;
 		}
+		.menu-bar, .search, .menu, .detail {
+			width: $sidebar-width;
+		}
 		.menu-bar .navbar-menu {
-				display: none;
+			display: none;
 		}
 		.menu {
 			.layer-option {

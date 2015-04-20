@@ -16,9 +16,19 @@ var CampusMap = function () {
 	var parkingLayer;
 
 	function initializeMap() {
+		var customStyles = [
+			{
+				featureType: 'poi.school',
+				elementType: 'label',
+				stylers: [
+					{ visibility: 'off' }
+				]
+			}
+		];
 		var mapOptions = {
 			center: defaultCenter,
 			zoom: 16,
+			styles: customStyles,
 			streetViewControl : false,
 			mapTypeControlOptions: { position : google.maps.ControlPosition.TOP_LEFT },
 			mapTypeId: google.maps.MapTypeId.ROADMAP // HYBRID, TERRAIN, SATELLITE

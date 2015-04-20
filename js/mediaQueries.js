@@ -149,7 +149,15 @@ function toggleInfo(name) {
 function openInfo(name) {
 	if(name === undefined || name == '') return;
 	$('.detail').toggleClass('opened', true);
-	$('#detail').load('Buildings/'+name+'.html', initSlideshow);
+	//$('#detail').load('Buildings/'+name+'.html', initSlideshow);
+	$.ajax({
+		method: 'POST',
+		url: 'requests.php',
+		data: { name: name },
+		context: detail
+	}).done(function(data) {
+		$(this).html(data);
+	});
 	toggleMenu(true);
 }
 function closeInfo() {
