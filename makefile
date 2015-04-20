@@ -2,8 +2,7 @@ CC = sass
 
 CSS = \
 	css/ \
-	css/campusMap.css\
-	css/special.css
+	css/campusMap.css
 
 all: $(CSS)
 
