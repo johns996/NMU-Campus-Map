@@ -11,6 +11,9 @@ $search-height: 100px;
 iframe, iframe+br+small {
 	display: none;
 }
+.rtecenter {
+	text-align: center;
+}
 
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0; }
@@ -25,7 +28,6 @@ body { height: 100%; margin: 0; padding: 0; }
 	max-height: 100%;
 	height: $menu-bar-height;
 	width: 100%;
-	z-index: 1;
 	background-color: transparent;
 	transition: background-color 0.3s ease-in;
 	overflow: hidden;
@@ -118,6 +120,7 @@ body { height: 100%; margin: 0; padding: 0; }
 			margin-top: -1.5em;
 			margin-left: 1.5em;
 			overflow-y: auto;
+			z-index: 3;
 			& > div {
 				padding: .5em;
 				border: 1px solid darkgrey;
@@ -300,8 +303,44 @@ body { height: 100%; margin: 0; padding: 0; }
 		}
 		.menu {
 			.layer-option {
+				border: none;
+				&.selected {
+					border: none;
+					.layer-button:before {
+						background-color: lightgrey;
+						content: "✔";
+					}
+				}
 				.layer-button {
+					color: black;
+					background: none;
 					padding: 0 1.5em;
+					cursor: initial;
+					&:before {
+						content: "";
+						color: green;
+						width: 12px;
+						height: 12px;
+						border: 1px inset grey;
+						border-radius: 2px;
+						display: inline-block;
+						position: relative;
+						top: -2px;
+						left: -8px;
+						line-height: 0.6;
+						font-size: 16px;
+						cursor: pointer;
+					}
+					.key-button {
+						cursor: pointer;
+						text-decoration: none;
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+				.key {
+					background: none;
 				}
 			}
 		}
