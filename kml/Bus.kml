@@ -3,7 +3,7 @@
 	<Document>
 		<name>Bus</name>
 		<Placemark>
-			<styleUrl>#icon-503-DB4436</styleUrl>
+			<styleUrl>#icon-lightblue</styleUrl>
 			<name>Lincoln Ave. Bus Stop</name>
 			<ExtendedData>
 			</ExtendedData>
@@ -12,7 +12,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#icon-503-DB4436</styleUrl>
+			<styleUrl>#icon-orange</styleUrl>
 			<name>Jacobetti Bus Stop</name>
 			<ExtendedData>
 			</ExtendedData>
@@ -21,7 +21,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#icon-503-DB4436</styleUrl>
+			<styleUrl>#icon-yellow</styleUrl>
 			<name>LRC Bus Stop</name>
 			<ExtendedData>
 			</ExtendedData>
@@ -30,7 +30,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#icon-503-DB4436</styleUrl>
+			<styleUrl>#icon-green</styleUrl>
 			<name>West Science Bus Stop</name>
 			<ExtendedData>
 			</ExtendedData>
@@ -39,7 +39,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#icon-503-DB4436</styleUrl>
+			<styleUrl>#icon-purple</styleUrl>
 			<name>UC Bus Stop</name>
 			<ExtendedData>
 			</ExtendedData>
@@ -48,7 +48,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<styleUrl>#icon-503-DB4436</styleUrl>
+			<styleUrl>#icon-pink</styleUrl>
 			<name>PEIF Bus Stop</name>
 			<ExtendedData>
 			</ExtendedData>
@@ -56,12 +56,72 @@
 				<coordinates>-87.3950949,46.5590503,0.0</coordinates>
 			</Point>
 		</Placemark>
-		<Style id='icon-503-DB4436'>
+		<Style id='icon-lightblue'>
 			<IconStyle>
 				<color>ffDB4436</color>
 				<scale>1.1</scale>
 				<Icon>
-					<href>http://chart.apis.google.com/chart?chst=d_map_pin_letter&amp;chld=%E2%80%A2|DB4436</href>
+					<href>http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png</href>
+					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-yellow'>
+			<IconStyle>
+				<color>ffDB4436</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/ms/micons/yellow-dot.png</href>
+					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-green'>
+			<IconStyle>
+				<color>ffDB4436</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/ms/micons/green-dot.png</href>
+					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-orange'>
+			<IconStyle>
+				<color>ffDB4436</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/ms/micons/orange-dot.png</href>
+					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-purple'>
+			<IconStyle>
+				<color>ffDB4436</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/ms/micons/purple-dot.png</href>
+					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+		</Style>
+		<Style id='icon-pink'>
+			<IconStyle>
+				<color>ffDB4436</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/ms/micons/pink-dot.png</href>
 					<!--href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href-->
 				</Icon>
 				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
