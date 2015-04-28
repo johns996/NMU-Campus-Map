@@ -161,7 +161,7 @@ function openInfo(name) {
 	toggleMenu(true);
 }
 function closeInfo() {
-	toggleMenu(false);
+	//toggleMenu(false);
 	$('.detail').toggleClass('opened', false);
 }
 function initSlideshow() {
