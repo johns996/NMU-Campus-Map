@@ -1,4 +1,8 @@
-var Layer = function (layer, map, name) {
+var Layer = function (layer, map, name, jQuery) {
+	if(jQuery === undefined)
+		this.jQuery = $;
+	else
+		this.jQuery = jQuery;
 	this.mouseoverOptions = { fillOpacity: 0.75, strokeOpacity: 1.0, stokeWidth: 5 };
 	this.mouseoutOptions =  { fillOpacity: 0.16, strokeOpactiy: 1.0, strokeWidth: 10 };
 	this.file = layer.baseUrl;
@@ -40,7 +44,8 @@ Layer.prototype.addPolygonPlacemark = function(placemark) {
 	});
 	google.maps.event.addListener(placemark.polygon, 'click', function(event) {
 		// public api from mediaQuery
-		closeSidebar(false);
+		if(typeof closeSidebar != 'undefined')
+			closeSidebar(false);
 	});
 };
 
@@ -95,7 +100,7 @@ Layer.prototype.doPlacemarks = function(block) {
 Layer.prototype.hidePlacemarks = function () {
 	this.showing = false;
 	var self = this;
-	$(this.getButtonId()).parent('.layer-option').toggleClass('selected', false);
+	this.jQuery(this.getButtonId()).parent('.layer-option').toggleClass('selected', false);
 	this.doPlacemarks(function(each) {
 		self.hide(each);
 	});
@@ -104,7 +109,7 @@ Layer.prototype.hidePlacemarks = function () {
 Layer.prototype.showPlacemarks = function() {
 	this.showing = true;
 	var self = this;
-	$(this.getButtonId()).parent('.layer-option').toggleClass('selected', true);
+	this.jQuery(this.getButtonId()).parent('.layer-option').toggleClass('selected', true);
 	this.doPlacemarks(function(each) {
 		self.show(each);
 	});
@@ -131,7 +136,7 @@ Layer.prototype.getPlacemarkNamed = function(name) {
 	return this.placemarkMap[name];
 };
 
-Layer.prototype.argument = function(type, name) {
+Layer.prototype.argument = function(type, name, openInfo) {
 	if(type != this.name) return;
 	this.showPlacemarks();
 	if(name === undefined || name == '') return;
@@ -139,6 +144,11 @@ Layer.prototype.argument = function(type, name) {
 	for( var key in this.placemarkMap ) {
 		if( key == nameWithSpaces ) {
 			this.showPlacemarkNamed(nameWithSpaces);
+			console.log(openInfo);
+			if(typeof toggleInfo != 'undefined' && openInfo)
+				setTimeout(function() {
+					toggleInfo(name.replace(/-+/g, ''));
+				}, 200);
 			return;
 		}
 	}

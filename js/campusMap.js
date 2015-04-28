@@ -1,16 +1,15 @@
-var kmlNameMap = 
-{
-	'kml/Buildings.kml'		: 'buildings',
-	'kml/Parking.kml' 		: 'parking',
-	'kml/Phones.kml'  		: 'phones',
-	'kml/Bus.kml' 			: 'bus',
-	'kml/PEIFBus.kml' 		: 'peif-bus',
-	'kml/JacobettiBus.kml' 	: 'jacobetti-bus',
-	'kml/FridayBus.kml' 	: 'friday-bus'
-};
- 
+var kmlNameMap; 
 var map;
-var CampusMap = function () {
+function loadCampusMap() {
+	if($ !== undefined) {
+		CampusMap($);
+	} else if(jQuery !== undefined) {
+		CampusMap(jQuery);
+	} else {
+		document.getElementById('map-canvas').innerHTML = 'Unable to load jQuery';
+	}
+}
+var CampusMap = function ($) {
 	var defaultCenter = new google.maps.LatLng(46.5595, -87.4037);
 	var buildingLayer;
 	var parkingLayer;
@@ -49,6 +48,18 @@ var CampusMap = function () {
 					key.toggleClass('opened');
 				});
 			});
+			layers[0].showPlacemarks();
+		}
+		if(kmlNameMap === undefined) {
+			kmlNameMap = {
+				'kml/Buildings.kml'		: 'buildings',
+				'kml/Parking.kml' 		: 'parking',
+				'kml/Phones.kml'  		: 'phones',
+				'kml/Bus.kml' 			: 'bus',
+				'kml/PEIFBus.kml' 		: 'peif-bus',
+				'kml/JacobettiBus.kml' 	: 'jacobetti-bus',
+				'kml/FridayBus.kml' 	: 'friday-bus'
+			};
 		}
 		myParser.parse(Object.keys(kmlNameMap));
 		function myAfterParse(doc) {
@@ -56,7 +67,7 @@ var CampusMap = function () {
 			var layers = [];
 			for( var key in kmlNameMap ) {
 				var value = kmlNameMap[key];
-				layers.push(new Layer(doc.shift(), map, value));
+				layers.push(new Layer(doc.shift(), map, value, $));
 			}
 			setupClickHandlers(layers);
 			setupSearch(layers);
@@ -64,79 +75,76 @@ var CampusMap = function () {
 			if( args === undefined ) return;
 			args = args.split('?');
 			layers.forEach(function(layer) {
-				layer.argument(args[0], args[1]);
+				layer.argument(args[0], args[1], true);
 			});
 		}
 	}
 
 	initializeMap();
-}
-
-google.maps.event.addDomListener(window, 'load', CampusMap);
-
-
-function setupSearch(layers) {
-
-	initSearchResults();
-	initEventHandlers();
-
-	function initSearchResults() {
-		layers.forEach(function(layer) {
-			var names = Object.keys(layer.placemarkMap).sort(naturalCompare);
-			names.forEach(function(name) {
-				var result = '<div type="' + layer.name + '">' + name + "</div>\n";
-				$('#search-results').append(result);
-			});
-		});
-	}
-	function narrowSearchResults(text) {
-		var type = $('input[name=search-option]:checked').val();
-		$('#search-results>div').each(function() {
-			var searchResult = $(this).text().toLowerCase().replace(/\ /g, '');
-			var display = (searchResult.indexOf(text) !== -1) && type == $(this).attr('type');
-			$(this).css('display', display ? 'block' : 'none');
-		});
-	}
-	function initEventHandlers() {
-		$('#search-criteria').focus(function() {
-			var text = $(this).val().toLowerCase().replace(/\ /g, '');
-			if(text != '') $('#search-results').css('display', 'block');
-			narrowSearchResults(text);
-		});
-		$('#search-criteria').focusout(function() {
-			setTimeout(function() {
-				$('#search-results').css('display', 'none');
-			}, 200);
-		});
-		$('#search-criteria').on('keyup', function() {
-			var text = $(this).val().toLowerCase().replace(/\ /g, '');
-			if(text != '') $('#search-results').css('display', 'block');
-			narrowSearchResults(text);
-		});
-		$('#search-results>div').each(function() {
-			$(this).click(function() {
-				var name = $(this).text().replace(/\ /g, '-');
-				var type = $('input[name=search-option]:checked').val();
-				layers.forEach(function(each) {
-					each.argument(type, name);
+	
+	function setupSearch(layers) {
+	
+		initSearchResults();
+		initEventHandlers();
+	
+		function initSearchResults() {
+			layers.forEach(function(layer) {
+				var names = Object.keys(layer.placemarkMap).sort(naturalCompare);
+				names.forEach(function(name) {
+					var result = '<div type="' + layer.name + '">' + name + "</div>\n";
+					$('#search-results').append(result);
 				});
 			});
-		});
+		}
+		function narrowSearchResults(text) {
+			var type = $('input[name=search-option]:checked').val();
+			$('#search-results>div').each(function() {
+				var searchResult = $(this).text().toLowerCase().replace(/\ /g, '');
+				var display = (searchResult.indexOf(text) !== -1) && type == $(this).attr('type');
+				$(this).css('display', display ? 'block' : 'none');
+			});
+		}
+		function initEventHandlers() {
+			$('#search-criteria').focus(function() {
+				var text = $(this).val().toLowerCase().replace(/\ /g, '');
+				if(text != '') $('#search-results').css('display', 'block');
+				narrowSearchResults(text);
+			});
+			$('#search-criteria').focusout(function() {
+				setTimeout(function() {
+					$('#search-results').css('display', 'none');
+				}, 200);
+			});
+			$('#search-criteria').on('keyup', function() {
+				var text = $(this).val().toLowerCase().replace(/\ /g, '');
+				if(text != '') $('#search-results').css('display', 'block');
+				narrowSearchResults(text);
+			});
+			$('#search-results>div').each(function() {
+				$(this).click(function() {
+					var name = $(this).text().replace(/\ /g, '-');
+					var type = $('input[name=search-option]:checked').val();
+					layers.forEach(function(each) {
+						each.argument(type, name);
+					});
+				});
+			});
+		}
 	}
-}
-
-function naturalCompare(a, b) {
-    var ax = [], bx = [];
-
-    a.replace(/(\d+)|(\D+)/g, function(_, $1, $2) { ax.push([$1 || Infinity, $2 || ""]) });
-    b.replace(/(\d+)|(\D+)/g, function(_, $1, $2) { bx.push([$1 || Infinity, $2 || ""]) });
-    
-    while(ax.length && bx.length) {
-        var an = ax.shift();
-        var bn = bx.shift();
-        var nn = (an[0] - bn[0]) || an[1].localeCompare(bn[1]);
-        if(nn) return nn;
-    }
-
-    return ax.length - bx.length;
+	
+	function naturalCompare(a, b) {
+	    var ax = [], bx = [];
+	
+	    a.replace(/(\d+)|(\D+)/g, function(_, $1, $2) { ax.push([$1 || Infinity, $2 || ""]) });
+	    b.replace(/(\d+)|(\D+)/g, function(_, $1, $2) { bx.push([$1 || Infinity, $2 || ""]) });
+	    
+	    while(ax.length && bx.length) {
+	        var an = ax.shift();
+	        var bn = bx.shift();
+	        var nn = (an[0] - bn[0]) || an[1].localeCompare(bn[1]);
+	        if(nn) return nn;
+	    }
+	
+	    return ax.length - bx.length;
+	}
 }
