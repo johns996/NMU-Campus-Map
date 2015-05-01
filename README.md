@@ -11,5 +11,6 @@ $('#map').load('<path/to/repository>/map.html', function() {
 	CampusMap($);
 }
 
-To compile SCSS, run make from root directory
-To update KML, run ./writeKml.py ../../kml/Buildings.kml ../../kml/Buildings2.kml from tools/Parser
+To compile SCSS, run `make` from root directory
+
+To update KML, run `./writeKml.py ../../kml/Buildings.kml ../../kml/Buildings2.kml` from the tools/Parser directory
