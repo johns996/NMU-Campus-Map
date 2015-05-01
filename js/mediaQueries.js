@@ -90,7 +90,7 @@ $(document).ready(function() {
 			$('#sidebar').toggleClass('opened', false);
 			adjustMenuHeight();
 			toggleSidebar = function(aBool) {
-				var open = (aBool === undefined) ? 
+				var open = (aBool === undefined) ?
 					(!$('#sidebar').hasClass('opened')) : (aBool);
 				$('#sidebar').toggleClass('opened', open);
 			};
@@ -161,7 +161,7 @@ function openInfo(name) {
 	toggleMenu(true);
 }
 function closeInfo() {
-	//toggleMenu(false);
+	toggleMenu(false);
 	$('.detail').toggleClass('opened', false);
 }
 function initSlideshow() {

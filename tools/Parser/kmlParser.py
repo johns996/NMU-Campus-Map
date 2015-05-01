@@ -36,13 +36,13 @@ class KMLParser:
         char = self.nextChar()
         if(char == '<'):
             char = self.nextChar()
-            if(char == '/'): 
+            if(char == '/'):
                 return self.processEndToken()
             elif(char == '!'):
                 return self.processDataToken()
             return self.processBeginToken(char)
         return self.processTextToken(char)
-    
+
     def processEndToken(self):
         char = self.nextChar()
         name = ""
@@ -51,7 +51,7 @@ class KMLParser:
             char = self.nextChar()
         self.ignoreWS = True
         return self.nodes.pop()
-    
+
     def processDataToken(self):
         count = 0
         value = '<!'
@@ -63,7 +63,7 @@ class KMLParser:
             if(char == '>'): count = count - 1
             if(count < 0): break
         self.nodes[len(self.nodes)-1].value = value
-    
+
     def processBeginToken(self, firstChar):
         self.ignoreWS = False
         char = self.nextChar()
@@ -80,7 +80,7 @@ class KMLParser:
         while(self.nextToken() != node):
             pass
         return node
-    
+
     def processOptions(self):
         char = self.nextChar()
         key = ""
@@ -106,7 +106,7 @@ class KMLTree:
     def __init__(self):
         self.xmlTag = ""
         self.head   = None
-    
+
     def accept(self, aVisitor):
         aVisitor.visitKmlTree(self)
 
@@ -116,15 +116,15 @@ class KMLNode:
         self.value = ""
         self.children = []
         self.options = { }
-    
+
     def addChild(self, node):
         self.children.append(node)
-    
+
     def accept(self, aVisitor):
         return getattr(aVisitor.__class__, 'visit' + self.name)(aVisitor, self)
 
 class KMLWriterVisitor:
-    
+
     def __init__(self, fileName):
         self.outFile = open(fileName, 'w+')
         self.tabs = 0
@@ -140,7 +140,7 @@ class KMLWriterVisitor:
         for i in range(self.tabs):
             self.write("    ")
         self.write(aString)
-    
+
     def write(self, aString):
         self.outFile.write(aString)
 
@@ -149,10 +149,10 @@ class KMLWriterVisitor:
 
     def writeTabOpenTag(self, value):
         self.writeTab("<%s>" % value)
-    
+
     def writeTabOpenTagN(self, value):
         self.writeTab("<%s>\n" % value)
-    
+
     def writeTabCloseTag(self, value):
         self.writeTab("</%s>" % value)
 
@@ -161,13 +161,13 @@ class KMLWriterVisitor:
 
     def writeOpenTag(self, value):
         self.write("<%s>" % value)
-    
+
     def writeCloseTag(self, value):
         self.write("</%s>" % value)
 
     def writeCloseTagN(self, value):
         self.write("</%s>\n" % value)
-    
+
     def writeTabOpenTagWithArgsN(self, value, args):
         self.writeTab("<%s " % value)
         for key, value in args.iteritems():
@@ -200,13 +200,13 @@ class KMLWriterVisitor:
     def visitChildren(self, aNode):
         while(len(aNode.children) > 0):
             aNode.children.pop(0).accept(self)
-    
+
     def visitPlacemark(self, placemarkNode):
         self.writeBlockTag(placemarkNode)
 
     def visitDocument(self, documentNode):
         self.writeBlockTag(documentNode)
-    
+
     def visitname(self, nameNode):
         self.writeInlineLeafTag(nameNode)
         self.name = nameNode.value
@@ -230,7 +230,7 @@ class KMLWriterVisitor:
         self.writeTabOpenTag(descriptionNode.name)
         self.write("<![CDATA[Category: %s" % self.options['Category'])
         #self.write("<br><br><a href='#' onclick=\"toggleInfo('%s')\">Learn More</a>" % name))
-        self.write("<br><br><a target='_blank' href='http://ericjohnpc.nmu.edu/Webb/JS/CampusMap/campusMap.html?buildings?%s'>Learn More</a>" % name)
+        self.write("<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?%s'>Learn More</a>" % name)
         self.write(']]>');
         self.writeCloseTagN(descriptionNode.name)
 
@@ -245,7 +245,7 @@ class KMLWriterVisitor:
 
     def visittessellate(self, tesNode):
         self.writeInlineLeafTag(tesNode)
-        
+
     def visitcoordinates(self, coordNode):
         self.writeInlineLeafTag(coordNode)
 
@@ -269,7 +269,7 @@ class KMLWriterVisitor:
 
     def visitoutline(self, outlineNode):
         self.writeInlineLeafTag(outlineNode)
-    
+
     def visitkml(self, kmlNode):
         self.writeBlockTagWithArgs(kmlNode)
 
