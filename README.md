@@ -10,3 +10,6 @@ jQuery command for embedding map.html into a page with the dependencies and an e
 $('#map').load('<path/to/repository>/map.html', function() {
 	CampusMap($);
 }
+
+To compile SCSS, run make from root directory
+To update KML, run ./writeKml.py ../../kml/Buildings.kml ../../kml/Buildings2.kml from tools/Parser
