@@ -230,7 +230,7 @@ class KMLWriterVisitor:
         self.writeTabOpenTag(descriptionNode.name)
         self.write("<![CDATA[Category: %s" % self.options['Category'])
         #self.write("<br><br><a href='#' onclick=\"toggleInfo('%s')\">Learn More</a>" % name))
-        self.write("<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?%s'>Learn More</a>" % name)
+        self.write("<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?%s'>Learn More</a>" % name)
         self.write(']]>');
         self.writeCloseTagN(descriptionNode.name)
 

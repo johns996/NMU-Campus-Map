@@ -14,7 +14,7 @@
                     <value>http://www.nmu.edu/sites/DrupalHousing/files/UserFiles/Pictures/Pre-Drupal/Images/ResidenceHalls/gant_hall.jpg</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Gant-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Gant-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -32,7 +32,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Spalding-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Spalding-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -50,7 +50,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Halverson-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Halverson-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -68,7 +68,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Payne-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Payne-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -86,7 +86,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?New-Science-Facility'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?New-Science-Facility'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -104,7 +104,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?West-Science-Facility'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?West-Science-Facility'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -122,7 +122,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?John-X.-Jamrich-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?John-X.-Jamrich-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -140,7 +140,7 @@
                     <value>Administration/Mixed Use</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Learning-Resource-Center'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Learning-Resource-Center'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -158,7 +158,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?McClintock'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?McClintock'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -176,7 +176,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Thomas-Fine-Arts'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Thomas-Fine-Arts'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -194,7 +194,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Forest-Roberts-Theater'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Forest-Roberts-Theater'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -212,7 +212,7 @@
                     <value>Administration/Mixed Use</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Hedgcock'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Hedgcock'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -230,7 +230,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Gries-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Gries-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -248,7 +248,7 @@
                     <value>Administration/Mixed Use</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?University-Center'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?University-Center'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -266,7 +266,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?West-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?West-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -284,7 +284,7 @@
                     <value>Administration/Mixed Use</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Cohodas'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Cohodas'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -302,7 +302,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Spooner-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Spooner-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -320,7 +320,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Berry-Events-Center'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Berry-Events-Center'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -338,7 +338,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Physical-Education-Instructional-Facility-(PEIF)'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Physical-Education-Instructional-Facility-(PEIF)'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -356,7 +356,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Van-Antwerp-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Van-Antwerp-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -374,7 +374,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Hunt-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Hunt-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -392,7 +392,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Meyland-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Meyland-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -410,7 +410,7 @@
                     <value>Residence Halls</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Magers-Hall'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Residence Halls<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Magers-Hall'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -428,7 +428,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Whitman'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Whitman'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -446,7 +446,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Art-and-Design'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Art-and-Design'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -464,7 +464,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Superior-Dome'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Superior-Dome'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -482,7 +482,7 @@
                     <value>Administration/Mixed Use</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Public-Safety'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Administration/Mixed Use<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Public-Safety'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -500,7 +500,7 @@
                     <value>Academics/Recreation</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Jacobetti-Center'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Academics/Recreation<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Jacobetti-Center'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -518,7 +518,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Woodland-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Woodland-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -536,7 +536,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -554,7 +554,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -572,7 +572,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -590,7 +590,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -608,7 +608,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -626,7 +626,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -644,7 +644,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Summit-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -662,7 +662,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Center-Street-Apartments-(Summit)'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Center-Street-Apartments-(Summit)'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -680,7 +680,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Center-Street-Apartments-(Summit)'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Center-Street-Apartments-(Summit)'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -698,7 +698,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -716,7 +716,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -734,7 +734,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -752,7 +752,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -770,7 +770,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -788,7 +788,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -806,7 +806,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -824,7 +824,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -842,7 +842,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Norwood-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Norwood-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -860,7 +860,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Norwood-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Norwood-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -878,7 +878,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Center-Street-Apartments-(Norwood)'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Center-Street-Apartments-(Norwood)'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -896,7 +896,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -914,7 +914,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Apartments'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Apartments'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
@@ -932,7 +932,7 @@
                     <value>Apartments</value>
                 </Data>
             </ExtendedData>
-            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='//www.nmu.edu/cgi-bin/CampusMap/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
+            <description><![CDATA[Category: Apartments<br><br><a target='_blank' href='/campus-map/campusMap.html?buildings?Lincoln-Townhouses'>Learn More</a>]]></description>
             <Polygon>
                 <outerBoundaryIs>
                     <LinearRing>
