@@ -144,6 +144,10 @@ Layer.prototype.argument = function(type, name, openInfo) {
 	for( var key in this.placemarkMap ) {
 		if( key == nameWithSpaces ) {
 			this.showPlacemarkNamed(nameWithSpaces);
+			if (typeof console === "undefined" || typeof console.log === "undefined") {
+				console = {};
+				console.log = function() {};
+			}
 			console.log(openInfo);
 			if(typeof toggleInfo != 'undefined' && openInfo)
 				setTimeout(function() {

@@ -1,4 +1,4 @@
-var kmlNameMap; 
+var kmlNameMap;
 var map;
 function loadCampusMap() {
 	if($ !== undefined) {
@@ -63,6 +63,10 @@ var CampusMap = function ($) {
 		}
 		myParser.parse(Object.keys(kmlNameMap));
 		function myAfterParse(doc) {
+			if (typeof console === "undefined" || typeof console.log === "undefined") {
+				console = {};
+				console.log = function() {};
+			}
 			console.log("Parsing Completed Successfully");
 			var layers = [];
 			for( var key in kmlNameMap ) {
@@ -81,12 +85,12 @@ var CampusMap = function ($) {
 	}
 
 	initializeMap();
-	
+
 	function setupSearch(layers) {
-	
+
 		initSearchResults();
 		initEventHandlers();
-	
+
 		function initSearchResults() {
 			layers.forEach(function(layer) {
 				var names = Object.keys(layer.placemarkMap).sort(naturalCompare);
@@ -131,20 +135,20 @@ var CampusMap = function ($) {
 			});
 		}
 	}
-	
+
 	function naturalCompare(a, b) {
 	    var ax = [], bx = [];
-	
+
 	    a.replace(/(\d+)|(\D+)/g, function(_, $1, $2) { ax.push([$1 || Infinity, $2 || ""]) });
 	    b.replace(/(\d+)|(\D+)/g, function(_, $1, $2) { bx.push([$1 || Infinity, $2 || ""]) });
-	    
+
 	    while(ax.length && bx.length) {
 	        var an = ax.shift();
 	        var bn = bx.shift();
 	        var nn = (an[0] - bn[0]) || an[1].localeCompare(bn[1]);
 	        if(nn) return nn;
 	    }
-	
+
 	    return ax.length - bx.length;
 	}
 }
