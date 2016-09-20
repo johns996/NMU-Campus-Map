@@ -35,7 +35,6 @@ $nodeIdMap = [
 	'WoodlandApartments'				=> 89,
 	'GantHall' 							=> 109,
 	'Spooner' 							=> 113,
-	'PayneHall' 						=> 125,
 	'VanAntwerpHall'					=> 137,
 	'WestHall' 							=> 139,
 	'SpaldingHall' 						=> 151,

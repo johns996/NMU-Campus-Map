@@ -61,24 +61,6 @@
             </Polygon>
         </Placemark>
         <Placemark>
-            <styleUrl>#poly-EE9C96-1-76</styleUrl>
-            <name>Payne Hall</name>
-            <ExtendedData>
-                <Data name='Category' >
-                    <value>Residence Halls</value>
-                </Data>
-            </ExtendedData>
-            <description><![CDATA[Category: Residence Halls<br><br><a href='#' onclick="toggleInfo('PayneHall')">Learn More</a>]]></description>
-            <Polygon>
-                <outerBoundaryIs>
-                    <LinearRing>
-                        <tessellate>1</tessellate>
-                        <coordinates>-87.4093177,46.5615398,0.0 -87.40931470000001,46.561354800000004,0.0 -87.4092387,46.5613538,0.0 -87.4092387,46.5613298,0.0 -87.4083447,46.5613278,0.0 -87.4083437,46.5613528,0.0 -87.4082687,46.561352799999995,0.0 -87.40827270000001,46.56180880000001,0.0 -87.4084507,46.561807800000004,0.0 -87.4084507,46.5614488,0.0 -87.4091347,46.56145279999999,0.0 -87.4091347,46.5615378,0.0 -87.4093177,46.5615398,0.0</coordinates>
-                    </LinearRing>
-                </outerBoundaryIs>
-            </Polygon>
-        </Placemark>
-        <Placemark>
             <styleUrl>#poly-F4EB37-1-76</styleUrl>
             <name>New Science Facility</name>
             <ExtendedData>
